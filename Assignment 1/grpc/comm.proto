@@ -1,0 +1,97 @@
+syntax = "proto3";
+
+service buyer_market{
+    rpc register(reg_req) returns (reg_status) {}
+    rpc sellitem(item) returns (reg_status) {}
+    rpc updateitem(item_upd) returns (reg_status) {}
+    rpc deleteitem(del_itm) returns (reg_status) {}
+    rpc display_items(reg_req) returns (stream display_itms) {}
+    rpc search(search_req) returns (stream search_itms) {}
+    rpc buy_item(buy_req) returns (reg_status) {}
+    rpc add_to_wishlist(add_wish) returns (reg_status) {}
+    rpc rate_item(item_rate) returns (reg_status) {}
+}
+
+
+service notif{
+  rpc notify(search_itms) returns (reg_status) {}
+}
+
+message reg_req{
+    string port = 1;
+    string uuid = 2;
+  }
+  
+message reg_status {
+  string status=1;
+}
+
+message item{
+  string name=1;
+  string category=2;
+  int64 qty=3;
+  string desc=4;
+  string address=5;
+  int64 price=6;
+  string uuid=7;
+}
+
+
+message item_upd{
+  int64 itemid=1;
+  int64 qty=2;
+  int64 price=3;
+  string address=4;
+  string uuid=5;
+}
+
+message del_itm{
+  int64 itemid=1;
+  string address=2;
+  string uuid=3;
+}
+
+message display_itms{
+  int64 Itemid=1;
+  int64 price=2;
+  string name=3;
+  string category=4;
+  int64 qty=5;
+  string address=6;
+  string rating=7;
+}
+
+
+// Buyer and Market comms
+message search_req{
+  string name=1;
+  string cat=2;
+}
+
+message search_itms{
+  int64 Itemid=1;
+  int64 price=2;
+  string name=3;
+  string category=4;
+  string desc=5;
+  int64 qty=6;
+  string address=7;
+  string rating=8;
+}
+
+message buy_req{
+  int64 itemid=1;
+  int64 qty=2;
+  string buyer_address=3;
+}
+
+message add_wish{
+  int64 itemid=1;
+  string buyer_address=2;
+}
+
+message item_rate{
+  int64 itemid=1;
+  string buyer_address=2;
+  int64 rating=3;
+}

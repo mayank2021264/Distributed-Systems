@@ -1,0 +1,27 @@
+----------------------------------------0---------------------------------
+
+DATA RECIEVED FROM MASTER : 0 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 0
+
+----------------------------------------1---------------------------------
+
+DATA RECIEVED FROM MASTER : 0 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 0
+
+----------------------------------------2---------------------------------
+
+DATA RECIEVED FROM MASTER : 0 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 0
+

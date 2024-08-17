@@ -1,0 +1,2476 @@
+1711887472.0639367Initilisation for node 1 done  4
+ STARTING NODE FOR FIRST TIME 
+1711887473.065952 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887474.066476 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887475.0672345 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887476.0682106 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887477.0691373 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887478.0705447 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887479.0714993 <====> 0 False 1  
+: follower : 0 , 0 , 0 
+ 0 , 1711887478.9021647 , 0   
+1711887479.0797915Node 1 election timer timed out, becoming cadidate 
+time()  :   Starting election 1711887479.0797915 , 1711887478.9021647
+1711887479.0862563 vote recieved from 0,1,True 0.0
+1711887479.0892572 vote recieved from 2,1,True 0.0
+1711887479.0892572Node 1 became the leader for term 1.
+(1711887479.0892572, 0, 0) Old Leader lease ended 
+1711887479.0892572 leader appended Got Entry from client sending to other nodes ('NO-OP', None, None, 1)
+1711887479.0907679 : sending log request to 0
+ ['NO-OP 1'] 
+1711887479.0923223 : 0  : False  :  Got lease ack from 0)
+1711887479.0933344updating sent length for 0,1 |||||||||||||||
+1711887479.0943415 : sending log request to 2
+ ['NO-OP 1'] 
+1711887479.096341 : 0  : False  :  Got lease ack from 2)
+1711887479.096341updating sent length for 2,1 |||||||||||||||
+1711887479.096341Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A1607014F0> to the state machine.
+1711887479.09734 : sending log request to 3
+ ['NO-OP 1'] 
+1711887479.1003413 : 0  : False  :  Got lease ack from 3)
+1711887479.1003413 : 1 3 : Leader lease renewed
+1711887479.1104379updating sent length for 3,1 |||||||||||||||
+1711887479.1114385 : sending log request to 4
+ ['NO-OP 1'] 
+1711887479.1139483 : 0  : False  :  Got lease ack from 4)
+1711887479.1139483 : 1 4 : Leader lease renewed
+1711887479.1209488updating sent length for 4,1 |||||||||||||||
+1711887479.124473 vote recieved from 3,1,False 1711887489.1189547
+1711887479.1254735 vote recieved from 4,1,False 1711887489.1209488
+1711887480.1269445 <====> 0 False 1  
+: leader : 1 , 1 , 1 
+ 0 , 1711887486.580982 , 1711887489.1139483   
+1711887480.1269445sending heartbeat and renew request from 1 to 0
+1711887480.1279533 : sending log request to 0
+ [] 
+1711887480.1299498 : 1  : False  :  Got lease ack from 0)
+1711887480.1299498updating sent length for 0,1 |||||||||||||||
+1711887480.1299498sending heartbeat and renew request from 1 to 2
+1711887480.1534946 : sending log request to 2
+ [] 
+1711887480.1554956 : 1  : False  :  Got lease ack from 2)
+1711887480.1564953 : 1 3 : Leader lease renewed
+1711887480.1646247updating sent length for 2,1 |||||||||||||||
+1711887480.1646247sending heartbeat and renew request from 1 to 3
+1711887480.184711 : sending log request to 3
+ [] 
+1711887480.1877167 : 1  : False  :  Got lease ack from 3)
+1711887480.1877167 : 1 4 : Leader lease renewed
+1711887480.196233updating sent length for 3,1 |||||||||||||||
+1711887480.196233sending heartbeat and renew request from 1 to 4
+1711887480.1972325 : sending log request to 4
+ [] 
+1711887480.1992333 : 1  : False  :  Got lease ack from 4)
+1711887480.1992333 : 1 5 : Leader lease renewed
+1711887480.2077596updating sent length for 4,1 |||||||||||||||
+1711887481.2086146 <====> 1 False 1  
+: leader : 1 , 1 , 1 
+ 0 , 1711887486.580982 , 1711887490.1992333   
+1711887481.2086146sending heartbeat and renew request from 1 to 0
+1711887481.209799 : sending log request to 0
+ [] 
+1711887481.2107987 : 2  : False  :  Got lease ack from 0)
+1711887481.2107987updating sent length for 0,1 |||||||||||||||
+1711887481.2123044sending heartbeat and renew request from 1 to 2
+1711887481.2324343 : sending log request to 2
+ [] 
+1711887481.2346776 : 2  : False  :  Got lease ack from 2)
+1711887481.2346776 : 1 3 : Leader lease renewed
+1711887481.2421868updating sent length for 2,1 |||||||||||||||
+1711887481.2433672sending heartbeat and renew request from 1 to 3
+1711887481.2445521 : sending log request to 3
+ [] 
+1711887481.2465832 : 2  : False  :  Got lease ack from 3)
+1711887481.2465832 : 1 4 : Leader lease renewed
+1711887481.2537618updating sent length for 3,1 |||||||||||||||
+1711887481.2547607sending heartbeat and renew request from 1 to 4
+1711887481.2547607 : sending log request to 4
+ [] 
+1711887481.2567618 : 2  : False  :  Got lease ack from 4)
+1711887481.2567618 : 1 5 : Leader lease renewed
+1711887481.2663772updating sent length for 4,1 |||||||||||||||
+1711887482.267245 <====> 2 False 1  
+: leader : 1 , 1 , 1 
+ 0 , 1711887486.580982 , 1711887491.2567618   
+1711887482.267245sending heartbeat and renew request from 1 to 0
+1711887482.2862935 : sending log request to 0
+ [] 
+1711887482.288293 : 3  : False  :  Got lease ack from 0)
+1711887482.2892938updating sent length for 0,1 |||||||||||||||
+1711887482.2892938sending heartbeat and renew request from 1 to 2
+1711887482.3023107 : sending log request to 2
+ [] 
+1711887482.304492 : 3  : False  :  Got lease ack from 2)
+1711887482.3054907 : 1 3 : Leader lease renewed
+1711887482.313622updating sent length for 2,1 |||||||||||||||
+1711887482.313622sending heartbeat and renew request from 1 to 3
+1711887482.314616 : sending log request to 3
+ [] 
+1711887482.3166153 : 3  : False  :  Got lease ack from 3)
+1711887482.3166153 : 1 4 : Leader lease renewed
+1711887482.3251402updating sent length for 3,1 |||||||||||||||
+1711887482.3251402sending heartbeat and renew request from 1 to 4
+1711887482.32614 : sending log request to 4
+ [] 
+1711887482.328142 : 3  : False  :  Got lease ack from 4)
+1711887482.328142 : 1 5 : Leader lease renewed
+1711887482.336203updating sent length for 4,1 |||||||||||||||
+1711887483.3375905 <====> 3 False 1  
+: leader : 1 , 1 , 1 
+ 0 , 1711887486.580982 , 1711887492.328142   
+1711887483.3375905sending heartbeat and renew request from 1 to 0
+1711887483.3387048 : sending log request to 0
+ [] 
+1711887483.340617 : 4  : False  :  Got lease ack from 0)
+1711887483.340617updating sent length for 0,1 |||||||||||||||
+1711887483.3416257sending heartbeat and renew request from 1 to 2
+1711887483.3426366 : sending log request to 2
+ [] 
+1711887483.3441775 : 4  : False  :  Got lease ack from 2)
+1711887483.3441775 : 1 3 : Leader lease renewed
+1711887483.35046updating sent length for 2,1 |||||||||||||||
+1711887483.35146sending heartbeat and renew request from 1 to 3
+1711887483.3765335 : sending log request to 3
+ [] 
+1711887483.3795345 : 4  : False  :  Got lease ack from 3)
+1711887483.3795345 : 1 4 : Leader lease renewed
+1711887483.3875763updating sent length for 3,1 |||||||||||||||
+1711887483.3885763sending heartbeat and renew request from 1 to 4
+1711887483.3885763 : sending log request to 4
+ [] 
+1711887483.3905768 : 4  : False  :  Got lease ack from 4)
+1711887483.3905768 : 1 5 : Leader lease renewed
+1711887483.3977897updating sent length for 4,1 |||||||||||||||
+1711887484.3985443 <====> 4 False 1  
+: leader : 1 , 1 , 1 
+ 0 , 1711887486.580982 , 1711887493.3905768   
+1711887484.3985443sending heartbeat and renew request from 1 to 0
+1711887484.3995538 : sending log request to 0
+ [] 
+1711887484.401551 : 5  : False  :  Got lease ack from 0)
+1711887484.4025536updating sent length for 0,1 |||||||||||||||
+1711887484.4025536sending heartbeat and renew request from 1 to 2
+1711887484.419601 : sending log request to 2
+ [] 
+1711887484.4231083 : 5  : False  :  Got lease ack from 2)
+1711887484.4231083 : 1 3 : Leader lease renewed
+1711887484.4311244updating sent length for 2,1 |||||||||||||||
+1711887484.4311244sending heartbeat and renew request from 1 to 3
+1711887484.450165 : sending log request to 3
+ [] 
+1711887484.4526784 : 5  : False  :  Got lease ack from 3)
+1711887484.453692 : 1 4 : Leader lease renewed
+1711887484.4625764updating sent length for 3,1 |||||||||||||||
+1711887484.4625764sending heartbeat and renew request from 1 to 4
+1711887484.463618 : sending log request to 4
+ [] 
+1711887484.465785 : 5  : False  :  Got lease ack from 4)
+1711887484.465785 : 1 5 : Leader lease renewed
+1711887484.475142updating sent length for 4,1 |||||||||||||||
+Set : Node 1 1 received  key: "0"
+value: "0"
+ request
+1711887484.9705846 leader appended Got Entry from client sending to other nodes ('SET', '0', '0', 1)
+1711887484.992486 : sending log request to 0
+ ['SET 0 0 1'] 
+1711887484.9956434 : 5  : False  :  Got lease ack from 0)
+1711887484.9956434 : 1 6 : Leader lease renewed
+1711887485.002658updating sent length for 0,2 |||||||||||||||
+1711887485.0036638 : sending log request to 2
+ ['SET 0 0 1'] 
+1711887485.0046625 : 5  : False  :  Got lease ack from 2)
+1711887485.0056622 : 1 7 : Leader lease renewed
+1711887485.0134063updating sent length for 2,2 |||||||||||||||
+1711887485.014405Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A1607B84A0> to the state machine.
+1711887485.014405 : sending log request to 3
+ ['SET 0 0 1'] 
+1711887485.017421 : 5  : False  :  Got lease ack from 3)
+1711887485.017421 : 1 8 : Leader lease renewed
+1711887485.0273871updating sent length for 3,2 |||||||||||||||
+1711887485.0283825 : sending log request to 4
+ ['SET 0 0 1'] 
+1711887485.030384 : 5  : False  :  Got lease ack from 4)
+1711887485.030384 : 1 9 : Leader lease renewed
+1711887485.0389056updating sent length for 4,2 |||||||||||||||
+1711887485.475797 <====> 5 False 1  
+: leader : 2 , 2 , 1 
+ 0 , 1711887486.580982 , 1711887495.030384   
+1711887485.475797sending heartbeat and renew request from 1 to 0
+1711887485.4925885 : sending log request to 0
+ [] 
+1711887485.4964697 : 6  : False  :  Got lease ack from 0)
+1711887485.4964697updating sent length for 0,2 |||||||||||||||
+1711887485.4964697sending heartbeat and renew request from 1 to 2
+1711887485.4974678 : sending log request to 2
+ [] 
+1711887485.498976 : 6  : False  :  Got lease ack from 2)
+1711887485.4999819 : 1 3 : Leader lease renewed
+1711887485.5065029updating sent length for 2,2 |||||||||||||||
+1711887485.5065029sending heartbeat and renew request from 1 to 3
+1711887485.5065029 : sending log request to 3
+ [] 
+1711887485.5095026 : 6  : False  :  Got lease ack from 3)
+1711887485.5095026 : 1 4 : Leader lease renewed
+1711887485.5174224updating sent length for 3,2 |||||||||||||||
+1711887485.5184224sending heartbeat and renew request from 1 to 4
+1711887485.5184224 : sending log request to 4
+ [] 
+1711887485.5204225 : 6  : False  :  Got lease ack from 4)
+1711887485.5204225 : 1 5 : Leader lease renewed
+1711887485.528628updating sent length for 4,2 |||||||||||||||
+1711887486.529395 <====> 6 False 1  
+: leader : 2 , 2 , 1 
+ 0 , 1711887486.580982 , 1711887495.5204225   
+1711887486.529395sending heartbeat and renew request from 1 to 0
+1711887486.5494385 : sending log request to 0
+ [] 
+1711887486.552943 : 7  : False  :  Got lease ack from 0)
+1711887486.552943updating sent length for 0,2 |||||||||||||||
+1711887486.552943sending heartbeat and renew request from 1 to 2
+1711887486.5654712 : sending log request to 2
+ [] 
+1711887486.5674706 : 7  : False  :  Got lease ack from 2)
+1711887486.56847 : 1 3 : Leader lease renewed
+1711887486.5749881updating sent length for 2,2 |||||||||||||||
+1711887486.5749881sending heartbeat and renew request from 1 to 3
+1711887486.5759895 : sending log request to 3
+ [] 
+1711887486.5779936 : 7  : False  :  Got lease ack from 3)
+1711887486.5779936 : 1 4 : Leader lease renewed
+1711887486.585498updating sent length for 3,2 |||||||||||||||
+1711887486.5864978sending heartbeat and renew request from 1 to 4
+1711887486.5864978 : sending log request to 4
+ [] 
+1711887486.5884979 : 7  : False  :  Got lease ack from 4)
+1711887486.5884979 : 1 5 : Leader lease renewed
+1711887486.5972302updating sent length for 4,2 |||||||||||||||
+Set : Node 1 1 received  key: "1"
+value: "1"
+ request
+1711887487.2591558 leader appended Got Entry from client sending to other nodes ('SET', '1', '1', 1)
+1711887487.2591558 : sending log request to 0
+ ['SET 1 1 1'] 
+1711887487.2611587 : 7  : False  :  Got lease ack from 0)
+1711887487.2626648 : 1 6 : Leader lease renewed
+1711887487.2696726updating sent length for 0,3 |||||||||||||||
+1711887487.2696726 : sending log request to 2
+ ['SET 1 1 1'] 
+1711887487.2726743 : 7  : False  :  Got lease ack from 2)
+1711887487.2726743 : 1 7 : Leader lease renewed
+1711887487.2798257updating sent length for 2,3 |||||||||||||||
+1711887487.2808278Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A16078E120> to the state machine.
+1711887487.281827 : sending log request to 3
+ ['SET 1 1 1'] 
+1711887487.2842014 : 7  : False  :  Got lease ack from 3)
+1711887487.2842014 : 1 8 : Leader lease renewed
+1711887487.29382updating sent length for 3,3 |||||||||||||||
+1711887487.3108575 : sending log request to 4
+ ['SET 1 1 1'] 
+1711887487.3159256 : 7  : False  :  Got lease ack from 4)
+1711887487.3159256 : 1 9 : Leader lease renewed
+1711887487.3229408updating sent length for 4,3 |||||||||||||||
+1711887487.598128 <====> 7 False 1  
+: leader : 3 , 3 , 1 
+ 0 , 1711887486.580982 , 1711887497.3159256   
+1711887487.598128sending heartbeat and renew request from 1 to 0
+1711887487.6101685 : sending log request to 0
+ [] 
+1711887487.6126819 : 8  : False  :  Got lease ack from 0)
+1711887487.6126819updating sent length for 0,3 |||||||||||||||
+1711887487.6136918sending heartbeat and renew request from 1 to 2
+1711887487.6146944 : sending log request to 2
+ [] 
+1711887487.6176908 : 8  : False  :  Got lease ack from 2)
+1711887487.6186938 : 1 3 : Leader lease renewed
+1711887487.627061updating sent length for 2,3 |||||||||||||||
+1711887487.6280603sending heartbeat and renew request from 1 to 3
+1711887487.6300619 : sending log request to 3
+ [] 
+1711887487.631062 : 8  : False  :  Got lease ack from 3)
+1711887487.631062 : 1 4 : Leader lease renewed
+1711887487.6425765updating sent length for 3,3 |||||||||||||||
+1711887487.6425765sending heartbeat and renew request from 1 to 4
+1711887487.654608 : sending log request to 4
+ [] 
+1711887487.6566138 : 8  : False  :  Got lease ack from 4)
+1711887487.6576169 : 1 5 : Leader lease renewed
+1711887487.6681273updating sent length for 4,3 |||||||||||||||
+1711887488.6691082 <====> 8 False 1  
+: leader : 3 , 3 , 1 
+ 0 , 1711887486.580982 , 1711887497.6576169   
+1711887488.6696153sending heartbeat and renew request from 1 to 0
+1711887488.6827238 : sending log request to 0
+ [] 
+1711887488.6846585 : 9  : False  :  Got lease ack from 0)
+1711887488.6846585updating sent length for 0,3 |||||||||||||||
+1711887488.6856575sending heartbeat and renew request from 1 to 2
+1711887488.6856575 : sending log request to 2
+ [] 
+1711887488.6880796 : 9  : False  :  Got lease ack from 2)
+1711887488.6880796 : 1 3 : Leader lease renewed
+1711887488.6972759updating sent length for 2,3 |||||||||||||||
+1711887488.6972759sending heartbeat and renew request from 1 to 3
+1711887488.6982782 : sending log request to 3
+ [] 
+1711887488.7002792 : 9  : False  :  Got lease ack from 3)
+1711887488.7002792 : 1 4 : Leader lease renewed
+1711887488.708597updating sent length for 3,3 |||||||||||||||
+1711887488.708597sending heartbeat and renew request from 1 to 4
+1711887488.7099273 : sending log request to 4
+ [] 
+1711887488.7113404 : 9  : False  :  Got lease ack from 4)
+1711887488.7113404 : 1 5 : Leader lease renewed
+1711887488.720095updating sent length for 4,3 |||||||||||||||
+Set : Node 1 1 received  key: "2"
+value: "2"
+ request
+1711887488.9701474 leader appended Got Entry from client sending to other nodes ('SET', '2', '2', 1)
+1711887488.9711401 : sending log request to 0
+ ['SET 2 2 1'] 
+1711887488.97265 : 9  : False  :  Got lease ack from 0)
+1711887488.9736574 : 1 6 : Leader lease renewed
+1711887488.9815521updating sent length for 0,4 |||||||||||||||
+1711887488.9830592 : sending log request to 2
+ ['SET 2 2 1'] 
+1711887488.985547 : 9  : False  :  Got lease ack from 2)
+1711887488.985547 : 1 7 : Leader lease renewed
+1711887488.9930525updating sent length for 2,4 |||||||||||||||
+1711887488.9930525Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A15EAD04A0> to the state machine.
+1711887488.9940617 : sending log request to 3
+ ['SET 2 2 1'] 
+1711887488.9970596 : 9  : False  :  Got lease ack from 3)
+1711887488.9983635 : 1 8 : Leader lease renewed
+1711887489.0058925updating sent length for 3,4 |||||||||||||||
+1711887489.0251162 : sending log request to 4
+ ['SET 2 2 1'] 
+1711887489.028113 : 9  : False  :  Got lease ack from 4)
+1711887489.028113 : 1 9 : Leader lease renewed
+1711887489.035648updating sent length for 4,4 |||||||||||||||
+1711887489.7215147 <====> 9 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887499.028113   
+1711887489.7215147sending heartbeat and renew request from 1 to 0
+1711887489.7427697 : sending log request to 0
+ [] 
+1711887489.745298 : 10  : False  :  Got lease ack from 0)
+1711887489.745298updating sent length for 0,4 |||||||||||||||
+1711887489.746309sending heartbeat and renew request from 1 to 2
+1711887489.746309 : sending log request to 2
+ [] 
+1711887489.7498097 : 10  : False  :  Got lease ack from 2)
+1711887489.7508147 : 1 3 : Leader lease renewed
+1711887489.75933updating sent length for 2,4 |||||||||||||||
+1711887489.75933sending heartbeat and renew request from 1 to 3
+1711887489.760331 : sending log request to 3
+ [] 
+1711887489.7628374 : 10  : False  :  Got lease ack from 3)
+1711887489.7628374 : 1 4 : Leader lease renewed
+1711887489.7703536updating sent length for 3,4 |||||||||||||||
+1711887489.7703536sending heartbeat and renew request from 1 to 4
+1711887489.771355 : sending log request to 4
+ [] 
+1711887489.7740138 : 10  : False  :  Got lease ack from 4)
+1711887489.7740138 : 1 5 : Leader lease renewed
+1711887489.7826717updating sent length for 4,4 |||||||||||||||
+1711887490.783771 <====> 10 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887499.7740138   
+1711887490.783771sending heartbeat and renew request from 1 to 0
+1711887490.7848668 : sending log request to 0
+ [] 
+1711887490.7878702 : 11  : False  :  Got lease ack from 0)
+1711887490.7878702updating sent length for 0,4 |||||||||||||||
+1711887490.7878702sending heartbeat and renew request from 1 to 2
+1711887490.7888694 : sending log request to 2
+ [] 
+1711887490.7908666 : 11  : False  :  Got lease ack from 2)
+1711887490.7908666 : 1 3 : Leader lease renewed
+1711887490.7995784updating sent length for 2,4 |||||||||||||||
+1711887490.8005743sending heartbeat and renew request from 1 to 3
+1711887490.8015733 : sending log request to 3
+ [] 
+1711887490.803005 : 11  : False  :  Got lease ack from 3)
+1711887490.8045402 : 1 4 : Leader lease renewed
+1711887490.811719updating sent length for 3,4 |||||||||||||||
+1711887490.8127246sending heartbeat and renew request from 1 to 4
+1711887490.8127246 : sending log request to 4
+ [] 
+1711887490.8157473 : 11  : False  :  Got lease ack from 4)
+1711887490.8157473 : 1 5 : Leader lease renewed
+1711887490.8238273updating sent length for 4,4 |||||||||||||||
+GEt : Node 1 1 received key: "0"
+ request
+1711887491.8254478 <====> 11 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887500.8157473   
+1711887491.8254478sending heartbeat and renew request from 1 to 0
+1711887491.8496 : sending log request to 0
+ [] 
+1711887491.8515992 : 12  : False  :  Got lease ack from 0)
+1711887491.8526046updating sent length for 0,4 |||||||||||||||
+1711887491.8526046sending heartbeat and renew request from 1 to 2
+1711887491.8531122 : sending log request to 2
+ [] 
+1711887491.855122 : 12  : False  :  Got lease ack from 2)
+1711887491.855122 : 1 3 : Leader lease renewed
+1711887491.8631241updating sent length for 2,4 |||||||||||||||
+1711887491.8642085sending heartbeat and renew request from 1 to 3
+1711887491.8642085 : sending log request to 3
+ [] 
+1711887491.8662052 : 12  : False  :  Got lease ack from 3)
+1711887491.8662052 : 1 4 : Leader lease renewed
+1711887491.8752165updating sent length for 3,4 |||||||||||||||
+1711887491.8752165sending heartbeat and renew request from 1 to 4
+1711887491.876217 : sending log request to 4
+ [] 
+1711887491.877216 : 12  : False  :  Got lease ack from 4)
+1711887491.877216 : 1 5 : Leader lease renewed
+1711887491.8863926updating sent length for 4,4 |||||||||||||||
+GEt : Node 1 1 received key: "1"
+ request
+1711887492.8869166 <====> 12 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887501.877216   
+1711887492.8869166sending heartbeat and renew request from 1 to 0
+1711887492.8880484 : sending log request to 0
+ [] 
+1711887492.890046 : 13  : False  :  Got lease ack from 0)
+1711887492.890046updating sent length for 0,4 |||||||||||||||
+1711887492.890046sending heartbeat and renew request from 1 to 2
+1711887492.908224 : sending log request to 2
+ [] 
+1711887492.9102237 : 13  : False  :  Got lease ack from 2)
+1711887492.9116263 : 1 3 : Leader lease renewed
+1711887492.919038updating sent length for 2,4 |||||||||||||||
+1711887492.9200385sending heartbeat and renew request from 1 to 3
+1711887492.9200385 : sending log request to 3
+ [] 
+1711887492.9213893 : 13  : False  :  Got lease ack from 3)
+1711887492.9213893 : 1 4 : Leader lease renewed
+1711887492.9309025updating sent length for 3,4 |||||||||||||||
+1711887492.9319026sending heartbeat and renew request from 1 to 4
+1711887492.9319026 : sending log request to 4
+ [] 
+1711887492.9334068 : 13  : False  :  Got lease ack from 4)
+1711887492.9344137 : 1 5 : Leader lease renewed
+1711887492.9430552updating sent length for 4,4 |||||||||||||||
+GEt : Node 1 1 received key: "2"
+ request
+1711887493.9435585 <====> 13 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887502.9344137   
+1711887493.9435585sending heartbeat and renew request from 1 to 0
+1711887493.9666479 : sending log request to 0
+ [] 
+1711887493.969647 : 14  : False  :  Got lease ack from 0)
+1711887493.969647updating sent length for 0,4 |||||||||||||||
+1711887493.969647sending heartbeat and renew request from 1 to 2
+1711887493.970645 : sending log request to 2
+ [] 
+1711887493.9716442 : 14  : False  :  Got lease ack from 2)
+1711887493.97315 : 1 3 : Leader lease renewed
+1711887493.9801595updating sent length for 2,4 |||||||||||||||
+1711887493.9801595sending heartbeat and renew request from 1 to 3
+1711887493.9816532 : sending log request to 3
+ [] 
+1711887493.9841652 : 14  : False  :  Got lease ack from 3)
+1711887493.9841652 : 1 4 : Leader lease renewed
+1711887493.9921658updating sent length for 3,4 |||||||||||||||
+1711887493.9921658sending heartbeat and renew request from 1 to 4
+1711887493.993166 : sending log request to 4
+ [] 
+1711887493.9953573 : 14  : False  :  Got lease ack from 4)
+1711887493.9953573 : 1 5 : Leader lease renewed
+1711887494.0041509updating sent length for 4,4 |||||||||||||||
+1711887495.0051022 <====> 14 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887503.9953573   
+1711887495.0051022sending heartbeat and renew request from 1 to 0
+1711887495.0061126 : sending log request to 0
+ [] 
+1711887495.0071092 : 15  : False  :  Got lease ack from 0)
+1711887495.0086231updating sent length for 0,4 |||||||||||||||
+1711887495.0086231sending heartbeat and renew request from 1 to 2
+1711887495.0096362 : sending log request to 2
+ [] 
+1711887495.0116358 : 15  : False  :  Got lease ack from 2)
+1711887495.0116358 : 1 3 : Leader lease renewed
+1711887495.0185857updating sent length for 2,4 |||||||||||||||
+1711887495.0185857sending heartbeat and renew request from 1 to 3
+1711887495.0433066 : sending log request to 3
+ [] 
+1711887495.0461516 : 15  : False  :  Got lease ack from 3)
+1711887495.0461516 : 1 4 : Leader lease renewed
+1711887495.054217updating sent length for 3,4 |||||||||||||||
+1711887495.054217sending heartbeat and renew request from 1 to 4
+1711887495.0552158 : sending log request to 4
+ [] 
+1711887495.057216 : 15  : False  :  Got lease ack from 4)
+1711887495.057216 : 1 5 : Leader lease renewed
+1711887495.0645294updating sent length for 4,4 |||||||||||||||
+1711887496.0656698 <====> 15 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887505.057216   
+1711887496.0656698sending heartbeat and renew request from 1 to 0
+1711887496.0897 : sending log request to 0
+ [] 
+1711887496.0932143 : 16  : False  :  Got lease ack from 0)
+1711887496.0932143updating sent length for 0,4 |||||||||||||||
+1711887496.0932143sending heartbeat and renew request from 1 to 2
+1711887496.0942287 : sending log request to 2
+ [] 
+1711887496.096235 : 16  : False  :  Got lease ack from 2)
+1711887496.097235 : 1 3 : Leader lease renewed
+1711887496.1032338updating sent length for 2,4 |||||||||||||||
+1711887496.1037388sending heartbeat and renew request from 1 to 3
+1711887496.1037388 : sending log request to 3
+ [] 
+1711887496.1057615 : 16  : False  :  Got lease ack from 3)
+1711887496.107014 : 1 4 : Leader lease renewed
+1711887496.113923updating sent length for 3,4 |||||||||||||||
+1711887496.1149516sending heartbeat and renew request from 1 to 4
+1711887496.1149516 : sending log request to 4
+ [] 
+1711887496.1169968 : 16  : False  :  Got lease ack from 4)
+1711887496.1169968 : 1 5 : Leader lease renewed
+1711887496.1261988updating sent length for 4,4 |||||||||||||||
+1711887497.1266623 <====> 16 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887506.1169968   
+1711887497.1271696sending heartbeat and renew request from 1 to 0
+1711887497.1499383 : sending log request to 0
+ [] 
+1711887497.1519377 : 17  : False  :  Got lease ack from 0)
+1711887497.1519377updating sent length for 0,4 |||||||||||||||
+1711887497.1519377sending heartbeat and renew request from 1 to 2
+1711887497.1534433 : sending log request to 2
+ [] 
+1711887497.1564488 : 17  : False  :  Got lease ack from 2)
+1711887497.1564488 : 1 3 : Leader lease renewed
+1711887497.1651905updating sent length for 2,4 |||||||||||||||
+1711887497.1651905sending heartbeat and renew request from 1 to 3
+1711887497.1807163 : sending log request to 3
+ [] 
+1711887497.1832287 : 17  : False  :  Got lease ack from 3)
+1711887497.1832287 : 1 4 : Leader lease renewed
+1711887497.193284updating sent length for 3,4 |||||||||||||||
+1711887497.193284sending heartbeat and renew request from 1 to 4
+1711887497.1942906 : sending log request to 4
+ [] 
+1711887497.1963258 : 17  : False  :  Got lease ack from 4)
+1711887497.1963258 : 1 5 : Leader lease renewed
+1711887497.2051194updating sent length for 4,4 |||||||||||||||
+1711887498.2064261 <====> 17 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887507.1963258   
+1711887498.2064261sending heartbeat and renew request from 1 to 0
+1711887498.207379 : sending log request to 0
+ [] 
+1711887498.2092443 : 18  : False  :  Got lease ack from 0)
+1711887498.2092443updating sent length for 0,4 |||||||||||||||
+1711887498.21025sending heartbeat and renew request from 1 to 2
+1711887498.2112496 : sending log request to 2
+ [] 
+1711887498.2122493 : 18  : False  :  Got lease ack from 2)
+1711887498.2122493 : 1 3 : Leader lease renewed
+1711887498.2210891updating sent length for 2,4 |||||||||||||||
+1711887498.2210891sending heartbeat and renew request from 1 to 3
+1711887498.2220888 : sending log request to 3
+ [] 
+1711887498.2242436 : 18  : False  :  Got lease ack from 3)
+1711887498.2242436 : 1 4 : Leader lease renewed
+1711887498.2322478updating sent length for 3,4 |||||||||||||||
+1711887498.2322478sending heartbeat and renew request from 1 to 4
+1711887498.23376 : sending log request to 4
+ [] 
+1711887498.2347684 : 18  : False  :  Got lease ack from 4)
+1711887498.2357683 : 1 5 : Leader lease renewed
+1711887498.2435212updating sent length for 4,4 |||||||||||||||
+1711887499.2445579 <====> 18 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887508.2357683   
+1711887499.2445579sending heartbeat and renew request from 1 to 0
+1711887499.2695978 : sending log request to 0
+ [] 
+1711887499.2725976 : 19  : False  :  Got lease ack from 0)
+1711887499.2735984updating sent length for 0,4 |||||||||||||||
+1711887499.2741044sending heartbeat and renew request from 1 to 2
+1711887499.2741044 : sending log request to 2
+ [] 
+1711887499.2761192 : 19  : False  :  Got lease ack from 2)
+1711887499.2771194 : 1 3 : Leader lease renewed
+1711887499.2846372updating sent length for 2,4 |||||||||||||||
+1711887499.2856452sending heartbeat and renew request from 1 to 3
+1711887499.286162 : sending log request to 3
+ [] 
+1711887499.2881963 : 19  : False  :  Got lease ack from 3)
+1711887499.2881963 : 1 4 : Leader lease renewed
+1711887499.2958293updating sent length for 3,4 |||||||||||||||
+1711887499.2958293sending heartbeat and renew request from 1 to 4
+1711887499.2968285 : sending log request to 4
+ [] 
+1711887499.2978292 : 19  : False  :  Got lease ack from 4)
+1711887499.2988286 : 1 5 : Leader lease renewed
+1711887499.307082updating sent length for 4,4 |||||||||||||||
+1711887500.307985 <====> 19 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887509.2988286   
+1711887500.307985sending heartbeat and renew request from 1 to 0
+1711887500.3286796 : sending log request to 0
+ [] 
+1711887500.3326826 : 20  : False  :  Got lease ack from 0)
+1711887500.3326826updating sent length for 0,4 |||||||||||||||
+1711887500.3336844sending heartbeat and renew request from 1 to 2
+1711887500.3598795 : sending log request to 2
+ [] 
+1711887500.3618772 : 20  : False  :  Got lease ack from 2)
+1711887500.3633833 : 1 3 : Leader lease renewed
+1711887500.3703923updating sent length for 2,4 |||||||||||||||
+1711887500.3713908sending heartbeat and renew request from 1 to 3
+1711887500.3713908 : sending log request to 3
+ [] 
+1711887500.3733907 : 20  : False  :  Got lease ack from 3)
+1711887500.3733907 : 1 4 : Leader lease renewed
+1711887500.3805904updating sent length for 3,4 |||||||||||||||
+1711887500.3805904sending heartbeat and renew request from 1 to 4
+1711887500.4061499 : sending log request to 4
+ [] 
+1711887500.4091475 : 20  : False  :  Got lease ack from 4)
+1711887500.4101465 : 1 5 : Leader lease renewed
+1711887500.4171853updating sent length for 4,4 |||||||||||||||
+1711887501.4182377 <====> 20 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887510.4101465   
+1711887501.4182377sending heartbeat and renew request from 1 to 0
+1711887501.4203575 : sending log request to 0
+ [] 
+1711887501.4223447 : 21  : False  :  Got lease ack from 0)
+1711887501.4223447updating sent length for 0,4 |||||||||||||||
+1711887501.4223447sending heartbeat and renew request from 1 to 2
+1711887501.4353693 : sending log request to 2
+ [] 
+1711887501.4378784 : 21  : False  :  Got lease ack from 2)
+1711887501.4378784 : 1 3 : Leader lease renewed
+1711887503.764017handle log RPC ERROR F : node 4 
+1711887503.764017updating sent length for 2,4 |||||||||||||||
+1711887503.7650259sending heartbeat and renew request from 1 to 3
+1711887503.7660246 : sending log request to 3
+ [] 
+1711887503.7700238 : 21  : False  :  Got lease ack from 3)
+1711887503.7700238 : 1 4 : Leader lease renewed
+1711887506.0929756handle log RPC ERROR F : node 4 
+1711887506.0929756updating sent length for 3,4 |||||||||||||||
+1711887506.0939796sending heartbeat and renew request from 1 to 4
+1711887506.2995996 False : 4.
+
+1711887507.3011448 <====> 21 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887513.7700238   
+1711887507.3021514sending heartbeat and renew request from 1 to 0
+1711887507.31407 : sending log request to 0
+ [] 
+1711887507.3170063 : 22  : False  :  Got lease ack from 0)
+1711887507.3170063updating sent length for 0,4 |||||||||||||||
+1711887507.3170063sending heartbeat and renew request from 1 to 2
+1711887507.3180065 : sending log request to 2
+ [] 
+1711887507.3200061 : 22  : False  :  Got lease ack from 2)
+1711887507.3200061 : 1 3 : Leader lease renewed
+1711887509.634275handle log RPC ERROR F : node 4 
+1711887509.634275updating sent length for 2,4 |||||||||||||||
+1711887509.634275sending heartbeat and renew request from 1 to 3
+1711887509.6372828 : sending log request to 3
+ [] 
+1711887509.6392832 : 22  : False  :  Got lease ack from 3)
+1711887509.6392832 : 1 4 : Leader lease renewed
+1711887511.9773855handle log RPC ERROR F : node 4 
+1711887511.9773855updating sent length for 3,4 |||||||||||||||
+1711887511.9783833sending heartbeat and renew request from 1 to 4
+1711887512.191766 False : 4.
+
+1711887513.1925292 <====> 22 False 1  
+: leader : 4 , 4 , 1 
+ 0 , 1711887486.580982 , 1711887519.6392832   
+1711887513.1937866sending heartbeat and renew request from 1 to 0
+1711887513.2098296 : sending log request to 0
+ [] 
+1711887513.2118297 : 23  : False  :  Got lease ack from 0)
+1711887513.2118297updating sent length for 0,4 |||||||||||||||
+1711887513.212831sending heartbeat and renew request from 1 to 2
+1711887513.212831 : sending log request to 2
+ [] 
+1711887513.215349 : 23  : False  :  Got lease ack from 2)
+1711887513.215349 : 1 3 : Leader lease renewed
+Set : Node 1 1 received  key: "3"
+value: "3"
+ request
+1711887514.119004 leader appended Got Entry from client sending to other nodes ('SET', '3', '3', 1)
+1711887514.1200063 : sending log request to 0
+ ['SET 3 3 1'] 
+1711887514.1230044 : 23  : False  :  Got lease ack from 0)
+1711887514.1230044 : 1 4 : Leader lease renewed
+1711887515.5607407handle log RPC ERROR F : node 4 
+1711887515.5607407handle log RPC ERROR F : node 4 
+1711887515.5607407updating sent length for 2,4 |||||||||||||||
+1711887515.5617425updating sent length for 0,5 |||||||||||||||
+1711887515.5617425sending heartbeat and renew request from 1 to 3
+1711887515.5627425 : sending log request to 3
+ ['SET 3 3 1'] 
+1711887515.5642483 : 23  : False  :  Got lease ack from 3)
+1711887515.5652566 : 1 5 : Leader lease renewed
+1711887515.581775 : sending log request to 2
+ ['SET 3 3 1'] 
+1711887515.5842803 : 23  : False  :  Got lease ack from 2)
+1711887515.5842803 : 1 6 : Leader lease renewed
+1711887517.9318552handle log RPC ERROR F : node 4 
+1711887517.9318552updating sent length for 3,5 |||||||||||||||
+1711887517.9318552handle log RPC ERROR F : node 4 
+1711887517.9318552Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A1607B84D0> to the state machine.
+1711887517.9328527updating sent length for 2,5 |||||||||||||||
+1711887517.9328527sending heartbeat and renew request from 1 to 4
+1711887517.952887 : sending log request to 3
+ [] 
+1711887517.9565039 : 23  : False  :  Got lease ack from 3)
+1711887517.9565039 : 1 7 : Leader lease renewed
+1711887518.1406808 False : 4.
+
+1711887519.1412694 <====> 23 False 1  
+: leader : 5 , 5 , 1 
+ 0 , 1711887486.580982 , 1711887527.9565039   
+1711887519.1412694sending heartbeat and renew request from 1 to 0
+1711887519.1567717 : sending log request to 0
+ [] 
+1711887519.1587708 : 24  : False  :  Got lease ack from 0)
+1711887519.1587708updating sent length for 0,5 |||||||||||||||
+1711887519.159771sending heartbeat and renew request from 1 to 2
+1711887519.159771 : sending log request to 2
+ [] 
+1711887519.1617765 : 24  : False  :  Got lease ack from 2)
+1711887519.1627774 : 1 3 : Leader lease renewed
+1711887520.289366handle log RPC ERROR F : node 4 
+1711887520.2903647updating sent length for 3,5 |||||||||||||||
+1711887520.2903647handle log RPC ERROR F : node 4 
+1711887520.2913659updating sent length for 2,5 |||||||||||||||
+1711887520.2913659sending heartbeat and renew request from 1 to 3
+1711887520.2913659 : sending log request to 3
+ [] 
+1711887520.2933643 : 24  : False  :  Got lease ack from 3)
+1711887520.2933643 : 1 4 : Leader lease renewed
+1711887520.496451 False : 4.
+
+1711887522.6293833handle log RPC ERROR F : node 4 
+1711887522.6293833updating sent length for 3,5 |||||||||||||||
+1711887522.6303856sending heartbeat and renew request from 1 to 4
+1711887522.837504 False : 4.
+
+1711887523.8384411 <====> 24 False 1  
+: leader : 5 , 5 , 1 
+ 0 , 1711887486.580982 , 1711887530.2933643   
+1711887523.8389492sending heartbeat and renew request from 1 to 0
+1711887523.8399596 : sending log request to 0
+ [] 
+1711887523.8439622 : 25  : False  :  Got lease ack from 0)
+1711887523.8439622updating sent length for 0,5 |||||||||||||||
+1711887523.844959sending heartbeat and renew request from 1 to 2
+1711887523.865648 : sending log request to 2
+ [] 
+1711887523.8675292 : 25  : False  :  Got lease ack from 2)
+1711887523.8685288 : 1 3 : Leader lease renewed
+Set : Node 1 1 received  key: "4"
+value: "4"
+ request
+1711887525.0271776 leader appended Got Entry from client sending to other nodes ('SET', '4', '4', 1)
+1711887525.0281768 : sending log request to 0
+ ['SET 4 4 1'] 
+1711887525.030176 : 25  : False  :  Got lease ack from 0)
+1711887525.030176 : 1 4 : Leader lease renewed
+1711887526.2126625handle log RPC ERROR F : node 4 
+1711887526.2126625updating sent length for 2,5 |||||||||||||||
+1711887526.2126625handle log RPC ERROR F : node 4 
+1711887526.2136612sending heartbeat and renew request from 1 to 3
+1711887526.2136612updating sent length for 0,6 |||||||||||||||
+1711887526.2136612 : sending log request to 3
+ ['SET 4 4 1'] 
+1711887526.2151656 : sending log request to 2
+ ['SET 4 4 1'] 
+1711887526.2171836 : 25  : False  :  Got lease ack from 3)
+1711887526.2181978 : 1 5 : Leader lease renewed
+1711887526.2201924 : 25  : False  :  Got lease ack from 2)
+1711887526.2201924 : 1 6 : Leader lease renewed
+1711887528.5760765handle log RPC ERROR F : node 4 
+1711887528.5760765updating sent length for 2,6 |||||||||||||||
+1711887528.576618Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A1607B8260> to the state machine.
+1711887528.5786233handle log RPC ERROR F : node 4 
+1711887528.579624updating sent length for 3,6 |||||||||||||||
+1711887528.579624sending heartbeat and renew request from 1 to 4
+1711887528.5806212 : sending log request to 3
+ ['SET 4 4 1'] 
+1711887528.5836184 : 25  : False  :  Got lease ack from 3)
+1711887528.5836184 : 1 7 : Leader lease renewed
+1711887528.7885134 False : 4.
+
+1711887529.7892678 <====> 25 False 1  
+: leader : 6 , 6 , 1 
+ 0 , 1711887486.580982 , 1711887538.5836184   
+1711887529.789776sending heartbeat and renew request from 1 to 0
+1711887529.7917905 : sending log request to 0
+ [] 
+1711887529.7962995 : 26  : False  :  Got lease ack from 0)
+1711887529.7962995updating sent length for 0,6 |||||||||||||||
+1711887529.797308sending heartbeat and renew request from 1 to 2
+1711887529.8158545 : sending log request to 2
+ [] 
+1711887529.8188777 : 26  : False  :  Got lease ack from 2)
+1711887529.8188777 : 1 3 : Leader lease renewed
+1711887530.943525handle log RPC ERROR F : node 4 
+1711887530.943525updating sent length for 3,6 |||||||||||||||
+1711887530.9450305handle log RPC ERROR F : node 4 
+1711887530.9455721updating sent length for 2,6 |||||||||||||||
+1711887530.9455721sending heartbeat and renew request from 1 to 3
+1711887530.9455721 : sending log request to 3
+ [] 
+1711887530.9475799 : 26  : False  :  Got lease ack from 3)
+1711887530.9475799 : 1 4 : Leader lease renewed
+1711887531.155554 False : 4.
+
+1711887533.2890155handle log RPC ERROR F : node 4 
+1711887533.2890155updating sent length for 3,6 |||||||||||||||
+1711887533.2900171sending heartbeat and renew request from 1 to 4
+1711887533.4943035 False : 4.
+
+Set : Node 1 1 received  key: "5"
+value: "5"
+ request
+1711887534.1080153 leader appended Got Entry from client sending to other nodes ('SET', '5', '5', 1)
+1711887534.1320481 : sending log request to 0
+ ['SET 5 5 1'] 
+1711887534.1356509 : 26  : False  :  Got lease ack from 0)
+1711887534.1356509 : 1 5 : Leader lease renewed
+1711887534.495181 <====> 26 False 1  
+: leader : 6 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887544.1356509   
+1711887534.4957025sending heartbeat and renew request from 1 to 0
+1711887534.4957025 : sending log request to 0
+ ['SET 5 5 1'] 
+1711887534.4981773 : 27  : False  :  Got lease ack from 0)
+1711887534.4991841updating sent length for 0,7 |||||||||||||||
+1711887534.4991841sending heartbeat and renew request from 1 to 2
+1711887534.5001774 : sending log request to 2
+ ['SET 5 5 1'] 
+1711887534.502177 : 27  : False  :  Got lease ack from 2)
+1711887534.502177 : 1 3 : Leader lease renewed
+1711887536.4754744handle log RPC ERROR F : node 4 
+1711887536.4754744updating sent length for 2,7 |||||||||||||||
+1711887536.4754744handle log RPC ERROR F : node 4 
+1711887536.4754744Node 1 (leader) committed the entry <__main__.log_entry object at 0x000001A16047E120> to the state machine.
+1711887536.4764824updating sent length for 0,7 |||||||||||||||
+1711887536.4764824sending heartbeat and renew request from 1 to 3
+1711887536.4774952 : sending log request to 3
+ ['SET 5 5 1'] 
+1711887536.480503 : 27  : False  :  Got lease ack from 3)
+1711887536.480503 : 1 4 : Leader lease renewed
+1711887536.5005445 : sending log request to 2
+ [] 
+1711887536.502547 : 27  : False  :  Got lease ack from 2)
+1711887536.502547 : 1 5 : Leader lease renewed
+1711887538.8197691handle log RPC ERROR F : node 4 
+1711887538.8197691updating sent length for 2,7 |||||||||||||||
+1711887538.8197691handle log RPC ERROR F : node 4 
+1711887538.820769updating sent length for 3,7 |||||||||||||||
+1711887538.820769sending heartbeat and renew request from 1 to 4
+1711887538.8427997 : sending log request to 3
+ ['SET 5 5 1'] 
+1711887538.8457792 : 27  : False  :  Got lease ack from 3)
+1711887538.8457792 : 1 6 : Leader lease renewed
+1711887539.0321064 False : 4.
+
+1711887540.0330088 <====> 27 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887548.8457792   
+1711887540.0330088sending heartbeat and renew request from 1 to 0
+1711887540.044541 : sending log request to 0
+ [] 
+1711887540.0471358 : 28  : False  :  Got lease ack from 0)
+1711887540.0471358updating sent length for 0,7 |||||||||||||||
+1711887540.0481465sending heartbeat and renew request from 1 to 2
+1711887540.059676 : sending log request to 2
+ [] 
+1711887540.0626745 : 28  : False  :  Got lease ack from 2)
+1711887540.0626745 : 1 3 : Leader lease renewed
+1711887541.203034handle log RPC ERROR F : node 4 
+1711887541.203034handle log RPC ERROR F : node 4 
+1711887541.2040346updating sent length for 2,7 |||||||||||||||
+1711887541.2040346updating sent length for 3,7 |||||||||||||||
+1711887541.2040346sending heartbeat and renew request from 1 to 3
+1711887541.2050395 : sending log request to 3
+ [] 
+1711887541.2075627 : 28  : False  :  Got lease ack from 3)
+1711887541.2075627 : 1 4 : Leader lease renewed
+1711887541.4158874 False : 4.
+
+1711887543.5609648handle log RPC ERROR F : node 4 
+1711887543.5609648updating sent length for 3,7 |||||||||||||||
+1711887543.5609648sending heartbeat and renew request from 1 to 4
+1711887543.7661808 False : 4.
+
+1711887544.7669234 <====> 28 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887551.2075627   
+1711887544.7669234sending heartbeat and renew request from 1 to 0
+1711887544.7679322 : sending log request to 0
+ [] 
+1711887544.769938 : 29  : False  :  Got lease ack from 0)
+1711887544.769938updating sent length for 0,7 |||||||||||||||
+1711887544.769938sending heartbeat and renew request from 1 to 2
+1711887544.7709394 : sending log request to 2
+ [] 
+1711887544.772938 : 29  : False  :  Got lease ack from 2)
+1711887544.772938 : 1 3 : Leader lease renewed
+GEt : Node 1 1 received key: "3"
+ request
+1711887547.1171584handle log RPC ERROR F : node 4 
+1711887547.1171584updating sent length for 2,7 |||||||||||||||
+1711887547.1181562sending heartbeat and renew request from 1 to 3
+1711887547.119159 : sending log request to 3
+ [] 
+1711887547.121158 : 29  : False  :  Got lease ack from 3)
+1711887547.121158 : 1 4 : Leader lease renewed
+GEt : Node 1 1 received key: "1"
+ request
+1711887549.457104handle log RPC ERROR F : node 4 
+1711887549.457104updating sent length for 3,7 |||||||||||||||
+1711887549.457104sending heartbeat and renew request from 1 to 4
+1711887549.6637003 False : 4.
+
+1711887550.6646144 <====> 29 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887557.121158   
+1711887550.6651227sending heartbeat and renew request from 1 to 0
+1711887550.6651227 : sending log request to 0
+ [] 
+1711887550.6676457 : 30  : False  :  Got lease ack from 0)
+1711887550.6676457updating sent length for 0,7 |||||||||||||||
+1711887550.6686432sending heartbeat and renew request from 1 to 2
+1711887550.6686432 : sending log request to 2
+ [] 
+1711887550.6706438 : 30  : False  :  Got lease ack from 2)
+1711887550.6706438 : 1 3 : Leader lease renewed
+GEt : Node 1 1 received key: "5"
+ request
+GEt : Node 1 1 received key: "4"
+ request
+1711887553.0088341handle log RPC ERROR F : node 4 
+1711887553.0088341updating sent length for 2,7 |||||||||||||||
+1711887553.009837sending heartbeat and renew request from 1 to 3
+1711887553.026999 : sending log request to 3
+ [] 
+1711887553.0298674 : 30  : False  :  Got lease ack from 3)
+1711887553.0298674 : 1 4 : Leader lease renewed
+1711887555.36266handle log RPC ERROR F : node 4 
+1711887555.3636603updating sent length for 3,7 |||||||||||||||
+1711887555.3646615sending heartbeat and renew request from 1 to 4
+1711887555.5697367 False : 4.
+
+1711887556.570596 <====> 30 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887563.0298674   
+1711887556.570596sending heartbeat and renew request from 1 to 0
+1711887556.571776 : sending log request to 0
+ [] 
+1711887556.5740771 : 31  : False  :  Got lease ack from 0)
+1711887556.5740771updating sent length for 0,7 |||||||||||||||
+1711887556.5740771sending heartbeat and renew request from 1 to 2
+1711887556.5986178 : sending log request to 2
+ [] 
+1711887556.6006227 : 31  : False  :  Got lease ack from 2)
+1711887556.6006227 : 1 3 : Leader lease renewed
+1711887558.914544handle log RPC ERROR F : node 4 
+1711887558.914544updating sent length for 2,7 |||||||||||||||
+1711887558.9155397sending heartbeat and renew request from 1 to 3
+1711887558.9335783 : sending log request to 3
+ [] 
+1711887558.9355743 : 31  : False  :  Got lease ack from 3)
+1711887558.9355743 : 1 4 : Leader lease renewed
+1711887561.2458334handle log RPC ERROR F : node 4 
+1711887561.2474113updating sent length for 3,7 |||||||||||||||
+1711887561.2483513sending heartbeat and renew request from 1 to 4
+1711887561.4503307 False : 4.
+
+1711887562.4517672 <====> 31 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887568.9355743   
+1711887562.4517672sending heartbeat and renew request from 1 to 0
+1711887562.4783278 : sending log request to 0
+ [] 
+1711887562.480328 : 32  : False  :  Got lease ack from 0)
+1711887562.480328updating sent length for 0,7 |||||||||||||||
+1711887562.4813285sending heartbeat and renew request from 1 to 2
+1711887562.493354 : sending log request to 2
+ [] 
+1711887562.4963539 : 32  : False  :  Got lease ack from 2)
+1711887562.4963539 : 1 3 : Leader lease renewed
+1711887564.831328handle log RPC ERROR F : node 4 
+1711887564.831328updating sent length for 2,7 |||||||||||||||
+1711887564.8343248sending heartbeat and renew request from 1 to 3
+1711887564.835327 : sending log request to 3
+ [] 
+1711887564.8373277 : 32  : False  :  Got lease ack from 3)
+1711887564.8378382 : 1 4 : Leader lease renewed
+1711887566.3725426updating sent length for 3,7 |||||||||||||||
+1711887566.3725426sending heartbeat and renew request from 1 to 4
+1711887566.3735454 : sending log request to 4
+ ['SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1'] 
+1711887566.3775406 : 32  : False  :  Got lease ack from 4)
+1711887566.3780448 : 1 5 : Leader lease renewed
+1711887566.3875654updating sent length for 4,7 |||||||||||||||
+1711887567.388551 <====> 32 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887576.3780448   
+1711887567.388551sending heartbeat and renew request from 1 to 0
+1711887567.389557 : sending log request to 0
+ [] 
+1711887567.39409 : 33  : False  :  Got lease ack from 0)
+1711887567.39409updating sent length for 0,7 |||||||||||||||
+1711887567.39409sending heartbeat and renew request from 1 to 2
+1711887567.411116 : sending log request to 2
+ [] 
+1711887567.4131176 : 33  : False  :  Got lease ack from 2)
+1711887567.4141197 : 1 3 : Leader lease renewed
+1711887567.4216404updating sent length for 2,7 |||||||||||||||
+1711887567.422639sending heartbeat and renew request from 1 to 3
+1711887567.422639 : sending log request to 3
+ [] 
+1711887567.4246428 : 33  : False  :  Got lease ack from 3)
+1711887567.4246428 : 1 4 : Leader lease renewed
+1711887567.4329078updating sent length for 3,7 |||||||||||||||
+1711887567.4329078sending heartbeat and renew request from 1 to 4
+1711887567.433915 : sending log request to 4
+ [] 
+1711887567.434914 : 33  : False  :  Got lease ack from 4)
+1711887567.434914 : 1 5 : Leader lease renewed
+1711887567.442431updating sent length for 4,7 |||||||||||||||
+1711887568.4432504 <====> 33 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887577.434914   
+1711887568.4432504sending heartbeat and renew request from 1 to 0
+1711887568.4579034 : sending log request to 0
+ [] 
+1711887568.4630108 : 34  : False  :  Got lease ack from 0)
+1711887568.4630108updating sent length for 0,7 |||||||||||||||
+1711887568.4640102sending heartbeat and renew request from 1 to 2
+1711887568.4893773 : sending log request to 2
+ [] 
+1711887568.4923751 : 34  : False  :  Got lease ack from 2)
+1711887568.4923751 : 1 3 : Leader lease renewed
+1711887568.5010612updating sent length for 2,7 |||||||||||||||
+1711887568.5010612sending heartbeat and renew request from 1 to 3
+1711887568.502061 : sending log request to 3
+ [] 
+1711887568.5030603 : 34  : False  :  Got lease ack from 3)
+1711887568.5040607 : 1 4 : Leader lease renewed
+1711887568.5105698updating sent length for 3,7 |||||||||||||||
+1711887568.5105698sending heartbeat and renew request from 1 to 4
+1711887568.5356135 : sending log request to 4
+ [] 
+1711887568.5391319 : 34  : False  :  Got lease ack from 4)
+1711887568.5391319 : 1 5 : Leader lease renewed
+1711887568.5461304updating sent length for 4,7 |||||||||||||||
+1711887569.5495756 <====> 34 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887578.5391319   
+1711887569.5495756sending heartbeat and renew request from 1 to 0
+1711887569.551956 : sending log request to 0
+ [] 
+1711887569.5543764 : 35  : False  :  Got lease ack from 0)
+1711887569.5543764updating sent length for 0,7 |||||||||||||||
+1711887569.5566113sending heartbeat and renew request from 1 to 2
+1711887569.5806606 : sending log request to 2
+ [] 
+1711887569.5849743 : 35  : False  :  Got lease ack from 2)
+1711887569.5849743 : 1 3 : Leader lease renewed
+1711887569.5930042updating sent length for 2,7 |||||||||||||||
+1711887569.5930042sending heartbeat and renew request from 1 to 3
+1711887569.5930042 : sending log request to 3
+ [] 
+1711887569.596363 : 35  : False  :  Got lease ack from 3)
+1711887569.596363 : 1 4 : Leader lease renewed
+1711887569.604199updating sent length for 3,7 |||||||||||||||
+1711887569.6047924sending heartbeat and renew request from 1 to 4
+1711887569.6047924 : sending log request to 4
+ [] 
+1711887569.6072772 : 35  : False  :  Got lease ack from 4)
+1711887569.6072772 : 1 5 : Leader lease renewed
+1711887569.616558updating sent length for 4,7 |||||||||||||||
+1711887570.617849 <====> 35 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887579.6072772   
+1711887570.617849sending heartbeat and renew request from 1 to 0
+1711887570.6387072 : sending log request to 0
+ [] 
+1711887570.6417055 : 36  : False  :  Got lease ack from 0)
+1711887570.6427054updating sent length for 0,7 |||||||||||||||
+1711887570.6427054sending heartbeat and renew request from 1 to 2
+1711887570.6542253 : sending log request to 2
+ [] 
+1711887570.656228 : 36  : False  :  Got lease ack from 2)
+1711887570.6570542 : 1 3 : Leader lease renewed
+1711887570.6636055updating sent length for 2,7 |||||||||||||||
+1711887570.6647012sending heartbeat and renew request from 1 to 3
+1711887570.6647012 : sending log request to 3
+ [] 
+1711887570.666712 : 36  : False  :  Got lease ack from 3)
+1711887570.666712 : 1 4 : Leader lease renewed
+1711887570.674229updating sent length for 3,7 |||||||||||||||
+1711887570.674229sending heartbeat and renew request from 1 to 4
+1711887570.675243 : sending log request to 4
+ [] 
+1711887570.677618 : 36  : False  :  Got lease ack from 4)
+1711887570.677618 : 1 5 : Leader lease renewed
+1711887570.6856644updating sent length for 4,7 |||||||||||||||
+1711887571.6869867 <====> 36 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887580.677618   
+1711887571.6869867sending heartbeat and renew request from 1 to 0
+1711887571.7004557 : sending log request to 0
+ [] 
+1711887571.7034574 : 37  : False  :  Got lease ack from 0)
+1711887571.7034574updating sent length for 0,7 |||||||||||||||
+1711887571.7034574sending heartbeat and renew request from 1 to 2
+1711887571.7159755 : sending log request to 2
+ [] 
+1711887571.7179718 : 37  : False  :  Got lease ack from 2)
+1711887571.719434 : 1 3 : Leader lease renewed
+1711887571.72643updating sent length for 2,7 |||||||||||||||
+1711887571.72643sending heartbeat and renew request from 1 to 3
+1711887571.7481742 : sending log request to 3
+ [] 
+1711887571.7508173 : 37  : False  :  Got lease ack from 3)
+1711887571.7508173 : 1 4 : Leader lease renewed
+1711887571.758885updating sent length for 3,7 |||||||||||||||
+1711887571.758885sending heartbeat and renew request from 1 to 4
+1711887571.7780843 : sending log request to 4
+ [] 
+1711887571.7799506 : 37  : False  :  Got lease ack from 4)
+1711887571.7799506 : 1 5 : Leader lease renewed
+1711887571.7864413updating sent length for 4,7 |||||||||||||||
+1711887572.7882063 <====> 37 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887581.7799506   
+1711887572.7882063sending heartbeat and renew request from 1 to 0
+1711887572.789215 : sending log request to 0
+ [] 
+1711887572.7912204 : 38  : False  :  Got lease ack from 0)
+1711887572.7912204updating sent length for 0,7 |||||||||||||||
+1711887572.792216sending heartbeat and renew request from 1 to 2
+1711887572.793216 : sending log request to 2
+ [] 
+1711887572.7952185 : 38  : False  :  Got lease ack from 2)
+1711887572.7952185 : 1 3 : Leader lease renewed
+1711887572.8053575updating sent length for 2,7 |||||||||||||||
+1711887572.8067415sending heartbeat and renew request from 1 to 3
+1711887572.8072472 : sending log request to 3
+ [] 
+1711887572.8097582 : 38  : False  :  Got lease ack from 3)
+1711887572.8097582 : 1 4 : Leader lease renewed
+1711887572.819283updating sent length for 3,7 |||||||||||||||
+1711887572.8202944sending heartbeat and renew request from 1 to 4
+1711887572.8380916 : sending log request to 4
+ [] 
+1711887572.8407993 : 38  : False  :  Got lease ack from 4)
+1711887572.8407993 : 1 5 : Leader lease renewed
+1711887572.8499146updating sent length for 4,7 |||||||||||||||
+1711887573.8510225 <====> 38 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887582.8407993   
+1711887573.8510225sending heartbeat and renew request from 1 to 0
+1711887573.874727 : sending log request to 0
+ [] 
+1711887573.876725 : 39  : False  :  Got lease ack from 0)
+1711887573.8777285updating sent length for 0,7 |||||||||||||||
+1711887573.8777285sending heartbeat and renew request from 1 to 2
+1711887573.8787947 : sending log request to 2
+ [] 
+1711887573.8804588 : 39  : False  :  Got lease ack from 2)
+1711887573.8809638 : 1 3 : Leader lease renewed
+1711887573.8889916updating sent length for 2,7 |||||||||||||||
+1711887573.8899927sending heartbeat and renew request from 1 to 3
+1711887573.8909938 : sending log request to 3
+ [] 
+1711887573.8929908 : 39  : False  :  Got lease ack from 3)
+1711887573.8929908 : 1 4 : Leader lease renewed
+1711887573.9014456updating sent length for 3,7 |||||||||||||||
+1711887573.9014456sending heartbeat and renew request from 1 to 4
+1711887573.9024444 : sending log request to 4
+ [] 
+1711887573.9044418 : 39  : False  :  Got lease ack from 4)
+1711887573.9044418 : 1 5 : Leader lease renewed
+1711887573.9119227updating sent length for 4,7 |||||||||||||||
+1711887574.914001 <====> 39 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887583.9044418   
+1711887574.914509sending heartbeat and renew request from 1 to 0
+1711887574.9155169 : sending log request to 0
+ [] 
+1711887574.9201303 : 40  : False  :  Got lease ack from 0)
+1711887574.9201303updating sent length for 0,7 |||||||||||||||
+1711887574.9211407sending heartbeat and renew request from 1 to 2
+1711887574.9221392 : sending log request to 2
+ [] 
+1711887574.9241364 : 40  : False  :  Got lease ack from 2)
+1711887574.9241364 : 1 3 : Leader lease renewed
+1711887574.9336703updating sent length for 2,7 |||||||||||||||
+1711887574.9336703sending heartbeat and renew request from 1 to 3
+1711887574.934665 : sending log request to 3
+ [] 
+1711887574.9366643 : 40  : False  :  Got lease ack from 3)
+1711887574.9366643 : 1 4 : Leader lease renewed
+1711887574.9451816updating sent length for 3,7 |||||||||||||||
+1711887574.9451816sending heartbeat and renew request from 1 to 4
+1711887574.9461772 : sending log request to 4
+ [] 
+1711887574.9486809 : 40  : False  :  Got lease ack from 4)
+1711887574.9486809 : 1 5 : Leader lease renewed
+1711887574.9568915updating sent length for 4,7 |||||||||||||||
+1711887575.9576132 <====> 40 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887584.9486809   
+1711887575.9581196sending heartbeat and renew request from 1 to 0
+1711887575.972353 : sending log request to 0
+ [] 
+1711887575.9743526 : 41  : False  :  Got lease ack from 0)
+1711887575.975354updating sent length for 0,7 |||||||||||||||
+1711887575.975354sending heartbeat and renew request from 1 to 2
+1711887575.9763548 : sending log request to 2
+ [] 
+1711887575.9778593 : 41  : False  :  Got lease ack from 2)
+1711887575.9778593 : 1 3 : Leader lease renewed
+1711887575.9858756updating sent length for 2,7 |||||||||||||||
+1711887575.9868755sending heartbeat and renew request from 1 to 3
+1711887575.9878762 : sending log request to 3
+ [] 
+1711887575.988964 : 41  : False  :  Got lease ack from 3)
+1711887575.988964 : 1 4 : Leader lease renewed
+1711887575.9959934updating sent length for 3,7 |||||||||||||||
+1711887575.9959934sending heartbeat and renew request from 1 to 4
+1711887575.997142 : sending log request to 4
+ [] 
+1711887575.9996376 : 41  : False  :  Got lease ack from 4)
+1711887575.9996376 : 1 5 : Leader lease renewed
+1711887576.008657updating sent length for 4,7 |||||||||||||||
+1711887577.0095365 <====> 41 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887585.9996376   
+1711887577.0095365sending heartbeat and renew request from 1 to 0
+1711887577.0270593 : sending log request to 0
+ [] 
+1711887577.0295887 : 42  : False  :  Got lease ack from 0)
+1711887577.0295887updating sent length for 0,7 |||||||||||||||
+1711887577.0295887sending heartbeat and renew request from 1 to 2
+1711887577.0305972 : sending log request to 2
+ [] 
+1711887577.032594 : 42  : False  :  Got lease ack from 2)
+1711887577.032594 : 1 3 : Leader lease renewed
+1711887577.0404773updating sent length for 2,7 |||||||||||||||
+1711887577.0415483sending heartbeat and renew request from 1 to 3
+1711887577.0427382 : sending log request to 3
+ [] 
+1711887577.0445478 : 42  : False  :  Got lease ack from 3)
+1711887577.0445478 : 1 4 : Leader lease renewed
+1711887577.053195updating sent length for 3,7 |||||||||||||||
+1711887577.0541923sending heartbeat and renew request from 1 to 4
+1711887577.0551915 : sending log request to 4
+ [] 
+1711887577.0571916 : 42  : False  :  Got lease ack from 4)
+1711887577.0571916 : 1 5 : Leader lease renewed
+1711887577.0643096updating sent length for 4,7 |||||||||||||||
+1711887578.0656323 <====> 42 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887587.0571916   
+1711887578.0656323sending heartbeat and renew request from 1 to 0
+1711887578.0891626 : sending log request to 0
+ [] 
+1711887578.0921757 : 43  : False  :  Got lease ack from 0)
+1711887578.0921757updating sent length for 0,7 |||||||||||||||
+1711887578.0921757sending heartbeat and renew request from 1 to 2
+1711887578.0931735 : sending log request to 2
+ [] 
+1711887578.095173 : 43  : False  :  Got lease ack from 2)
+1711887578.0961752 : 1 3 : Leader lease renewed
+1711887578.1036947updating sent length for 2,7 |||||||||||||||
+1711887578.1036947sending heartbeat and renew request from 1 to 3
+1711887578.1036947 : sending log request to 3
+ [] 
+1711887578.1058457 : 43  : False  :  Got lease ack from 3)
+1711887578.1058457 : 1 4 : Leader lease renewed
+1711887578.1133683updating sent length for 3,7 |||||||||||||||
+1711887578.1133683sending heartbeat and renew request from 1 to 4
+1711887578.1143696 : sending log request to 4
+ [] 
+1711887578.1163676 : 43  : False  :  Got lease ack from 4)
+1711887578.1163676 : 1 5 : Leader lease renewed
+1711887578.1238866updating sent length for 4,7 |||||||||||||||
+1711887579.1248543 <====> 43 False 1  
+: leader : 7 , 7 , 1 
+ 0 , 1711887486.580982 , 1711887588.1163676   
+1711887579.1253593sending heartbeat and renew request from 1 to 0
+1711887579.1273723 : sending log request to 0
+ [] 
+1711887579.1298857 : 44  : False  :  Got lease ack from 0)
+1711887579.1298857updating sent length for 0,7 |||||||||||||||
+1711887579.130895sending heartbeat and renew request from 1 to 2
+1711887579.1489074 : sending log request to 2
+ [] 
+1711887579.1523495 : 44  : False  :  Got lease ack from 2)
+1711887579.1523495 : 1 3 : Leader lease renewed
+1711887579.1607118updating sent length for 2,7 |||||||||||||||
+1711887579.1607118sending heartbeat and renew request from 1 to 3
+1711887579.1617122 : sending log request to 3
+ [] 
+1711887579.1627119 : 44  : False  :  Got lease ack from 3)
+1711887579.1627119 : 1 4 : Leader lease renewed
+1711887579.170952updating sent length for 3,7 |||||||||||||||
+1711887579.170952sending heartbeat and renew request from 1 to 4
+1711887579.1719782 : sending log request to 4
+ [] 
+1711887579.1729877 : 44  : False  :  Got lease ack from 4)
+1711887579.1729877 : 1 5 : Leader lease renewed
+1711887579.1822283updating sent length for 4,7 |||||||||||||||
+1711887691.0792198Initilisation for node 1 done  4
+   ----------      RESTARTING NODE  ------------ 
+
+
+ RESTARTING NODE
+
+
+[<__main__.log_entry object at 0x00000207C756A090>, <__main__.log_entry object at 0x00000207C756A0C0>, <__main__.log_entry object at 0x00000207C756A0F0>, <__main__.log_entry object at 0x00000207C756A120>, <__main__.log_entry object at 0x00000207C756A150>, <__main__.log_entry object at 0x00000207C756A180>, <__main__.log_entry object at 0x00000207C756A1B0>]  
+7 
+1711887692.0811787 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887693.0825567 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887694.0832992 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887695.0841827 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887696.085481 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887697.086561 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887698.0874584 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887699.0883007 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887700.0894122 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887701.090104 <====> 44 False 1  
+: follower : 7 , 7 , 1 
+ 0 , 1711887700.7682557 , 0   
+1711887701.090104Node 1 election timer timed out, becoming cadidate 
+time()  :   Starting election 1711887701.0911117 , 1711887700.7682557
+1711887701.0986252 vote recieved from 0,3,False 1711887589.178748
+1711887701.09862521 Stepping down my term was less
+1711887701.1008766 vote recieved from 2,3,False 1711887710.1099524
+1711887701.102873 vote recieved from 3,3,False 1711887710.1119537
+1711887701.1048753 vote recieved from 4,3,False 1711887710.1139538
+1711887702.1059475 <====> 44 False 1  
+: follower : 7 , 7 , 3 
+ 0 , 1711887708.5628762 , 0   
+1711887702.2884865  : Recieved heartbeat from 0
+1711887702.28949121 : Leader 0 renewed lease 
+
+ Append entry ---> 0 : 9 
+['NO-OP 1', 'SET 0 0 1', 'SET 1 1 1', 'SET 2 2 1', 'SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1', 'NO-OP 3', 'SET 6 6 3']  
+1711887702.2894912 trying commiting (7, 8, 7, [])
+1711887702.2894912Node 1 (follower) Appended the entry NO-OP 1 to the state machine.
+1711887702.2894912Exception append 3 : list index out of range : 0 : 8 : 7
+e machine.
+1711887702.2894912Node 1 (follower) Appended the entry SET 1 1 1 to the state machine.
+1711887702.2894912Node 1 accepted AppendEntries RPC from 0.
+1711887702.2894912Node 1 (follower) Appended the entry SET 2 2 1 to the state machine.
+1711887702.2909296Node 1 (follower) Appended the entry SET 3 3 1 to the state machine.
+1711887702.2909296Node 1 (follower) Appended the entry SET 4 4 1 to the state machine.
+1711887702.2909296Node 1 (follower) Appended the entry SET 5 5 1 to the state machine.
+1711887702.2909296Node 1 (follower) Appended the entry NO-OP 3 to the state machine.
+1711887702.2909296Node 1 (follower) Appended the entry SET 6 6 3 to the state machine.
+1711887702.2909296 trying commiting (7, 9, 9, ['NO-OP 1', 'SET 0 0 1', 'SET 1 1 1', 'SET 2 2 1', 'SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1', 'NO-OP 3', 'SET 6 6 3'])
+1711887702.2909296Node 1 (follower) committed the entry ('NO-OP', None, None, 3) to the state machine.
+1711887702.2919388Node 1 (follower) committed the entry ('SET', '6', '6', 3) to the state machine.
+1711887702.2919388 : commited : 9
+1711887702.2919388Node 1 accepted AppendEntries RPC from 0.
+1711887702.298453  : Recieved heartbeat from 0
+1711887702.2984531 : Leader 0 renewed lease 
+1711887702.2994514Node 1 accepted AppendEntries RPC from 0.
+1711887702.308727  : Recieved heartbeat from 0
+1711887702.31019881 : Leader 0 renewed lease 
+1711887702.3101988Node 1 accepted AppendEntries RPC from 0.
+1711887702.3179338  : Recieved heartbeat from 0
+1711887702.31793381 : Leader 0 renewed lease 
+1711887702.3179338Node 1 accepted AppendEntries RPC from 0.
+1711887702.320933  : Recieved heartbeat from 0
+1711887702.32193331 : Leader 0 renewed lease 
+1711887702.3219333Node 1 accepted AppendEntries RPC from 0.
+1711887702.3284583  : Recieved heartbeat from 0
+1711887702.32945681 : Leader 0 renewed lease 
+1711887702.3294568Node 1 accepted AppendEntries RPC from 0.
+1711887703.1066475 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887712.3294568 , 1711887707.4722593 , 0   
+1711887703.3458505  : Recieved heartbeat from 0
+1711887703.3458505Node 1 accepted AppendEntries RPC from 0.
+1711887703.364751  : Recieved heartbeat from 0
+1711887703.3647511 : Leader 0 renewed lease 
+1711887703.364751Node 1 accepted AppendEntries RPC from 0.
+1711887703.3758645  : Recieved heartbeat from 0
+1711887703.37586451 : Leader 0 renewed lease 
+1711887703.3768764Node 1 accepted AppendEntries RPC from 0.
+1711887703.3873997  : Recieved heartbeat from 0
+1711887703.38739971 : Leader 0 renewed lease 
+1711887703.3884041Node 1 accepted AppendEntries RPC from 0.
+1711887704.1073432 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887713.3873997 , 1711887712.9785457 , 0   
+1711887704.400127  : Recieved heartbeat from 0
+1711887704.4011264Node 1 accepted AppendEntries RPC from 0.
+1711887704.4246259  : Recieved heartbeat from 0
+1711887704.42462591 : Leader 0 renewed lease 
+1711887704.4246259Node 1 accepted AppendEntries RPC from 0.
+1711887704.4541898  : Recieved heartbeat from 0
+1711887704.45418981 : Leader 0 renewed lease 
+1711887704.4541898Node 1 accepted AppendEntries RPC from 0.
+1711887704.4662132  : Recieved heartbeat from 0
+1711887704.46621321 : Leader 0 renewed lease 
+1711887704.467222Node 1 accepted AppendEntries RPC from 0.
+1711887705.1080904 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887714.4662132 , 1711887709.5845733 , 0   
+1711887705.4961193  : Recieved heartbeat from 0
+1711887705.4961193Node 1 accepted AppendEntries RPC from 0.
+1711887705.5167344  : Recieved heartbeat from 0
+1711887705.51773481 : Leader 0 renewed lease 
+1711887705.518241Node 1 accepted AppendEntries RPC from 0.
+1711887705.5320146  : Recieved heartbeat from 0
+1711887705.53201461 : Leader 0 renewed lease 
+1711887705.5320146Node 1 accepted AppendEntries RPC from 0.
+1711887705.5460148  : Recieved heartbeat from 0
+1711887705.54601481 : Leader 0 renewed lease 
+1711887705.5460148Node 1 accepted AppendEntries RPC from 0.
+1711887706.108877 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887715.5460148 , 1711887713.2615669 , 0   
+1711887706.5746324  : Recieved heartbeat from 0
+1711887706.5746324Node 1 accepted AppendEntries RPC from 0.
+1711887706.58115  : Recieved heartbeat from 0
+1711887706.581151 : Leader 0 renewed lease 
+1711887706.582147Node 1 accepted AppendEntries RPC from 0.
+1711887706.6079514  : Recieved heartbeat from 0
+1711887706.60795141 : Leader 0 renewed lease 
+1711887706.6089497Node 1 accepted AppendEntries RPC from 0.
+1711887706.6395059  : Recieved heartbeat from 0
+1711887706.63950591 : Leader 0 renewed lease 
+1711887706.6395059Node 1 accepted AppendEntries RPC from 0.
+1711887707.1095579 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887716.6395059 , 1711887713.279532 , 0   
+1711887707.6528141  : Recieved heartbeat from 0
+1711887707.6528141Node 1 accepted AppendEntries RPC from 0.
+1711887707.6588676  : Recieved heartbeat from 0
+1711887707.65986731 : Leader 0 renewed lease 
+1711887707.6598673Node 1 accepted AppendEntries RPC from 0.
+1711887707.6816764  : Recieved heartbeat from 0
+1711887707.68167641 : Leader 0 renewed lease 
+1711887707.682677Node 1 accepted AppendEntries RPC from 0.
+1711887707.6941986  : Recieved heartbeat from 0
+1711887707.69419861 : Leader 0 renewed lease 
+1711887707.6952245Node 1 accepted AppendEntries RPC from 0.
+1711887708.1106257 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887717.6941986 , 1711887713.5335467 , 0   
+1711887708.7247736  : Recieved heartbeat from 0
+1711887708.7247736Node 1 accepted AppendEntries RPC from 0.
+1711887708.7418218  : Recieved heartbeat from 0
+1711887708.74182181 : Leader 0 renewed lease 
+1711887708.7428205Node 1 accepted AppendEntries RPC from 0.
+1711887708.7543485  : Recieved heartbeat from 0
+1711887708.75585631 : Leader 0 renewed lease 
+1711887708.7558563Node 1 accepted AppendEntries RPC from 0.
+1711887708.7889493  : Recieved heartbeat from 0
+1711887708.78894931 : Leader 0 renewed lease 
+1711887708.7899492Node 1 accepted AppendEntries RPC from 0.
+1711887709.1113884 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887718.7889493 , 1711887717.5877042 , 0   
+1711887709.8025281  : Recieved heartbeat from 0
+1711887709.8035305Node 1 accepted AppendEntries RPC from 0.
+1711887709.8101044  : Recieved heartbeat from 0
+1711887709.81010441 : Leader 0 renewed lease 
+1711887709.8111036Node 1 accepted AppendEntries RPC from 0.
+1711887709.8222172  : Recieved heartbeat from 0
+1711887709.82221721 : Leader 0 renewed lease 
+1711887709.8222172Node 1 accepted AppendEntries RPC from 0.
+1711887709.8337438  : Recieved heartbeat from 0
+1711887709.83374381 : Leader 0 renewed lease 
+1711887709.8337438Node 1 accepted AppendEntries RPC from 0.
+1711887710.1123567 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887719.8337438 , 1711887715.238314 , 0   
+1711887710.8476233  : Recieved heartbeat from 0
+1711887710.8476233Node 1 accepted AppendEntries RPC from 0.
+1711887710.854625  : Recieved heartbeat from 0
+1711887710.8546251 : Leader 0 renewed lease 
+1711887710.854625Node 1 accepted AppendEntries RPC from 0.
+1711887710.871209  : Recieved heartbeat from 0
+1711887710.8712091 : Leader 0 renewed lease 
+1711887710.871209Node 1 accepted AppendEntries RPC from 0.
+1711887710.8836157  : Recieved heartbeat from 0
+1711887710.88361571 : Leader 0 renewed lease 
+1711887710.8846152Node 1 accepted AppendEntries RPC from 0.
+1711887711.1131494 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887720.8836157 , 1711887719.8953087 , 0   
+1711887711.9085226  : Recieved heartbeat from 0
+1711887711.9099472Node 1 accepted AppendEntries RPC from 0.
+1711887711.91397  : Recieved heartbeat from 0
+1711887711.91541891 : Leader 0 renewed lease 
+1711887711.9154189Node 1 accepted AppendEntries RPC from 0.
+1711887711.942483  : Recieved heartbeat from 0
+1711887711.9424831 : Leader 0 renewed lease 
+1711887711.942483Node 1 accepted AppendEntries RPC from 0.
+1711887711.9549153  : Recieved heartbeat from 0
+1711887711.95491531 : Leader 0 renewed lease 
+1711887711.9549153Node 1 accepted AppendEntries RPC from 0.
+1711887712.114778 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887721.9549153 , 1711887719.7449694 , 0   
+1711887712.983775  : Recieved heartbeat from 0
+1711887712.9847724Node 1 accepted AppendEntries RPC from 0.
+1711887713.0018134  : Recieved heartbeat from 0
+1711887713.00281481 : Leader 0 renewed lease 
+1711887713.0028148Node 1 accepted AppendEntries RPC from 0.
+1711887713.034108  : Recieved heartbeat from 0
+1711887713.0341081 : Leader 0 renewed lease 
+1711887713.034108Node 1 accepted AppendEntries RPC from 0.
+1711887713.0447876  : Recieved heartbeat from 0
+1711887713.0462941 : Leader 0 renewed lease 
+1711887713.046294Node 1 accepted AppendEntries RPC from 0.
+1711887713.1154914 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887723.046294 , 1711887720.6330297 , 0   
+1711887714.0728452  : Recieved heartbeat from 0
+1711887714.0738423Node 1 accepted AppendEntries RPC from 0.
+1711887714.0795405  : Recieved heartbeat from 0
+1711887714.0807521 : Leader 0 renewed lease 
+1711887714.080752Node 1 accepted AppendEntries RPC from 0.
+1711887714.1051679  : Recieved heartbeat from 0
+1711887714.10516791 : Leader 0 renewed lease 
+1711887714.1066723Node 1 accepted AppendEntries RPC from 0.
+1711887714.116284 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887724.1051679 , 1711887719.940702 , 0   
+1711887714.1182697  : Recieved heartbeat from 0
+1711887714.11884551 : Leader 0 renewed lease 
+1711887714.1188455Node 1 accepted AppendEntries RPC from 0.
+1711887715.1171997 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887724.1188455 , 1711887722.9060526 , 0   
+1711887715.14628  : Recieved heartbeat from 0
+1711887715.1493413Node 1 accepted AppendEntries RPC from 0.
+1711887715.1553404  : Recieved heartbeat from 0
+1711887715.15534041 : Leader 0 renewed lease 
+1711887715.1553404Node 1 accepted AppendEntries RPC from 0.
+1711887715.1668942  : Recieved heartbeat from 0
+1711887715.16790321 : Leader 0 renewed lease 
+1711887715.1679032Node 1 accepted AppendEntries RPC from 0.
+1711887715.178584  : Recieved heartbeat from 0
+1711887715.17975451 : Leader 0 renewed lease 
+1711887715.1797545Node 1 accepted AppendEntries RPC from 0.
+1711887716.1178102 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887725.1797545 , 1711887722.99744 , 0   
+1711887716.2090638  : Recieved heartbeat from 0
+1711887716.2100632Node 1 accepted AppendEntries RPC from 0.
+1711887716.2165697  : Recieved heartbeat from 0
+1711887716.21656971 : Leader 0 renewed lease 
+1711887716.2165697Node 1 accepted AppendEntries RPC from 0.
+1711887716.252711  : Recieved heartbeat from 0
+1711887716.25374821 : Leader 0 renewed lease 
+1711887716.2537482Node 1 accepted AppendEntries RPC from 0.
+1711887716.264992  : Recieved heartbeat from 0
+1711887716.2649921 : Leader 0 renewed lease 
+1711887716.264992Node 1 accepted AppendEntries RPC from 0.
+1711887717.1185303 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887726.264992 , 1711887724.138414 , 0   
+1711887717.2965043  : Recieved heartbeat from 0
+1711887717.2965043Node 1 accepted AppendEntries RPC from 0.
+1711887717.3144066  : Recieved heartbeat from 0
+1711887717.31440661 : Leader 0 renewed lease 
+1711887717.3144066Node 1 accepted AppendEntries RPC from 0.
+1711887717.326919  : Recieved heartbeat from 0
+1711887717.3269191 : Leader 0 renewed lease 
+1711887717.328001Node 1 accepted AppendEntries RPC from 0.
+1711887717.3615441  : Recieved heartbeat from 0
+1711887717.36254361 : Leader 0 renewed lease 
+1711887717.3625436Node 1 accepted AppendEntries RPC from 0.
+1711887718.1193037 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887727.3625436 , 1711887724.711786 , 0   
+1711887718.3733988  : Recieved heartbeat from 0
+1711887718.3745258Node 1 accepted AppendEntries RPC from 0.
+1711887718.4031188  : Recieved heartbeat from 0
+1711887718.40311881 : Leader 0 renewed lease 
+1711887718.4031188Node 1 accepted AppendEntries RPC from 0.
+1711887718.415634  : Recieved heartbeat from 0
+1711887718.4156341 : Leader 0 renewed lease 
+1711887718.415634Node 1 accepted AppendEntries RPC from 0.
+1711887718.42666  : Recieved heartbeat from 0
+1711887718.426661 : Leader 0 renewed lease 
+1711887718.4276702Node 1 accepted AppendEntries RPC from 0.
+1711887719.1202626 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887728.42666 , 1711887725.490045 , 0   
+1711887719.4388914  : Recieved heartbeat from 0
+1711887719.4388914Node 1 accepted AppendEntries RPC from 0.
+1711887719.4448912  : Recieved heartbeat from 0
+1711887719.44489121 : Leader 0 renewed lease 
+1711887719.4458907Node 1 accepted AppendEntries RPC from 0.
+1711887719.47764  : Recieved heartbeat from 0
+1711887719.47863911 : Leader 0 renewed lease 
+1711887719.4786391Node 1 accepted AppendEntries RPC from 0.
+1711887719.4891062  : Recieved heartbeat from 0
+1711887719.49041151 : Leader 0 renewed lease 
+1711887719.4904115Node 1 accepted AppendEntries RPC from 0.
+1711887720.1211746 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887729.4904115 , 1711887728.4751122 , 0   
+1711887720.5028787  : Recieved heartbeat from 0
+1711887720.5028787Node 1 accepted AppendEntries RPC from 0.
+1711887720.5218287  : Recieved heartbeat from 0
+1711887720.52182871 : Leader 0 renewed lease 
+1711887720.5218287Node 1 accepted AppendEntries RPC from 0.
+1711887720.5343862  : Recieved heartbeat from 0
+1711887720.53438621 : Leader 0 renewed lease 
+1711887720.5353832Node 1 accepted AppendEntries RPC from 0.
+1711887720.5469  : Recieved heartbeat from 0
+1711887720.54691 : Leader 0 renewed lease 
+1711887720.5469Node 1 accepted AppendEntries RPC from 0.
+1711887721.1218581 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887730.5469 , 1711887728.2702801 , 0   
+1711887721.5644178  : Recieved heartbeat from 0
+1711887721.5644178Node 1 accepted AppendEntries RPC from 0.
+1711887721.5704343  : Recieved heartbeat from 0
+1711887721.57043431 : Leader 0 renewed lease 
+1711887721.5704343Node 1 accepted AppendEntries RPC from 0.
+1711887721.5818956  : Recieved heartbeat from 0
+1711887721.58189561 : Leader 0 renewed lease 
+1711887721.5831764Node 1 accepted AppendEntries RPC from 0.
+1711887721.5947049  : Recieved heartbeat from 0
+1711887721.59470491 : Leader 0 renewed lease 
+1711887721.5947049Node 1 accepted AppendEntries RPC from 0.
+1711887722.1226053 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887731.5947049 , 1711887730.1367888 , 0   
+1711887722.6058514  : Recieved heartbeat from 0
+1711887722.606851Node 1 accepted AppendEntries RPC from 0.
+1711887722.6123846  : Recieved heartbeat from 0
+1711887722.61238461 : Leader 0 renewed lease 
+1711887722.6123846Node 1 accepted AppendEntries RPC from 0.
+1711887722.6248848  : Recieved heartbeat from 0
+1711887722.62488481 : Leader 0 renewed lease 
+1711887722.6248848Node 1 accepted AppendEntries RPC from 0.
+1711887722.6370742  : Recieved heartbeat from 0
+1711887722.63707421 : Leader 0 renewed lease 
+1711887722.6370742Node 1 accepted AppendEntries RPC from 0.
+1711887723.1235232 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887732.6370742 , 1711887728.5586221 , 0   
+1711887723.650961  : Recieved heartbeat from 0
+1711887723.6519597Node 1 accepted AppendEntries RPC from 0.
+1711887723.6582  : Recieved heartbeat from 0
+1711887723.65821 : Leader 0 renewed lease 
+1711887723.6582Node 1 accepted AppendEntries RPC from 0.
+1711887723.6700826  : Recieved heartbeat from 0
+1711887723.67008261 : Leader 0 renewed lease 
+1711887723.6710925Node 1 accepted AppendEntries RPC from 0.
+1711887723.682143  : Recieved heartbeat from 0
+1711887723.6821431 : Leader 0 renewed lease 
+1711887723.6831417Node 1 accepted AppendEntries RPC from 0.
+1711887724.1243641 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887733.682143 , 1711887729.55073 , 0   
+1711887724.6963222  : Recieved heartbeat from 0
+1711887724.6973107Node 1 accepted AppendEntries RPC from 0.
+1711887724.7015603  : Recieved heartbeat from 0
+1711887724.70305871 : Leader 0 renewed lease 
+1711887724.7030587Node 1 accepted AppendEntries RPC from 0.
+1711887724.7137372  : Recieved heartbeat from 0
+1711887724.71515351 : Leader 0 renewed lease 
+1711887724.7151535Node 1 accepted AppendEntries RPC from 0.
+1711887724.7257247  : Recieved heartbeat from 0
+1711887724.72723271 : Leader 0 renewed lease 
+1711887724.7272327Node 1 accepted AppendEntries RPC from 0.
+1711887725.125391 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887734.7272327 , 1711887730.0133927 , 0   
+1711887725.7581775  : Recieved heartbeat from 0
+1711887725.7591739Node 1 accepted AppendEntries RPC from 0.
+1711887725.7918236  : Recieved heartbeat from 0
+1711887725.79182361 : Leader 0 renewed lease 
+1711887725.7918236Node 1 accepted AppendEntries RPC from 0.
+1711887725.8230355  : Recieved heartbeat from 0
+1711887725.82303551 : Leader 0 renewed lease 
+1711887725.824035Node 1 accepted AppendEntries RPC from 0.
+1711887725.8357844  : Recieved heartbeat from 0
+1711887725.83578441 : Leader 0 renewed lease 
+1711887725.8357844Node 1 accepted AppendEntries RPC from 0.
+1711887726.1261995 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887735.8357844 , 1711887732.0593545 , 0   
+1711887726.8488133  : Recieved heartbeat from 0
+1711887726.8488133Node 1 accepted AppendEntries RPC from 0.
+1711887726.8673334  : Recieved heartbeat from 0
+1711887726.86733341 : Leader 0 renewed lease 
+1711887726.8673334Node 1 accepted AppendEntries RPC from 0.
+1711887726.879214  : Recieved heartbeat from 0
+1711887726.8792141 : Leader 0 renewed lease 
+1711887726.8806558Node 1 accepted AppendEntries RPC from 0.
+1711887726.895192  : Recieved heartbeat from 0
+1711887726.8951921 : Leader 0 renewed lease 
+1711887726.895192Node 1 accepted AppendEntries RPC from 0.
+1711887727.1268682 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887736.895192 , 1711887734.246876 , 0   
+1711887727.9074154  : Recieved heartbeat from 0
+1711887727.9074154Node 1 accepted AppendEntries RPC from 0.
+1711887727.9132814  : Recieved heartbeat from 0
+1711887727.91328141 : Leader 0 renewed lease 
+1711887727.9132814Node 1 accepted AppendEntries RPC from 0.
+1711887727.9256155  : Recieved heartbeat from 0
+1711887727.92561551 : Leader 0 renewed lease 
+1711887727.9265172Node 1 accepted AppendEntries RPC from 0.
+1711887727.937506  : Recieved heartbeat from 0
+1711887727.9375061 : Leader 0 renewed lease 
+1711887727.937506Node 1 accepted AppendEntries RPC from 0.
+1711887728.127451 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887737.937506 , 1711887737.639776 , 0   
+1711887728.970304  : Recieved heartbeat from 0
+1711887728.970304Node 1 accepted AppendEntries RPC from 0.
+1711887728.9763045  : Recieved heartbeat from 0
+1711887728.97630451 : Leader 0 renewed lease 
+1711887728.9763045Node 1 accepted AppendEntries RPC from 0.
+1711887728.988512  : Recieved heartbeat from 0
+1711887728.9885121 : Leader 0 renewed lease 
+1711887728.9895113Node 1 accepted AppendEntries RPC from 0.
+1711887729.0010762  : Recieved heartbeat from 0
+1711887729.00207141 : Leader 0 renewed lease 
+1711887729.0020714Node 1 accepted AppendEntries RPC from 0.
+1711887729.128057 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887739.0020714 , 1711887734.0365312 , 0   
+1711887730.0148113  : Recieved heartbeat from 0
+1711887730.0148113Node 1 accepted AppendEntries RPC from 0.
+1711887730.0195906  : Recieved heartbeat from 0
+1711887730.01959061 : Leader 0 renewed lease 
+1711887730.0205905Node 1 accepted AppendEntries RPC from 0.
+1711887730.04865  : Recieved heartbeat from 0
+1711887730.048651 : Leader 0 renewed lease 
+1711887730.04865Node 1 accepted AppendEntries RPC from 0.
+1711887730.0601997  : Recieved heartbeat from 0
+1711887730.06019971 : Leader 0 renewed lease 
+1711887730.061184Node 1 accepted AppendEntries RPC from 0.
+1711887730.1290565 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887740.0601997 , 1711887735.6719596 , 0   
+1711887731.0838106  : Recieved heartbeat from 0
+1711887731.0848093Node 1 accepted AppendEntries RPC from 0.
+1711887731.090334  : Recieved heartbeat from 0
+1711887731.0903341 : Leader 0 renewed lease 
+1711887731.090334Node 1 accepted AppendEntries RPC from 0.
+1711887731.103346  : Recieved heartbeat from 0
+1711887731.1043551 : Leader 0 renewed lease 
+1711887731.104355Node 1 accepted AppendEntries RPC from 0.
+1711887731.1158364  : Recieved heartbeat from 0
+1711887731.11583641 : Leader 0 renewed lease 
+1711887731.1158364Node 1 accepted AppendEntries RPC from 0.
+1711887731.1299582 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887741.1158364 , 1711887738.3466413 , 0   
+1711887732.1306794 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887741.1158364 , 1711887738.3466413 , 0   
+1711887732.1478255  : Recieved heartbeat from 0
+1711887732.1488347Node 1 accepted AppendEntries RPC from 0.
+1711887732.154844  : Recieved heartbeat from 0
+1711887732.1548441 : Leader 0 renewed lease 
+1711887732.154844Node 1 accepted AppendEntries RPC from 0.
+1711887732.1663635  : Recieved heartbeat from 0
+1711887732.16735961 : Leader 0 renewed lease 
+1711887732.1673596Node 1 accepted AppendEntries RPC from 0.
+1711887732.1783879  : Recieved heartbeat from 0
+1711887732.17838791 : Leader 0 renewed lease 
+1711887732.1783879Node 1 accepted AppendEntries RPC from 0.
+1711887733.1314929 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887742.1783879 , 1711887741.1848378 , 0   
+1711887733.1906037  : Recieved heartbeat from 0
+1711887733.1906037Node 1 accepted AppendEntries RPC from 0.
+1711887733.2208636  : Recieved heartbeat from 0
+1711887733.22186231 : Leader 0 renewed lease 
+1711887733.2218623Node 1 accepted AppendEntries RPC from 0.
+1711887733.2333813  : Recieved heartbeat from 0
+1711887733.23338131 : Leader 0 renewed lease 
+1711887733.2333813Node 1 accepted AppendEntries RPC from 0.
+1711887733.2441485  : Recieved heartbeat from 0
+1711887733.24414851 : Leader 0 renewed lease 
+1711887733.2441485Node 1 accepted AppendEntries RPC from 0.
+1711887734.132401 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887743.2441485 , 1711887738.5551715 , 0   
+1711887734.2676325  : Recieved heartbeat from 0
+1711887734.268639Node 1 accepted AppendEntries RPC from 0.
+1711887734.2866762  : Recieved heartbeat from 0
+1711887734.28767541 : Leader 0 renewed lease 
+1711887734.2876754Node 1 accepted AppendEntries RPC from 0.
+1711887734.3188374  : Recieved heartbeat from 0
+1711887734.31983851 : Leader 0 renewed lease 
+1711887734.3198385Node 1 accepted AppendEntries RPC from 0.
+1711887734.3316853  : Recieved heartbeat from 0
+1711887734.33168531 : Leader 0 renewed lease 
+1711887734.3331769Node 1 accepted AppendEntries RPC from 0.
+1711887735.1331432 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887744.3316853 , 1711887741.5319712 , 0   
+1711887735.359856  : Recieved heartbeat from 0
+1711887735.359856Node 1 accepted AppendEntries RPC from 0.
+1711887735.3774915  : Recieved heartbeat from 0
+1711887735.37856581 : Leader 0 renewed lease 
+1711887735.3785658Node 1 accepted AppendEntries RPC from 0.
+1711887735.4096532  : Recieved heartbeat from 0
+1711887735.40965321 : Leader 0 renewed lease 
+1711887735.410812Node 1 accepted AppendEntries RPC from 0.
+1711887735.4219868  : Recieved heartbeat from 0
+1711887735.42198681 : Leader 0 renewed lease 
+1711887735.4219868Node 1 accepted AppendEntries RPC from 0.
+1711887736.1341426 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887745.4219868 , 1711887741.1678548 , 0   
+1711887736.432996  : Recieved heartbeat from 0
+1711887736.432996Node 1 accepted AppendEntries RPC from 0.
+1711887736.4389489  : Recieved heartbeat from 0
+1711887736.43996761 : Leader 0 renewed lease 
+1711887736.4399676Node 1 accepted AppendEntries RPC from 0.
+1711887736.4686792  : Recieved heartbeat from 0
+1711887736.46867921 : Leader 0 renewed lease 
+1711887736.4686792Node 1 accepted AppendEntries RPC from 0.
+1711887736.4809678  : Recieved heartbeat from 0
+1711887736.48096781 : Leader 0 renewed lease 
+1711887736.481965Node 1 accepted AppendEntries RPC from 0.
+1711887737.1347637 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887746.4809678 , 1711887744.6825817 , 0   
+1711887737.4920516  : Recieved heartbeat from 0
+1711887737.493052Node 1 accepted AppendEntries RPC from 0.
+1711887737.5140839  : Recieved heartbeat from 0
+1711887737.51408391 : Leader 0 renewed lease 
+1711887737.5140839Node 1 accepted AppendEntries RPC from 0.
+1711887737.5251071  : Recieved heartbeat from 0
+1711887737.52622181 : Leader 0 renewed lease 
+1711887737.5262218Node 1 accepted AppendEntries RPC from 0.
+1711887737.5369682  : Recieved heartbeat from 0
+1711887737.53796891 : Leader 0 renewed lease 
+1711887737.5379689Node 1 accepted AppendEntries RPC from 0.
+1711887738.135653 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887747.5379689 , 1711887745.4947033 , 0   
+1711887738.5488038  : Recieved heartbeat from 0
+1711887738.5498033Node 1 accepted AppendEntries RPC from 0.
+1711887738.5548062  : Recieved heartbeat from 0
+1711887738.55480621 : Leader 0 renewed lease 
+1711887738.5548062Node 1 accepted AppendEntries RPC from 0.
+1711887738.5668347  : Recieved heartbeat from 0
+1711887738.56683471 : Leader 0 renewed lease 
+1711887738.5668347Node 1 accepted AppendEntries RPC from 0.
+1711887738.5778606  : Recieved heartbeat from 0
+1711887738.57908181 : Leader 0 renewed lease 
+1711887738.5790818Node 1 accepted AppendEntries RPC from 0.
+1711887739.136232 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887748.5790818 , 1711887746.1694746 , 0   
+1711887739.616064  : Recieved heartbeat from 0
+1711887739.616064Node 1 accepted AppendEntries RPC from 0.
+1711887739.6215754  : Recieved heartbeat from 0
+1711887739.62157541 : Leader 0 renewed lease 
+1711887739.6225753Node 1 accepted AppendEntries RPC from 0.
+1711887739.6332421  : Recieved heartbeat from 0
+1711887739.63324211 : Leader 0 renewed lease 
+1711887739.6343036Node 1 accepted AppendEntries RPC from 0.
+1711887739.6458366  : Recieved heartbeat from 0
+1711887739.64583661 : Leader 0 renewed lease 
+1711887739.6458366Node 1 accepted AppendEntries RPC from 0.
+1711887740.1371891 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887749.6458366 , 1711887748.2089386 , 0   
+1711887740.6579816  : Recieved heartbeat from 0
+1711887740.6579816Node 1 accepted AppendEntries RPC from 0.
+1711887740.664144  : Recieved heartbeat from 0
+1711887740.6641441 : Leader 0 renewed lease 
+1711887740.664144Node 1 accepted AppendEntries RPC from 0.
+1711887740.6760445  : Recieved heartbeat from 0
+1711887740.67604451 : Leader 0 renewed lease 
+1711887740.6760445Node 1 accepted AppendEntries RPC from 0.
+1711887740.6880772  : Recieved heartbeat from 0
+1711887740.68807721 : Leader 0 renewed lease 
+1711887740.6880772Node 1 accepted AppendEntries RPC from 0.
+1711887741.1391964 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887750.6880772 , 1711887746.7487311 , 0   
+1711887741.6995485  : Recieved heartbeat from 0
+1711887741.6995485Node 1 accepted AppendEntries RPC from 0.
+1711887741.7056155  : Recieved heartbeat from 0
+1711887741.70561551 : Leader 0 renewed lease 
+1711887741.7056155Node 1 accepted AppendEntries RPC from 0.
+1711887741.7256577  : Recieved heartbeat from 0
+1711887741.72665791 : Leader 0 renewed lease 
+1711887741.7266579Node 1 accepted AppendEntries RPC from 0.
+1711887741.7506876  : Recieved heartbeat from 0
+1711887741.75168591 : Leader 0 renewed lease 
+1711887741.7516859Node 1 accepted AppendEntries RPC from 0.
+1711887742.1402385 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887751.7516859 , 1711887751.5379195 , 0   
+1711887742.7647753  : Recieved heartbeat from 0
+1711887742.7647753Node 1 accepted AppendEntries RPC from 0.
+1711887742.7713013  : Recieved heartbeat from 0
+1711887742.77230071 : Leader 0 renewed lease 
+1711887742.7723007Node 1 accepted AppendEntries RPC from 0.
+1711887742.7867224  : Recieved heartbeat from 0
+1711887742.78672241 : Leader 0 renewed lease 
+1711887742.7867224Node 1 accepted AppendEntries RPC from 0.
+1711887742.799601  : Recieved heartbeat from 0
+1711887742.80073761 : Leader 0 renewed lease 
+1711887742.8007376Node 1 accepted AppendEntries RPC from 0.
+1711887743.1411545 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887752.8007376 , 1711887752.798643 , 0   
+1711887743.811937  : Recieved heartbeat from 0
+1711887743.8131745Node 1 accepted AppendEntries RPC from 0.
+1711887743.8237123  : Recieved heartbeat from 0
+1711887743.82471321 : Leader 0 renewed lease 
+1711887743.8247132Node 1 accepted AppendEntries RPC from 0.
+1711887743.8448  : Recieved heartbeat from 0
+1711887743.84595061 : Leader 0 renewed lease 
+1711887743.8464575Node 1 accepted AppendEntries RPC from 0.
+1711887743.8618805  : Recieved heartbeat from 0
+1711887743.86188051 : Leader 0 renewed lease 
+1711887743.863156Node 1 accepted AppendEntries RPC from 0.
+1711887744.1418478 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887753.8618805 , 1711887753.6260626 , 0   
+1711887744.8768206  : Recieved heartbeat from 0
+1711887744.8768206Node 1 accepted AppendEntries RPC from 0.
+1711887744.886111  : Recieved heartbeat from 0
+1711887744.88713811 : Leader 0 renewed lease 
+1711887744.8871381Node 1 accepted AppendEntries RPC from 0.
+1711887744.905191  : Recieved heartbeat from 0
+1711887744.90619421 : Leader 0 renewed lease 
+1711887744.9061942Node 1 accepted AppendEntries RPC from 0.
+1711887744.919413  : Recieved heartbeat from 0
+1711887744.92070461 : Leader 0 renewed lease 
+1711887744.9207046Node 1 accepted AppendEntries RPC from 0.
+1711887745.1427605 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887754.9207046 , 1711887754.692753 , 0   
+1711887745.9359448  : Recieved heartbeat from 0
+1711887745.9359448Node 1 accepted AppendEntries RPC from 0.
+1711887745.9424815  : Recieved heartbeat from 0
+1711887745.94248151 : Leader 0 renewed lease 
+1711887745.9424815Node 1 accepted AppendEntries RPC from 0.
+1711887745.9560738  : Recieved heartbeat from 0
+1711887745.95607381 : Leader 0 renewed lease 
+1711887745.957106Node 1 accepted AppendEntries RPC from 0.
+1711887745.970574  : Recieved heartbeat from 0
+1711887745.9705741 : Leader 0 renewed lease 
+1711887745.970574Node 1 accepted AppendEntries RPC from 0.
+1711887746.143524 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887755.970574 , 1711887754.9090328 , 0   
+1711887746.982944  : Recieved heartbeat from 0
+1711887746.9843042Node 1 accepted AppendEntries RPC from 0.
+1711887747.0026493  : Recieved heartbeat from 0
+1711887747.00264931 : Leader 0 renewed lease 
+1711887747.0036519Node 1 accepted AppendEntries RPC from 0.
+1711887747.016558  : Recieved heartbeat from 0
+1711887747.0165581 : Leader 0 renewed lease 
+1711887747.016558Node 1 accepted AppendEntries RPC from 0.
+1711887747.0296047  : Recieved heartbeat from 0
+1711887747.02960471 : Leader 0 renewed lease 
+1711887747.0309067Node 1 accepted AppendEntries RPC from 0.
+1711887747.1444502 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887757.0296047 , 1711887756.0578706 , 0   
+1711887748.0435183  : Recieved heartbeat from 0
+1711887748.0454752Node 1 accepted AppendEntries RPC from 0.
+1711887748.0636656  : Recieved heartbeat from 0
+1711887748.06366561 : Leader 0 renewed lease 
+1711887748.0646625Node 1 accepted AppendEntries RPC from 0.
+1711887748.0946894  : Recieved heartbeat from 0
+1711887748.09569031 : Leader 0 renewed lease 
+1711887748.0956903Node 1 accepted AppendEntries RPC from 0.
+1711887748.1075642  : Recieved heartbeat from 0
+1711887748.10756421 : Leader 0 renewed lease 
+1711887748.1085792Node 1 accepted AppendEntries RPC from 0.
+1711887748.145146 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887758.1075642 , 1711887753.4460683 , 0   
+1711887749.13851  : Recieved heartbeat from 0
+1711887749.13851Node 1 accepted AppendEntries RPC from 0.
+1711887749.1447806  : Recieved heartbeat from 0
+1711887749.14478061 : Leader 0 renewed lease 
+1711887749.1447806Node 1 accepted AppendEntries RPC from 0.
+1711887749.1462858 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887759.1447806 , 1711887757.5584967 , 0   
+1711887749.172436  : Recieved heartbeat from 0
+1711887749.1724361 : Leader 0 renewed lease 
+1711887749.172436Node 1 accepted AppendEntries RPC from 0.
+1711887749.185249  : Recieved heartbeat from 0
+1711887749.18624781 : Leader 0 renewed lease 
+1711887749.1862478Node 1 accepted AppendEntries RPC from 0.
+1711887750.1467793 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887759.1862478 , 1711887758.30235 , 0   
+1711887750.21348  : Recieved heartbeat from 0
+1711887750.21348Node 1 accepted AppendEntries RPC from 0.
+1711887750.2196388  : Recieved heartbeat from 0
+1711887750.21963881 : Leader 0 renewed lease 
+1711887750.2196388Node 1 accepted AppendEntries RPC from 0.
+1711887750.246674  : Recieved heartbeat from 0
+1711887750.2466741 : Leader 0 renewed lease 
+1711887750.2476716Node 1 accepted AppendEntries RPC from 0.
+1711887750.2598405  : Recieved heartbeat from 0
+1711887750.25984051 : Leader 0 renewed lease 
+1711887750.2608497Node 1 accepted AppendEntries RPC from 0.
+1711887751.1476033 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887760.2598405 , 1711887758.9377985 , 0   
+1711887751.285904  : Recieved heartbeat from 0
+1711887751.2869134Node 1 accepted AppendEntries RPC from 0.
+1711887751.304468  : Recieved heartbeat from 0
+1711887751.3044681 : Leader 0 renewed lease 
+1711887751.3054645Node 1 accepted AppendEntries RPC from 0.
+1711887751.3152747  : Recieved heartbeat from 0
+1711887751.31677411 : Leader 0 renewed lease 
+1711887751.3167741Node 1 accepted AppendEntries RPC from 0.
+1711887751.3301816  : Recieved heartbeat from 0
+1711887751.33018161 : Leader 0 renewed lease 
+1711887751.3301816Node 1 accepted AppendEntries RPC from 0.
+1711887752.148619 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887761.3301816 , 1711887760.8777807 , 0   
+1711887752.3410094  : Recieved heartbeat from 0
+1711887752.3410094Node 1 accepted AppendEntries RPC from 0.
+1711887752.364034  : Recieved heartbeat from 0
+1711887752.3650381 : Leader 0 renewed lease 
+1711887752.365038Node 1 accepted AppendEntries RPC from 0.
+1711887752.3960855  : Recieved heartbeat from 0
+1711887752.39608551 : Leader 0 renewed lease 
+1711887752.3960855Node 1 accepted AppendEntries RPC from 0.
+1711887752.409872  : Recieved heartbeat from 0
+1711887752.4098721 : Leader 0 renewed lease 
+1711887752.409872Node 1 accepted AppendEntries RPC from 0.
+1711887753.1493003 <====> 44 False 1  
+: follower : 9 , 9 , 3 
+ 1711887762.409872 , 1711887761.349987 , 0   
+1711887753.436344  : Recieved heartbeat from 0
+1711887753.4373465Node 1 accepted AppendEntries RPC from 0.
+1711887753.454389  : Recieved heartbeat from 0
+1711887753.4543891 : Leader 0 renewed lease 
+1711887753.454389Node 1 accepted AppendEntries RPC from 0.
+1711887753.4669044  : Recieved heartbeat from 0
+1711887753.46690441 : Leader 0 renewed lease 
+1711887753.4669044Node 1 accepted AppendEntries RPC from 0.
+1711887753.4774294  : Recieved heartbeat from 0
+1711887753.47742941 : Leader 0 renewed lease 
+1711887753.47894Node 1 accepted AppendEntries RPC from 0.
+1711887753.5252585  : Recieved heartbeat from 0
+
+ Append entry ---> 9 : 9 
+['SET 8 8 3']  
+1711887753.5252585Node 1 (follower) Appended the entry SET 8 8 3 to the state machine.
+1711887753.5252585Node 1 accepted AppendEntries RPC from 0.
+1711887753.5272563  : Recieved heartbeat from 0
+1711887753.52725631 : Leader 0 renewed lease 
+1711887753.5272563Node 1 accepted AppendEntries RPC from 0.
+1711887753.5634327  : Recieved heartbeat from 0
+1711887753.56343271 : Leader 0 renewed lease 
+1711887753.5634327Node 1 accepted AppendEntries RPC from 0.
+1711887753.5761614  : Recieved heartbeat from 0
+1711887753.57715921 : Leader 0 renewed lease 
+1711887753.5771592 trying commiting (9, 10, 10, [])
+1711887753.5771592Node 1 (follower) committed the entry ('SET', '8', '8', 3) to the state machine.
+1711887753.5771592 : commited : 10
+1711887753.5771592Node 1 accepted AppendEntries RPC from 0.
+1711887753.5912037  : Recieved heartbeat from 0
+1711887753.59120371 : Leader 0 renewed lease 
+1711887753.5912037Node 1 accepted AppendEntries RPC from 0.
+1711887754.1502163 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887763.5912037 , 1711887761.0845058 , 0   
+1711887754.4890606  : Recieved heartbeat from 0
+1711887754.49012Node 1 accepted AppendEntries RPC from 0.
+1711887754.5141819  : Recieved heartbeat from 0
+1711887754.51518031 : Leader 0 renewed lease 
+1711887754.5151803Node 1 accepted AppendEntries RPC from 0.
+1711887754.545007  : Recieved heartbeat from 0
+1711887754.5450071 : Leader 0 renewed lease 
+1711887754.545007Node 1 accepted AppendEntries RPC from 0.
+1711887754.558834  : Recieved heartbeat from 0
+1711887754.55934671 : Leader 0 renewed lease 
+1711887754.5593467Node 1 accepted AppendEntries RPC from 0.
+1711887755.1509936 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887764.5593467 , 1711887761.242002 , 0   
+1711887755.5875812  : Recieved heartbeat from 0
+1711887755.5875812Node 1 accepted AppendEntries RPC from 0.
+1711887755.5950959  : Recieved heartbeat from 0
+1711887755.59509591 : Leader 0 renewed lease 
+1711887755.5950959Node 1 accepted AppendEntries RPC from 0.
+1711887755.612047  : Recieved heartbeat from 0
+1711887755.6120471 : Leader 0 renewed lease 
+1711887755.6130474Node 1 accepted AppendEntries RPC from 0.
+1711887755.6289623  : Recieved heartbeat from 0
+1711887755.6299761 : Leader 0 renewed lease 
+1711887755.629976Node 1 accepted AppendEntries RPC from 0.
+1711887756.1516948 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887765.629976 , 1711887763.8839922 , 0   
+1711887756.6421533  : Recieved heartbeat from 0
+1711887756.6431534Node 1 accepted AppendEntries RPC from 0.
+1711887756.6619616  : Recieved heartbeat from 0
+1711887756.66196161 : Leader 0 renewed lease 
+1711887756.6619616Node 1 accepted AppendEntries RPC from 0.
+1711887756.6767583  : Recieved heartbeat from 0
+1711887756.67675831 : Leader 0 renewed lease 
+1711887756.6767583Node 1 accepted AppendEntries RPC from 0.
+1711887756.6910534  : Recieved heartbeat from 0
+1711887756.69105341 : Leader 0 renewed lease 
+1711887756.6920555Node 1 accepted AppendEntries RPC from 0.
+1711887757.1523635 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887766.6910534 , 1711887762.6350133 , 0   
+1711887757.703379  : Recieved heartbeat from 0
+1711887757.703379Node 1 accepted AppendEntries RPC from 0.
+1711887757.709025  : Recieved heartbeat from 0
+1711887757.7100331 : Leader 0 renewed lease 
+1711887757.710033Node 1 accepted AppendEntries RPC from 0.
+1711887757.724135  : Recieved heartbeat from 0
+1711887757.7241351 : Leader 0 renewed lease 
+1711887757.7251358Node 1 accepted AppendEntries RPC from 0.
+1711887757.7390351  : Recieved heartbeat from 0
+1711887757.74004631 : Leader 0 renewed lease 
+1711887757.7400463Node 1 accepted AppendEntries RPC from 0.
+1711887758.1532042 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887767.7400463 , 1711887767.72004 , 0   
+1711887758.7531064  : Recieved heartbeat from 0
+1711887758.7531064Node 1 accepted AppendEntries RPC from 0.
+1711887758.7591064  : Recieved heartbeat from 0
+1711887758.75910641 : Leader 0 renewed lease 
+1711887758.7591064Node 1 accepted AppendEntries RPC from 0.
+1711887758.7725601  : Recieved heartbeat from 0
+1711887758.77256011 : Leader 0 renewed lease 
+1711887758.7735608Node 1 accepted AppendEntries RPC from 0.
+1711887758.7860758  : Recieved heartbeat from 0
+1711887758.7870751 : Leader 0 renewed lease 
+1711887758.787075Node 1 accepted AppendEntries RPC from 0.
+1711887759.1542547 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887768.787075 , 1711887767.6793919 , 0   
+1711887759.799038  : Recieved heartbeat from 0
+1711887759.799038Node 1 accepted AppendEntries RPC from 0.
+1711887759.8060448  : Recieved heartbeat from 0
+1711887759.80604481 : Leader 0 renewed lease 
+1711887759.8060448Node 1 accepted AppendEntries RPC from 0.
+1711887759.8201456  : Recieved heartbeat from 0
+1711887759.82014561 : Leader 0 renewed lease 
+1711887759.8211455Node 1 accepted AppendEntries RPC from 0.
+1711887759.8351886  : Recieved heartbeat from 0
+1711887759.83518861 : Leader 0 renewed lease 
+1711887759.8361895Node 1 accepted AppendEntries RPC from 0.
+1711887760.1553147 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887769.8351886 , 1711887766.2321026 , 0   
+1711887760.8480573  : Recieved heartbeat from 0
+1711887760.849055Node 1 accepted AppendEntries RPC from 0.
+1711887760.8581536  : Recieved heartbeat from 0
+1711887760.85915471 : Leader 0 renewed lease 
+1711887760.8591547Node 1 accepted AppendEntries RPC from 0.
+1711887760.877348  : Recieved heartbeat from 0
+1711887760.8773481 : Leader 0 renewed lease 
+1711887760.877348Node 1 accepted AppendEntries RPC from 0.
+1711887760.8943594  : Recieved heartbeat from 0
+1711887760.89535861 : Leader 0 renewed lease 
+1711887760.8953586Node 1 accepted AppendEntries RPC from 0.
+1711887761.1564429 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887770.8953586 , 1711887770.6614814 , 0   
+1711887761.9344234  : Recieved heartbeat from 0
+1711887761.9354248Node 1 accepted AppendEntries RPC from 0.
+1711887761.9434354  : Recieved heartbeat from 0
+1711887761.94343541 : Leader 0 renewed lease 
+1711887761.9434354Node 1 accepted AppendEntries RPC from 0.
+1711887761.9654427  : Recieved heartbeat from 0
+1711887761.96812561 : Leader 0 renewed lease 
+1711887761.9684424Node 1 accepted AppendEntries RPC from 0.
+1711887761.9854422  : Recieved heartbeat from 0
+1711887761.98544221 : Leader 0 renewed lease 
+1711887761.9864428Node 1 accepted AppendEntries RPC from 0.
+1711887762.1573873 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887771.9854422 , 1711887767.1945262 , 0   
+1711887762.9983523  : Recieved heartbeat from 0
+1711887762.9983523Node 1 accepted AppendEntries RPC from 0.
+1711887763.0053594  : Recieved heartbeat from 0
+1711887763.00535941 : Leader 0 renewed lease 
+1711887763.0053594Node 1 accepted AppendEntries RPC from 0.
+1711887763.0204546  : Recieved heartbeat from 0
+1711887763.02146221 : Leader 0 renewed lease 
+1711887763.0214622Node 1 accepted AppendEntries RPC from 0.
+1711887763.0341115  : Recieved heartbeat from 0
+1711887763.03511261 : Leader 0 renewed lease 
+1711887763.0351126Node 1 accepted AppendEntries RPC from 0.
+1711887763.158207 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887773.0351126 , 1711887768.4906006 , 0   
+1711887764.0498853  : Recieved heartbeat from 0
+1711887764.0508838Node 1 accepted AppendEntries RPC from 0.
+1711887764.0568802  : Recieved heartbeat from 0
+1711887764.05688021 : Leader 0 renewed lease 
+1711887764.0578787Node 1 accepted AppendEntries RPC from 0.
+1711887764.0721881  : Recieved heartbeat from 0
+1711887764.07218811 : Leader 0 renewed lease 
+1711887764.0721881Node 1 accepted AppendEntries RPC from 0.
+1711887764.087335  : Recieved heartbeat from 0
+1711887764.0873351 : Leader 0 renewed lease 
+1711887764.087335Node 1 accepted AppendEntries RPC from 0.
+1711887764.1593432 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887774.087335 , 1711887773.050827 , 0   
+1711887765.10045  : Recieved heartbeat from 0
+1711887765.10045Node 1 accepted AppendEntries RPC from 0.
+1711887765.1074617  : Recieved heartbeat from 0
+1711887765.10746171 : Leader 0 renewed lease 
+1711887765.1074617Node 1 accepted AppendEntries RPC from 0.
+1711887765.1215656  : Recieved heartbeat from 0
+1711887765.12156561 : Leader 0 renewed lease 
+1711887765.1225665Node 1 accepted AppendEntries RPC from 0.
+1711887765.1352234  : Recieved heartbeat from 0
+1711887765.13622241 : Leader 0 renewed lease 
+1711887765.1362224Node 1 accepted AppendEntries RPC from 0.
+1711887765.1604218 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887775.1362224 , 1711887771.8690853 , 0   
+1711887766.1484954  : Recieved heartbeat from 0
+1711887766.1505885Node 1 accepted AppendEntries RPC from 0.
+1711887766.1555943  : Recieved heartbeat from 0
+1711887766.15659551 : Leader 0 renewed lease 
+1711887766.1565955Node 1 accepted AppendEntries RPC from 0.
+1711887766.1612086 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887776.1565955 , 1711887774.8542423 , 0   
+1711887766.1815994  : Recieved heartbeat from 0
+1711887766.18159941 : Leader 0 renewed lease 
+1711887766.1825984Node 1 accepted AppendEntries RPC from 0.
+1711887766.1947906  : Recieved heartbeat from 0
+1711887766.19479061 : Leader 0 renewed lease 
+1711887766.195787Node 1 accepted AppendEntries RPC from 0.
+1711887767.1620927 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887776.1947906 , 1711887776.0417876 , 0   
+1711887767.2072256  : Recieved heartbeat from 0
+1711887767.2072256Node 1 accepted AppendEntries RPC from 0.
+1711887767.2319767  : Recieved heartbeat from 0
+1711887767.23297761 : Leader 0 renewed lease 
+1711887767.2339785Node 1 accepted AppendEntries RPC from 0.
+1711887767.2464948  : Recieved heartbeat from 0
+1711887767.24749451 : Leader 0 renewed lease 
+1711887767.2474945Node 1 accepted AppendEntries RPC from 0.
+1711887767.2816615  : Recieved heartbeat from 0
+1711887767.28166151 : Leader 0 renewed lease 
+1711887767.2816615Node 1 accepted AppendEntries RPC from 0.
+1711887768.1629846 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887777.2816615 , 1711887774.3723505 , 0   
+1711887768.2997346  : Recieved heartbeat from 0
+1711887768.2997346Node 1 accepted AppendEntries RPC from 0.
+1711887768.3195014  : Recieved heartbeat from 0
+1711887768.31950141 : Leader 0 renewed lease 
+1711887768.320541Node 1 accepted AppendEntries RPC from 0.
+1711887768.3326952  : Recieved heartbeat from 0
+1711887768.33369571 : Leader 0 renewed lease 
+1711887768.3336957Node 1 accepted AppendEntries RPC from 0.
+1711887768.3479683  : Recieved heartbeat from 0
+1711887768.34796831 : Leader 0 renewed lease 
+1711887768.3479683Node 1 accepted AppendEntries RPC from 0.
+1711887769.163997 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887778.3479683 , 1711887776.3774283 , 0   
+1711887769.3607004  : Recieved heartbeat from 0
+1711887769.3616993Node 1 accepted AppendEntries RPC from 0.
+1711887769.3686988  : Recieved heartbeat from 0
+1711887769.36869881 : Leader 0 renewed lease 
+1711887769.3686988Node 1 accepted AppendEntries RPC from 0.
+1711887769.382896  : Recieved heartbeat from 0
+1711887769.3828961 : Leader 0 renewed lease 
+1711887769.382896Node 1 accepted AppendEntries RPC from 0.
+1711887769.3969567  : Recieved heartbeat from 0
+1711887769.39695671 : Leader 0 renewed lease 
+1711887769.3979597Node 1 accepted AppendEntries RPC from 0.
+1711887770.1648605 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887779.3969567 , 1711887776.9661758 , 0   
+1711887770.4113142  : Recieved heartbeat from 0
+1711887770.4113142Node 1 accepted AppendEntries RPC from 0.
+1711887770.419879  : Recieved heartbeat from 0
+1711887770.4198791 : Leader 0 renewed lease 
+1711887770.4210243Node 1 accepted AppendEntries RPC from 0.
+1711887770.4381366  : Recieved heartbeat from 0
+1711887770.43813661 : Leader 0 renewed lease 
+1711887770.4381366Node 1 accepted AppendEntries RPC from 0.
+1711887770.4550881  : Recieved heartbeat from 0
+1711887770.45508811 : Leader 0 renewed lease 
+1711887770.4550881Node 1 accepted AppendEntries RPC from 0.
+1711887771.1657596 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887780.4550881 , 1711887780.0343082 , 0   
+1711887771.471005  : Recieved heartbeat from 0
+1711887771.4720123Node 1 accepted AppendEntries RPC from 0.
+1711887771.4773598  : Recieved heartbeat from 0
+1711887771.47735981 : Leader 0 renewed lease 
+1711887771.4783604Node 1 accepted AppendEntries RPC from 0.
+1711887771.51015  : Recieved heartbeat from 0
+1711887771.510151 : Leader 0 renewed lease 
+1711887771.5106578Node 1 accepted AppendEntries RPC from 0.
+1711887771.5247102  : Recieved heartbeat from 0
+1711887771.52471021 : Leader 0 renewed lease 
+1711887771.52571Node 1 accepted AppendEntries RPC from 0.
+1711887772.166932 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887781.5247102 , 1711887778.2457042 , 0   
+1711887772.5369763  : Recieved heartbeat from 0
+1711887772.5379763Node 1 accepted AppendEntries RPC from 0.
+1711887772.5440326  : Recieved heartbeat from 0
+1711887772.54403261 : Leader 0 renewed lease 
+1711887772.545032Node 1 accepted AppendEntries RPC from 0.
+1711887772.5567436  : Recieved heartbeat from 0
+1711887772.55674361 : Leader 0 renewed lease 
+1711887772.5581162Node 1 accepted AppendEntries RPC from 0.
+1711887772.5701516  : Recieved heartbeat from 0
+1711887772.57015161 : Leader 0 renewed lease 
+1711887772.5711596Node 1 accepted AppendEntries RPC from 0.
+1711887773.1680598 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887782.5701516 , 1711887781.5028276 , 0   
+1711887773.5832763  : Recieved heartbeat from 0
+1711887773.5862753Node 1 accepted AppendEntries RPC from 0.
+1711887773.5933213  : Recieved heartbeat from 0
+1711887773.59332131 : Leader 0 renewed lease 
+1711887773.5933213Node 1 accepted AppendEntries RPC from 0.
+1711887773.6052277  : Recieved heartbeat from 0
+1711887773.60522771 : Leader 0 renewed lease 
+1711887773.6052277Node 1 accepted AppendEntries RPC from 0.
+1711887773.61925  : Recieved heartbeat from 0
+1711887773.619251 : Leader 0 renewed lease 
+1711887773.6198723Node 1 accepted AppendEntries RPC from 0.
+1711887774.169073 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887783.61925 , 1711887779.617929 , 0   
+1711887774.6312644  : Recieved heartbeat from 0
+1711887774.6312644Node 1 accepted AppendEntries RPC from 0.
+1711887774.6363585  : Recieved heartbeat from 0
+1711887774.63635851 : Leader 0 renewed lease 
+1711887774.6363585Node 1 accepted AppendEntries RPC from 0.
+1711887774.6502185  : Recieved heartbeat from 0
+1711887774.65072561 : Leader 0 renewed lease 
+1711887774.6507256Node 1 accepted AppendEntries RPC from 0.
+1711887774.662542  : Recieved heartbeat from 0
+1711887774.6625421 : Leader 0 renewed lease 
+1711887774.662542Node 1 accepted AppendEntries RPC from 0.
+1711887775.170113 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887784.662542 , 1711887781.5978692 , 0   
+1711887775.6734605  : Recieved heartbeat from 0
+1711887775.6734605Node 1 accepted AppendEntries RPC from 0.
+1711887775.6784601  : Recieved heartbeat from 0
+1711887775.67846011 : Leader 0 renewed lease 
+1711887775.6799676Node 1 accepted AppendEntries RPC from 0.
+1711887775.6932404  : Recieved heartbeat from 0
+1711887775.69324041 : Leader 0 renewed lease 
+1711887775.6942422Node 1 accepted AppendEntries RPC from 0.
+1711887775.706603  : Recieved heartbeat from 0
+1711887775.70779781 : Leader 0 renewed lease 
+1711887775.7077978Node 1 accepted AppendEntries RPC from 0.
+1711887776.1731243 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887785.7077978 , 1711887782.544444 , 0   
+1711887776.7350821  : Recieved heartbeat from 0
+1711887776.7365758Node 1 accepted AppendEntries RPC from 0.
+1711887776.7432454  : Recieved heartbeat from 0
+1711887776.74324541 : Leader 0 renewed lease 
+1711887776.7432454Node 1 accepted AppendEntries RPC from 0.
+1711887776.7557678  : Recieved heartbeat from 0
+1711887776.75576781 : Leader 0 renewed lease 
+1711887776.7567677Node 1 accepted AppendEntries RPC from 0.
+1711887776.7755866  : Recieved heartbeat from 0
+1711887776.77558661 : Leader 0 renewed lease 
+1711887776.7755866Node 1 accepted AppendEntries RPC from 0.
+1711887777.1739004 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887786.7755866 , 1711887783.3948936 , 0   
+1711887777.7900565  : Recieved heartbeat from 0
+1711887777.791142Node 1 accepted AppendEntries RPC from 0.
+1711887777.7971997  : Recieved heartbeat from 0
+1711887777.79719971 : Leader 0 renewed lease 
+1711887777.7981963Node 1 accepted AppendEntries RPC from 0.
+1711887777.8117652  : Recieved heartbeat from 0
+1711887777.81176521 : Leader 0 renewed lease 
+1711887777.8117652Node 1 accepted AppendEntries RPC from 0.
+1711887777.8252883  : Recieved heartbeat from 0
+1711887777.82528831 : Leader 0 renewed lease 
+1711887777.8262882Node 1 accepted AppendEntries RPC from 0.
+1711887778.1749408 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887787.8252883 , 1711887783.1443684 , 0   
+1711887778.8375366  : Recieved heartbeat from 0
+1711887778.8385406Node 1 accepted AppendEntries RPC from 0.
+1711887779.0602634  : Recieved heartbeat from 0
+1711887779.06026341 : Leader 0 renewed lease 
+1711887779.0602634Node 1 accepted AppendEntries RPC from 0.
+1711887779.1758919 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887789.0602634 , 1711887785.2084265 , 0   
+1711887780.176733 <====> 44 False 1  
+: follower : 10 , 10 , 3 
+ 1711887789.0602634 , 1711887785.2084265 , 0   

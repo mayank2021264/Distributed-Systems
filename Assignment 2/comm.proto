@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+
+service raft{
+    rpc LogReq(log_m) returns (log_r){}
+    rpc RequestVote(req_vote) returns (req_vote_result) {}
+}
+
+service svr_clt{
+    rpc set (setmsg) returns (reply) {}
+    rpc get (getmsg) returns (reply) {}
+}
+
+message log_m{
+    int64 lid=1;
+    int64 cterm=2;
+    int64 pfxlen=3;
+    int64 pfxterm=4;
+    int64 commitlength=5;
+    double lease=6;
+    repeated string suffix=7;
+    string type=8;
+}
+
+
+message log_r{
+    int64 id=1;
+    int64 term=2;
+    int64 ack=3;
+    double lease=4;
+    bool success=5;
+    string type=6;
+}
+
+message setmsg {
+  string key=1;
+  string value=2;
+}
+
+message getmsg{
+  string key = 1;
+}
+
+message reply{
+    string data = 1;
+    int64 lID = 2;
+    bool success = 3;    
+}
+
+message req_vote{
+    int64 cterm=1;
+    int64 cID=2;
+    int64 cloglen=3;
+    int64 clogterm=4;
+}
+
+
+message req_vote_result{
+    int64 term=1;
+    int64 ID=2;
+    bool granted=3;
+    double pltime=5;
+}

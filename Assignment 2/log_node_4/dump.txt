@@ -1,0 +1,2695 @@
+1711887473.162235Initilisation for node 4 done  4
+ STARTING NODE FOR FIRST TIME 
+1711887474.164233 <====> 0 False 4  
+: follower : 0 , 0 , 0 
+ 0 , 1711887481.215399 , 0   
+1711887475.1655624 <====> 0 False 4  
+: follower : 0 , 0 , 0 
+ 0 , 1711887481.215399 , 0   
+1711887476.1661363 <====> 0 False 4  
+: follower : 0 , 0 , 0 
+ 0 , 1711887481.215399 , 0   
+1711887477.1669369 <====> 0 False 4  
+: follower : 0 , 0 , 0 
+ 0 , 1711887481.215399 , 0   
+1711887478.1679606 <====> 0 False 4  
+: follower : 0 , 0 , 0 
+ 0 , 1711887481.215399 , 0   
+1711887479.1084392 : first Recieved heartbeat from 1
+1711887479.10944  : Recieved heartbeat from 1
+1711887479.109444 : Leader 1 renewed lease 
+1711887479.10944 trying commiting (0, 1, 0, [])
+1711887479.10944Exception append 3 : list index out of range : 0 : 1 : 0
+1711887479.1104379Node 4 accepted AppendEntries RPC from 1.
+1711887479.1129432  : Recieved heartbeat from 1
+
+ Append entry ---> 0 : 1 
+['NO-OP 1']  
+1711887479.1129432Node 4 (follower) Appended the entry NO-OP 1 to the state machine.
+1711887479.1129432 trying commiting (0, 1, 1, ['NO-OP 1'])
+1711887479.1129432Node 4 (follower) committed the entry ('NO-OP', None, None, 1) to the state machine.
+1711887479.1139483 : commited : 1
+1711887479.1139483Node 4 accepted AppendEntries RPC from 1.
+1711887479.1209488  : Recieved heartbeat from 1
+1711887479.12094884 : Leader 1 renewed lease 
+1711887479.1209488Node 4 accepted AppendEntries RPC from 1.
+1711887479.1254735Vote request recieved from 1
+1711887479.1254735Vote rejected for Node 1 in term 1.
+1711887479.168649 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887489.1209488 , 1711887486.7889009 , 0   
+1711887480.1636264  : Recieved heartbeat from 1
+1711887480.16362644 : Leader 1 renewed lease 
+1711887480.1636264Node 4 accepted AppendEntries RPC from 1.
+1711887480.16963 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887490.1636264 , 1711887489.0724964 , 0   
+1711887480.195233  : Recieved heartbeat from 1
+1711887480.1962334 : Leader 1 renewed lease 
+1711887480.196233Node 4 accepted AppendEntries RPC from 1.
+1711887480.1982331  : Recieved heartbeat from 1
+1711887480.1982331Node 4 accepted AppendEntries RPC from 1.
+1711887480.2067585  : Recieved heartbeat from 1
+1711887480.20675854 : Leader 1 renewed lease 
+1711887480.2067585Node 4 accepted AppendEntries RPC from 1.
+1711887481.1700692 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887490.2067585 , 1711887486.6324854 , 0   
+1711887481.2421868  : Recieved heartbeat from 1
+1711887481.24218684 : Leader 1 renewed lease 
+1711887481.2421868Node 4 accepted AppendEntries RPC from 1.
+1711887481.2537618  : Recieved heartbeat from 1
+1711887481.25376184 : Leader 1 renewed lease 
+1711887481.2537618Node 4 accepted AppendEntries RPC from 1.
+1711887481.2557602  : Recieved heartbeat from 1
+1711887481.2567618Node 4 accepted AppendEntries RPC from 1.
+1711887481.2653775  : Recieved heartbeat from 1
+1711887481.26537754 : Leader 1 renewed lease 
+1711887481.2653775Node 4 accepted AppendEntries RPC from 1.
+1711887482.1709685 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887491.2653775 , 1711887488.2795765 , 0   
+1711887482.31149  : Recieved heartbeat from 1
+1711887482.31249024 : Leader 1 renewed lease 
+1711887482.3124902Node 4 accepted AppendEntries RPC from 1.
+1711887482.324139  : Recieved heartbeat from 1
+1711887482.3241394 : Leader 1 renewed lease 
+1711887482.324139Node 4 accepted AppendEntries RPC from 1.
+1711887482.3271515  : Recieved heartbeat from 1
+1711887482.328142Node 4 accepted AppendEntries RPC from 1.
+1711887482.336203  : Recieved heartbeat from 1
+1711887482.3362034 : Leader 1 renewed lease 
+1711887482.336203Node 4 accepted AppendEntries RPC from 1.
+1711887483.171798 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887492.336203 , 1711887488.136635 , 0   
+1711887483.35046  : Recieved heartbeat from 1
+1711887483.350464 : Leader 1 renewed lease 
+1711887483.35046Node 4 accepted AppendEntries RPC from 1.
+1711887483.3865767  : Recieved heartbeat from 1
+1711887483.38757634 : Leader 1 renewed lease 
+1711887483.3875763Node 4 accepted AppendEntries RPC from 1.
+1711887483.3895767  : Recieved heartbeat from 1
+1711887483.3895767Node 4 accepted AppendEntries RPC from 1.
+1711887483.3967931  : Recieved heartbeat from 1
+1711887483.39679314 : Leader 1 renewed lease 
+1711887483.3967931Node 4 accepted AppendEntries RPC from 1.
+1711887484.172435 <====> 0 False 4  
+: follower : 1 , 1 , 1 
+ 1711887493.3967931 , 1711887491.512458 , 0   
+1711887484.4301267  : Recieved heartbeat from 1
+1711887484.43112444 : Leader 1 renewed lease 
+1711887484.4311244Node 4 accepted AppendEntries RPC from 1.
+1711887484.4610493  : Recieved heartbeat from 1
+1711887484.46104934 : Leader 1 renewed lease 
+1711887484.4610493Node 4 accepted AppendEntries RPC from 1.
+1711887484.4646475  : Recieved heartbeat from 1
+1711887484.4646475Node 4 accepted AppendEntries RPC from 1.
+1711887484.4741428  : Recieved heartbeat from 1
+1711887484.47414284 : Leader 1 renewed lease 
+1711887484.4741428Node 4 accepted AppendEntries RPC from 1.
+1711887485.0011525  : Recieved heartbeat from 1
+1711887485.00115254 : Leader 1 renewed lease 
+1711887485.0011525Node 4 accepted AppendEntries RPC from 1.
+1711887485.0123973  : Recieved heartbeat from 1
+1711887485.01340634 : Leader 1 renewed lease 
+1711887485.0134063Node 4 accepted AppendEntries RPC from 1.
+1711887485.0263827  : Recieved heartbeat from 1
+1711887485.02638274 : Leader 1 renewed lease 
+1711887485.0263827 trying commiting (1, 2, 1, [])
+1711887485.0263827Exception append 3 : list index out of range : 0 : 2 : 1
+1711887485.0263827Node 4 accepted AppendEntries RPC from 1.
+1711887485.029387  : Recieved heartbeat from 1
+
+ Append entry ---> 1 : 2 
+['SET 0 0 1']  
+1711887485.029387Node 4 (follower) Appended the entry SET 0 0 1 to the state machine.
+1711887485.029387 trying commiting (1, 2, 2, ['SET 0 0 1'])
+1711887485.029387Node 4 (follower) committed the entry ('SET', '0', '0', 1) to the state machine.
+1711887485.030384 : commited : 2
+1711887485.030384Node 4 accepted AppendEntries RPC from 1.
+1711887485.037907  : Recieved heartbeat from 1
+1711887485.0379074 : Leader 1 renewed lease 
+1711887485.037907Node 4 accepted AppendEntries RPC from 1.
+1711887485.172984 <====> 0 False 4  
+: follower : 2 , 2 , 1 
+ 1711887495.037907 , 1711887490.778391 , 0   
+1711887485.505503  : Recieved heartbeat from 1
+1711887485.5055034 : Leader 1 renewed lease 
+1711887485.505503Node 4 accepted AppendEntries RPC from 1.
+1711887485.5164232  : Recieved heartbeat from 1
+1711887485.51742244 : Leader 1 renewed lease 
+1711887485.5174224Node 4 accepted AppendEntries RPC from 1.
+1711887485.519423  : Recieved heartbeat from 1
+1711887485.519423Node 4 accepted AppendEntries RPC from 1.
+1711887485.527628  : Recieved heartbeat from 1
+1711887485.5276284 : Leader 1 renewed lease 
+1711887485.527628Node 4 accepted AppendEntries RPC from 1.
+1711887486.1738818 <====> 0 False 4  
+: follower : 2 , 2 , 1 
+ 1711887495.527628 , 1711887493.397058 , 0   
+1711887486.5739822  : Recieved heartbeat from 1
+1711887486.57398224 : Leader 1 renewed lease 
+1711887486.5749881Node 4 accepted AppendEntries RPC from 1.
+1711887486.585498  : Recieved heartbeat from 1
+1711887486.5854984 : Leader 1 renewed lease 
+1711887486.585498Node 4 accepted AppendEntries RPC from 1.
+1711887486.5874982  : Recieved heartbeat from 1
+1711887486.5874982Node 4 accepted AppendEntries RPC from 1.
+1711887486.5960088  : Recieved heartbeat from 1
+1711887486.59600884 : Leader 1 renewed lease 
+1711887486.5960088Node 4 accepted AppendEntries RPC from 1.
+1711887487.1749558 <====> 0 False 4  
+: follower : 2 , 2 , 1 
+ 1711887496.5960088 , 1711887492.9588888 , 0   
+1711887487.2686727  : Recieved heartbeat from 1
+1711887487.26867274 : Leader 1 renewed lease 
+1711887487.2686727Node 4 accepted AppendEntries RPC from 1.
+1711887487.2788239  : Recieved heartbeat from 1
+1711887487.27982574 : Leader 1 renewed lease 
+1711887487.2798257Node 4 accepted AppendEntries RPC from 1.
+1711887487.2928145  : Recieved heartbeat from 1
+1711887487.29281454 : Leader 1 renewed lease 
+1711887487.29382 trying commiting (2, 3, 2, [])
+1711887487.29382Exception append 3 : list index out of range : 0 : 3 : 2
+1711887487.29382Node 4 accepted AppendEntries RPC from 1.
+1711887487.3139157  : Recieved heartbeat from 1
+
+ Append entry ---> 2 : 3 
+['SET 1 1 1']  
+1711887487.3149123Node 4 (follower) Appended the entry SET 1 1 1 to the state machine.
+1711887487.3149123 trying commiting (2, 3, 3, ['SET 1 1 1'])
+1711887487.3149123Node 4 (follower) committed the entry ('SET', '1', '1', 1) to the state machine.
+1711887487.3149123 : commited : 3
+1711887487.3149123Node 4 accepted AppendEntries RPC from 1.
+1711887487.3229408  : Recieved heartbeat from 1
+1711887487.32294084 : Leader 1 renewed lease 
+1711887487.3229408Node 4 accepted AppendEntries RPC from 1.
+1711887487.6260612  : Recieved heartbeat from 1
+1711887487.6270614 : Leader 1 renewed lease 
+1711887487.627061Node 4 accepted AppendEntries RPC from 1.
+1711887487.6415787  : Recieved heartbeat from 1
+1711887487.64157874 : Leader 1 renewed lease 
+1711887487.6415787Node 4 accepted AppendEntries RPC from 1.
+1711887487.6566138  : Recieved heartbeat from 1
+1711887487.6566138Node 4 accepted AppendEntries RPC from 1.
+1711887487.667128  : Recieved heartbeat from 1
+1711887487.6671284 : Leader 1 renewed lease 
+1711887487.667128Node 4 accepted AppendEntries RPC from 1.
+1711887488.175543 <====> 0 False 4  
+: follower : 3 , 3 , 1 
+ 1711887497.667128 , 1711887494.0546951 , 0   
+1711887488.6962752  : Recieved heartbeat from 1
+1711887488.69627524 : Leader 1 renewed lease 
+1711887488.6962752Node 4 accepted AppendEntries RPC from 1.
+1711887488.7075975  : Recieved heartbeat from 1
+1711887488.70759754 : Leader 1 renewed lease 
+1711887488.708597Node 4 accepted AppendEntries RPC from 1.
+1711887488.7099273  : Recieved heartbeat from 1
+1711887488.7113404Node 4 accepted AppendEntries RPC from 1.
+1711887488.7188418  : Recieved heartbeat from 1
+1711887488.7200954 : Leader 1 renewed lease 
+1711887488.720095Node 4 accepted AppendEntries RPC from 1.
+1711887488.9801743  : Recieved heartbeat from 1
+1711887488.98017434 : Leader 1 renewed lease 
+1711887488.9801743Node 4 accepted AppendEntries RPC from 1.
+1711887488.9915466  : Recieved heartbeat from 1
+1711887488.99154664 : Leader 1 renewed lease 
+1711887488.9915466Node 4 accepted AppendEntries RPC from 1.
+1711887489.0048926  : Recieved heartbeat from 1
+1711887489.00589254 : Leader 1 renewed lease 
+1711887489.0058925 trying commiting (3, 4, 3, [])
+1711887489.0058925Exception append 3 : list index out of range : 0 : 4 : 3
+1711887489.0058925Node 4 accepted AppendEntries RPC from 1.
+1711887489.0271187  : Recieved heartbeat from 1
+
+ Append entry ---> 3 : 4 
+['SET 2 2 1']  
+1711887489.0271187Node 4 (follower) Appended the entry SET 2 2 1 to the state machine.
+1711887489.0271187 trying commiting (3, 4, 4, ['SET 2 2 1'])
+1711887489.0271187Node 4 (follower) committed the entry ('SET', '2', '2', 1) to the state machine.
+1711887489.028113 : commited : 4
+1711887489.028113Node 4 accepted AppendEntries RPC from 1.
+1711887489.0346282  : Recieved heartbeat from 1
+1711887489.03462824 : Leader 1 renewed lease 
+1711887489.0346282Node 4 accepted AppendEntries RPC from 1.
+1711887489.1760888 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887499.0346282 , 1711887498.3690832 , 0   
+1711887489.7573268  : Recieved heartbeat from 1
+1711887489.75833254 : Leader 1 renewed lease 
+1711887489.7583325Node 4 accepted AppendEntries RPC from 1.
+1711887489.7693536  : Recieved heartbeat from 1
+1711887489.76935364 : Leader 1 renewed lease 
+1711887489.7693536Node 4 accepted AppendEntries RPC from 1.
+1711887489.7729971  : Recieved heartbeat from 1
+1711887489.7729971Node 4 accepted AppendEntries RPC from 1.
+1711887489.7816722  : Recieved heartbeat from 1
+1711887489.78167224 : Leader 1 renewed lease 
+1711887489.7826717Node 4 accepted AppendEntries RPC from 1.
+1711887490.1769817 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887499.7816722 , 1711887498.8366013 , 0   
+1711887490.7985716  : Recieved heartbeat from 1
+1711887490.79857164 : Leader 1 renewed lease 
+1711887490.7995784Node 4 accepted AppendEntries RPC from 1.
+1711887490.8106222  : Recieved heartbeat from 1
+1711887490.8117194 : Leader 1 renewed lease 
+1711887490.811719Node 4 accepted AppendEntries RPC from 1.
+1711887490.8147366  : Recieved heartbeat from 1
+1711887490.8147366Node 4 accepted AppendEntries RPC from 1.
+1711887490.8238273  : Recieved heartbeat from 1
+1711887490.82382734 : Leader 1 renewed lease 
+1711887490.8238273Node 4 accepted AppendEntries RPC from 1.
+1711887491.1777282 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887500.8238273 , 1711887497.5412133 , 0   
+1711887491.862121  : Recieved heartbeat from 1
+1711887491.86312414 : Leader 1 renewed lease 
+1711887491.8631241Node 4 accepted AppendEntries RPC from 1.
+1711887491.8742106  : Recieved heartbeat from 1
+1711887491.87421064 : Leader 1 renewed lease 
+1711887491.8742106Node 4 accepted AppendEntries RPC from 1.
+1711887491.877216  : Recieved heartbeat from 1
+1711887491.877216Node 4 accepted AppendEntries RPC from 1.
+1711887491.885393  : Recieved heartbeat from 1
+1711887491.8853934 : Leader 1 renewed lease 
+1711887491.885393Node 4 accepted AppendEntries RPC from 1.
+1711887492.1783721 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887501.885393 , 1711887500.264297 , 0   
+1711887492.9180405  : Recieved heartbeat from 1
+1711887492.9190384 : Leader 1 renewed lease 
+1711887492.919038Node 4 accepted AppendEntries RPC from 1.
+1711887492.929902  : Recieved heartbeat from 1
+1711887492.93090254 : Leader 1 renewed lease 
+1711887492.9309025Node 4 accepted AppendEntries RPC from 1.
+1711887492.9334068  : Recieved heartbeat from 1
+1711887492.9334068Node 4 accepted AppendEntries RPC from 1.
+1711887492.9420378  : Recieved heartbeat from 1
+1711887492.94203784 : Leader 1 renewed lease 
+1711887492.9420378Node 4 accepted AppendEntries RPC from 1.
+1711887493.1789627 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887502.9420378 , 1711887498.138373 , 0   
+1711887493.9791589  : Recieved heartbeat from 1
+1711887493.97915894 : Leader 1 renewed lease 
+1711887493.9791589Node 4 accepted AppendEntries RPC from 1.
+1711887493.9911652  : Recieved heartbeat from 1
+1711887493.99116524 : Leader 1 renewed lease 
+1711887493.9911652Node 4 accepted AppendEntries RPC from 1.
+1711887493.9943476  : Recieved heartbeat from 1
+1711887493.9953573Node 4 accepted AppendEntries RPC from 1.
+1711887494.003143  : Recieved heartbeat from 1
+1711887494.0031434 : Leader 1 renewed lease 
+1711887494.0041509Node 4 accepted AppendEntries RPC from 1.
+1711887494.1802065 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887504.003143 , 1711887501.607883 , 0   
+1711887495.0175877  : Recieved heartbeat from 1
+1711887495.01758774 : Leader 1 renewed lease 
+1711887495.0175877Node 4 accepted AppendEntries RPC from 1.
+1711887495.0531511  : Recieved heartbeat from 1
+1711887495.0542174 : Leader 1 renewed lease 
+1711887495.054217Node 4 accepted AppendEntries RPC from 1.
+1711887495.0562165  : Recieved heartbeat from 1
+1711887495.057216Node 4 accepted AppendEntries RPC from 1.
+1711887495.0632179  : Recieved heartbeat from 1
+1711887495.06321794 : Leader 1 renewed lease 
+1711887495.0632179Node 4 accepted AppendEntries RPC from 1.
+1711887495.1811917 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887505.0632179 , 1711887503.6759179 , 0   
+1711887496.1022348  : Recieved heartbeat from 1
+1711887496.10223484 : Leader 1 renewed lease 
+1711887496.1032338Node 4 accepted AppendEntries RPC from 1.
+1711887496.113923  : Recieved heartbeat from 1
+1711887496.1139234 : Leader 1 renewed lease 
+1711887496.113923Node 4 accepted AppendEntries RPC from 1.
+1711887496.1159756  : Recieved heartbeat from 1
+1711887496.1159756Node 4 accepted AppendEntries RPC from 1.
+1711887496.1251981  : Recieved heartbeat from 1
+1711887496.12519814 : Leader 1 renewed lease 
+1711887496.1251981Node 4 accepted AppendEntries RPC from 1.
+1711887496.1820664 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887506.1251981 , 1711887505.1456192 , 0   
+1711887497.1634507  : Recieved heartbeat from 1
+1711887497.16345074 : Leader 1 renewed lease 
+1711887497.1634507Node 4 accepted AppendEntries RPC from 1.
+1711887497.1832287 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887507.1634507 , 1711887502.8120427 , 0   
+1711887497.1916194  : Recieved heartbeat from 1
+1711887497.19161944 : Leader 1 renewed lease 
+1711887497.1916194Node 4 accepted AppendEntries RPC from 1.
+1711887497.1952891  : Recieved heartbeat from 1
+1711887497.1952891Node 4 accepted AppendEntries RPC from 1.
+1711887497.204119  : Recieved heartbeat from 1
+1711887497.2041194 : Leader 1 renewed lease 
+1711887497.204119Node 4 accepted AppendEntries RPC from 1.
+1711887498.1838377 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887507.204119 , 1711887505.358296 , 0   
+1711887498.2200835  : Recieved heartbeat from 1
+1711887498.22008354 : Leader 1 renewed lease 
+1711887498.2200835Node 4 accepted AppendEntries RPC from 1.
+1711887498.2312467  : Recieved heartbeat from 1
+1711887498.23124674 : Leader 1 renewed lease 
+1711887498.2312467Node 4 accepted AppendEntries RPC from 1.
+1711887498.2347684  : Recieved heartbeat from 1
+1711887498.2347684Node 4 accepted AppendEntries RPC from 1.
+1711887498.2425146  : Recieved heartbeat from 1
+1711887498.24251464 : Leader 1 renewed lease 
+1711887498.2425146Node 4 accepted AppendEntries RPC from 1.
+1711887499.1844018 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887508.2425146 , 1711887506.0529046 , 0   
+1711887499.2836268  : Recieved heartbeat from 1
+1711887499.28362684 : Leader 1 renewed lease 
+1711887499.2836268Node 4 accepted AppendEntries RPC from 1.
+1711887499.2948291  : Recieved heartbeat from 1
+1711887499.29482914 : Leader 1 renewed lease 
+1711887499.2958293Node 4 accepted AppendEntries RPC from 1.
+1711887499.2978292  : Recieved heartbeat from 1
+1711887499.2978292Node 4 accepted AppendEntries RPC from 1.
+1711887499.306083  : Recieved heartbeat from 1
+1711887499.3060834 : Leader 1 renewed lease 
+1711887499.306083Node 4 accepted AppendEntries RPC from 1.
+1711887500.1858075 <====> 0 False 4  
+: follower : 4 , 4 , 1 
+ 1711887509.306083 , 1711887507.050409 , 0   
+1711887500.3693912  : Recieved heartbeat from 1
+1711887500.37039234 : Leader 1 renewed lease 
+1711887500.3703923Node 4 accepted AppendEntries RPC from 1.
+1711887500.3795905  : Recieved heartbeat from 1
+1711887500.37959054 : Leader 1 renewed lease 
+1711887500.3795905Node 4 accepted AppendEntries RPC from 1.
+1711887500.4091475  : Recieved heartbeat from 1
+1711887500.4091475Node 4 accepted AppendEntries RPC from 1.
+1711887500.416188  : Recieved heartbeat from 1
+1711887500.41718534 : Leader 1 renewed lease 
+1711887500.4171853Node 4 accepted AppendEntries RPC from 1.
+1711887566.2479525Initilisation for node 4 done  4
+   ----------      RESTARTING NODE  ------------ 
+
+
+ RESTARTING NODE
+
+
+[<__main__.log_entry object at 0x0000020F31599FD0>, <__main__.log_entry object at 0x0000020F3159A000>, <__main__.log_entry object at 0x0000020F3159A030>, <__main__.log_entry object at 0x0000020F3159A060>]  
+4 
+1711887566.3675172  : Recieved heartbeat from 1
+1711887566.3685264 : Leader 1 renewed lease 
+1711887566.368526 trying commiting (4, 7, 4, [])
+1711887566.3695354Exception append 3 : list index out of range : 0 : 7 : 4
+1711887566.370566Node 4 accepted AppendEntries RPC from 1.
+1711887566.3755403  : Recieved heartbeat from 1
+
+ Append entry ---> 4 : 7 
+['SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1']  
+1711887566.3755403Node 4 (follower) Appended the entry SET 3 3 1 to the state machine.
+1711887566.3765404Node 4 (follower) Appended the entry SET 4 4 1 to the state machine.
+1711887566.3765404Node 4 (follower) Appended the entry SET 5 5 1 to the state machine.
+1711887566.3765404 trying commiting (4, 7, 7, ['SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1'])
+1711887566.3765404Node 4 (follower) committed the entry ('SET', '3', '3', 1) to the state machine.
+1711887566.3765404Node 4 (follower) committed the entry ('SET', '4', '4', 1) to the state machine.
+1711887566.3765404Node 4 (follower) committed the entry ('SET', '5', '5', 1) to the state machine.
+1711887566.3765404 : commited : 7
+1711887566.3775406Node 4 accepted AppendEntries RPC from 1.
+1711887566.3850613  : Recieved heartbeat from 1
+1711887566.38605764 : Leader 1 renewed lease 
+1711887566.3860576Node 4 accepted AppendEntries RPC from 1.
+1711887567.2506347 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887576.3860576 , 1711887572.8109412 , 0   
+1711887567.4216404  : Recieved heartbeat from 1
+1711887567.42164044 : Leader 1 renewed lease 
+1711887567.4216404Node 4 accepted AppendEntries RPC from 1.
+1711887567.4314568  : Recieved heartbeat from 1
+1711887567.43145684 : Leader 1 renewed lease 
+1711887567.4314568Node 4 accepted AppendEntries RPC from 1.
+1711887567.434914  : Recieved heartbeat from 1
+1711887567.434914Node 4 accepted AppendEntries RPC from 1.
+1711887567.4414325  : Recieved heartbeat from 1
+1711887567.44143254 : Leader 1 renewed lease 
+1711887567.4414325Node 4 accepted AppendEntries RPC from 1.
+1711887568.2516668 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887577.4414325 , 1711887574.7558584 , 0   
+1711887568.5000606  : Recieved heartbeat from 1
+1711887568.50006064 : Leader 1 renewed lease 
+1711887568.5010612Node 4 accepted AppendEntries RPC from 1.
+1711887568.5095687  : Recieved heartbeat from 1
+1711887568.50956874 : Leader 1 renewed lease 
+1711887568.5105698Node 4 accepted AppendEntries RPC from 1.
+1711887568.5381238  : Recieved heartbeat from 1
+1711887568.5381238Node 4 accepted AppendEntries RPC from 1.
+1711887568.5461304  : Recieved heartbeat from 1
+1711887568.54613044 : Leader 1 renewed lease 
+1711887568.5461304Node 4 accepted AppendEntries RPC from 1.
+1711887569.2532022 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887578.5461304 , 1711887573.6511445 , 0   
+1711887569.5909977  : Recieved heartbeat from 1
+1711887569.59099774 : Leader 1 renewed lease 
+1711887569.592512Node 4 accepted AppendEntries RPC from 1.
+1711887569.6032352  : Recieved heartbeat from 1
+1711887569.60323524 : Leader 1 renewed lease 
+1711887569.6032352Node 4 accepted AppendEntries RPC from 1.
+1711887569.605925  : Recieved heartbeat from 1
+1711887569.605925Node 4 accepted AppendEntries RPC from 1.
+1711887569.6155567  : Recieved heartbeat from 1
+1711887569.61555674 : Leader 1 renewed lease 
+1711887569.616558Node 4 accepted AppendEntries RPC from 1.
+1711887570.254231 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887579.6155567 , 1711887579.3506827 , 0   
+1711887570.6625972  : Recieved heartbeat from 1
+1711887570.66360554 : Leader 1 renewed lease 
+1711887570.6636055Node 4 accepted AppendEntries RPC from 1.
+1711887570.6732287  : Recieved heartbeat from 1
+1711887570.67322874 : Leader 1 renewed lease 
+1711887570.674229Node 4 accepted AppendEntries RPC from 1.
+1711887570.676244  : Recieved heartbeat from 1
+1711887570.6771114Node 4 accepted AppendEntries RPC from 1.
+1711887570.6846642  : Recieved heartbeat from 1
+1711887570.68466424 : Leader 1 renewed lease 
+1711887570.6856644Node 4 accepted AppendEntries RPC from 1.
+1711887571.2550626 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887580.6846642 , 1711887580.2831972 , 0   
+1711887571.7254305  : Recieved heartbeat from 1
+1711887571.72543054 : Leader 1 renewed lease 
+1711887571.72643Node 4 accepted AppendEntries RPC from 1.
+1711887571.757826  : Recieved heartbeat from 1
+1711887571.7578264 : Leader 1 renewed lease 
+1711887571.757826Node 4 accepted AppendEntries RPC from 1.
+1711887571.778942  : Recieved heartbeat from 1
+1711887571.7799506Node 4 accepted AppendEntries RPC from 1.
+1711887571.7864413  : Recieved heartbeat from 1
+1711887571.78644134 : Leader 1 renewed lease 
+1711887571.7864413Node 4 accepted AppendEntries RPC from 1.
+1711887572.2557237 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887581.7864413 , 1711887581.0239344 , 0   
+1711887572.8043497  : Recieved heartbeat from 1
+1711887572.80535754 : Leader 1 renewed lease 
+1711887572.8053575Node 4 accepted AppendEntries RPC from 1.
+1711887572.8182738  : Recieved heartbeat from 1
+1711887572.81827384 : Leader 1 renewed lease 
+1711887572.819283Node 4 accepted AppendEntries RPC from 1.
+1711887572.8397837  : Recieved heartbeat from 1
+1711887572.8397837Node 4 accepted AppendEntries RPC from 1.
+1711887572.848915  : Recieved heartbeat from 1
+1711887572.8489154 : Leader 1 renewed lease 
+1711887572.848915Node 4 accepted AppendEntries RPC from 1.
+1711887573.256804 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887582.848915 , 1711887580.668632 , 0   
+1711887573.887985  : Recieved heartbeat from 1
+1711887573.8879854 : Leader 1 renewed lease 
+1711887573.8889916Node 4 accepted AppendEntries RPC from 1.
+1711887573.8989184  : Recieved heartbeat from 1
+1711887573.90043434 : Leader 1 renewed lease 
+1711887573.9004343Node 4 accepted AppendEntries RPC from 1.
+1711887573.903444  : Recieved heartbeat from 1
+1711887573.903444Node 4 accepted AppendEntries RPC from 1.
+1711887573.9119227  : Recieved heartbeat from 1
+1711887573.91192274 : Leader 1 renewed lease 
+1711887573.9119227Node 4 accepted AppendEntries RPC from 1.
+1711887574.257813 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887583.9119227 , 1711887583.1941516 , 0   
+1711887574.932668  : Recieved heartbeat from 1
+1711887574.9326684 : Leader 1 renewed lease 
+1711887574.932668Node 4 accepted AppendEntries RPC from 1.
+1711887574.9441764  : Recieved heartbeat from 1
+1711887574.94417644 : Leader 1 renewed lease 
+1711887574.9441764Node 4 accepted AppendEntries RPC from 1.
+1711887574.948176  : Recieved heartbeat from 1
+1711887574.948176Node 4 accepted AppendEntries RPC from 1.
+1711887574.9546854  : Recieved heartbeat from 1
+1711887574.9558814 : Leader 1 renewed lease 
+1711887574.955881Node 4 accepted AppendEntries RPC from 1.
+1711887575.2587311 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887584.955881 , 1711887584.9465265 , 0   
+1711887575.984877  : Recieved heartbeat from 1
+1711887575.9848774 : Leader 1 renewed lease 
+1711887575.9858756Node 4 accepted AppendEntries RPC from 1.
+1711887575.9949932  : Recieved heartbeat from 1
+1711887575.99499324 : Leader 1 renewed lease 
+1711887575.9959934Node 4 accepted AppendEntries RPC from 1.
+1711887575.9981487  : Recieved heartbeat from 1
+1711887575.9996376Node 4 accepted AppendEntries RPC from 1.
+1711887576.0081525  : Recieved heartbeat from 1
+1711887576.00815254 : Leader 1 renewed lease 
+1711887576.0081525Node 4 accepted AppendEntries RPC from 1.
+1711887576.2597752 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887586.0081525 , 1711887582.3517385 , 0   
+1711887577.0391166  : Recieved heartbeat from 1
+1711887577.04047734 : Leader 1 renewed lease 
+1711887577.0404773Node 4 accepted AppendEntries RPC from 1.
+1711887577.0521905  : Recieved heartbeat from 1
+1711887577.0531954 : Leader 1 renewed lease 
+1711887577.053195Node 4 accepted AppendEntries RPC from 1.
+1711887577.056193  : Recieved heartbeat from 1
+1711887577.056193Node 4 accepted AppendEntries RPC from 1.
+1711887577.06331  : Recieved heartbeat from 1
+1711887577.06430964 : Leader 1 renewed lease 
+1711887577.0643096Node 4 accepted AppendEntries RPC from 1.
+1711887577.2609525 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887587.0643096 , 1711887585.170959 , 0   
+1711887578.102695  : Recieved heartbeat from 1
+1711887578.1026954 : Leader 1 renewed lease 
+1711887578.102695Node 4 accepted AppendEntries RPC from 1.
+1711887578.1123693  : Recieved heartbeat from 1
+1711887578.11236934 : Leader 1 renewed lease 
+1711887578.1133683Node 4 accepted AppendEntries RPC from 1.
+1711887578.115368  : Recieved heartbeat from 1
+1711887578.115368Node 4 accepted AppendEntries RPC from 1.
+1711887578.122888  : Recieved heartbeat from 1
+1711887578.1228884 : Leader 1 renewed lease 
+1711887578.122888Node 4 accepted AppendEntries RPC from 1.
+1711887578.2617497 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887588.122888 , 1711887585.378348 , 0   
+1711887579.1597133  : Recieved heartbeat from 1
+1711887579.15971334 : Leader 1 renewed lease 
+1711887579.1597133Node 4 accepted AppendEntries RPC from 1.
+1711887579.1699078  : Recieved heartbeat from 1
+1711887579.16990784 : Leader 1 renewed lease 
+1711887579.170952Node 4 accepted AppendEntries RPC from 1.
+1711887579.1729877  : Recieved heartbeat from 1
+1711887579.1729877Node 4 accepted AppendEntries RPC from 1.
+1711887579.1797557  : Recieved heartbeat from 1
+1711887579.181224 : Leader 1 renewed lease 
+1711887579.18122Node 4 accepted AppendEntries RPC from 1.
+1711887579.2624102 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887580.263248 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887581.266864 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887582.2683997 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887583.2696104 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887584.2704294 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887585.2715247 <====> 0 False 4  
+: follower : 7 , 7 , 1 
+ 1711887589.18122 , 1711887584.8966107 , 0   
+1711887585.2715247Node 4 election timer timed out, becoming cadidate 
+time()  :   Starting election 1711887585.2725303 , 1711887584.8966107
+1711887585.282047 vote recieved from 0,2,True 1711887589.1752448
+1711887587.5875413 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887587.5910504 vote recieved from 2,2,False 1711887589.1762414
+1711887587.5930505 vote recieved from 3,2,False 1711887589.178748
+1711887588.5937746 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887589.2351396Vote request recieved from 3
+1711887589.2361412Vote rejected for Node 3 in term 2.
+1711887589.5945132 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887589.9062552Vote request recieved from 2
+1711887589.907255Vote rejected for Node 2 in term 2.
+1711887590.5955963 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887591.5965142 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887592.597545 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887593.598973 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+1711887594.5996685 <====> 0 False 4  
+: candidate : 7 , 7 , 2 
+ 1711887589.18122 , 1711887593.6933994 , 0   
+time()  :   Starting election 1711887594.5996685 , 1711887593.6933994
+1711887594.6026795 vote recieved from 0,3,False 1711887589.1752448
+1711887595.4091823  : Recieved heartbeat from 0
+
+ Append entry ---> 0 : 8 
+['NO-OP 1', 'SET 0 0 1', 'SET 1 1 1', 'SET 2 2 1', 'SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1', 'NO-OP 3']  
+1711887595.410408Node 4 (follower) Appended the entry NO-OP 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 0 0 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 1 1 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 2 2 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 3 3 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 4 4 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry SET 5 5 1 to the state machine.
+1711887595.410408Node 4 (follower) Appended the entry NO-OP 3 to the state machine.
+1711887595.410408 trying commiting (7, 8, 8, ['NO-OP 1', 'SET 0 0 1', 'SET 1 1 1', 'SET 2 2 1', 'SET 3 3 1', 'SET 4 4 1', 'SET 5 5 1', 'NO-OP 3'])
+1711887595.4118948Node 4 (follower) committed the entry ('NO-OP', None, None, 3) to the state machine.
+1711887595.4118948 : commited : 8
+1711887595.4118948Node 4 accepted AppendEntries RPC from 0.
+1711887596.9477203 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887596.9512398 vote recieved from 2,3,False 1711887589.1762414
+1711887596.953246 vote recieved from 3,3,False 1711887589.178748
+1711887597.7750397  : Recieved heartbeat from 0
+1711887597.77503974 : Leader 0 renewed lease 
+1711887597.7750397Node 4 accepted AppendEntries RPC from 0.
+1711887597.7782483Vote request recieved from 0
+1711887597.7782483Vote rejected for Node 0 in term 3.
+1711887597.954337 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887607.7750397 , 1711887602.8405056 , 0   
+1711887598.9550383 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887607.7750397 , 1711887602.8405056 , 0   
+1711887599.95567 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887607.7750397 , 1711887602.8405056 , 0   
+1711887600.956428 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887607.7750397 , 1711887602.8405056 , 0   
+1711887601.366748  : Recieved heartbeat from 0
+1711887601.36775064 : Leader 0 renewed lease 
+1711887601.3677506Node 4 accepted AppendEntries RPC from 0.
+1711887601.384785  : Recieved heartbeat from 0
+1711887601.385781Node 4 accepted AppendEntries RPC from 0.
+1711887601.9574578 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887611.3677506 , 1711887609.911566 , 0   
+1711887602.9585402 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887611.3677506 , 1711887609.911566 , 0   
+1711887603.7227743  : Recieved heartbeat from 0
+1711887603.72277434 : Leader 0 renewed lease 
+1711887603.7237742Node 4 accepted AppendEntries RPC from 0.
+1711887603.9596202 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887613.7227743 , 1711887612.7051463 , 0   
+1711887604.960778 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887613.7227743 , 1711887612.7051463 , 0   
+1711887605.9617567 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887613.7227743 , 1711887612.7051463 , 0   
+1711887606.9626396 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887613.7227743 , 1711887612.7051463 , 0   
+1711887607.301173  : Recieved heartbeat from 0
+1711887607.3011734 : Leader 0 renewed lease 
+1711887607.301173Node 4 accepted AppendEntries RPC from 0.
+1711887607.3051746  : Recieved heartbeat from 0
+1711887607.3061733Node 4 accepted AppendEntries RPC from 0.
+1711887607.9638824 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887617.301173 , 1711887615.1425676 , 0   
+1711887608.965327 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887617.301173 , 1711887615.1425676 , 0   
+1711887609.6664696  : Recieved heartbeat from 0
+1711887609.66646964 : Leader 0 renewed lease 
+1711887609.6664696Node 4 accepted AppendEntries RPC from 0.
+1711887609.9660902 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887619.6664696 , 1711887618.9848115 , 0   
+1711887610.9670708 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887619.6664696 , 1711887618.9848115 , 0   
+1711887611.9682124 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887619.6664696 , 1711887618.9848115 , 0   
+1711887612.9690857 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887619.6664696 , 1711887618.9848115 , 0   
+1711887613.243382  : Recieved heartbeat from 0
+1711887613.2433824 : Leader 0 renewed lease 
+1711887613.244381Node 4 accepted AppendEntries RPC from 0.
+1711887613.2473838  : Recieved heartbeat from 0
+1711887613.2483814Node 4 accepted AppendEntries RPC from 0.
+1711887613.970122 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887623.243382 , 1711887619.283558 , 0   
+1711887614.9708886 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887623.243382 , 1711887619.283558 , 0   
+1711887615.602488  : Recieved heartbeat from 0
+1711887615.6024884 : Leader 0 renewed lease 
+1711887615.602488Node 4 accepted AppendEntries RPC from 0.
+1711887615.9717214 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887625.602488 , 1711887623.7723072 , 0   
+1711887616.972922 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887625.602488 , 1711887623.7723072 , 0   
+1711887617.97418 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887625.602488 , 1711887623.7723072 , 0   
+Set : Node 4 0 received  key: "6"
+value: "6"
+ request
+Failure : I am not leader
+1711887618.9749615 <====> 0 False 4  
+: follower : 8 , 8 , 3 
+ 1711887625.602488 , 1711887623.7723072 , 0   
+1711887619.1960304  : Recieved heartbeat from 0
+1711887619.19603044 : Leader 0 renewed lease 
+1711887619.1960304Node 4 accepted AppendEntries RPC from 0.
+1711887619.2170556  : Recieved heartbeat from 0
+
+ Append entry ---> 8 : 8 
+['SET 6 6 3']  
+1711887619.2180567Node 4 (follower) Appended the entry SET 6 6 3 to the state machine.
+1711887619.2180567Node 4 accepted AppendEntries RPC from 0.
+1711887619.9756958 <====> 0 False 4  
+: follower : 8 , 9 , 3 
+ 1711887629.1960304 , 1711887627.7884846 , 0   
+1711887620.9766893 <====> 0 False 4  
+: follower : 8 , 9 , 3 
+ 1711887629.1960304 , 1711887627.7884846 , 0   
+1711887621.2775028  : Recieved heartbeat from 0
+1711887621.2822874 : Leader 0 renewed lease 
+1711887621.282287Node 4 accepted AppendEntries RPC from 0.
+1711887621.9776964 <====> 0 False 4  
+: follower : 8 , 9 , 3 
+ 1711887631.282287 , 1711887631.0857308 , 0   
+1711887622.9786305 <====> 0 False 4  
+: follower : 8 , 9 , 3 
+ 1711887631.282287 , 1711887631.0857308 , 0   
+1711887623.3438458  : Recieved heartbeat from 0
+1711887623.34384584 : Leader 0 renewed lease 
+1711887623.3448453 trying commiting (8, 9, 9, [])
+1711887623.3448453Node 4 (follower) committed the entry ('SET', '6', '6', 3) to the state machine.
+1711887623.3448453 : commited : 9
+1711887623.3448453Node 4 accepted AppendEntries RPC from 0.
+1711887623.3488452  : Recieved heartbeat from 0
+1711887623.3488452Node 4 accepted AppendEntries RPC from 0.
+1711887623.3848627  : Recieved heartbeat from 0
+1711887623.38486274 : Leader 0 renewed lease 
+1711887623.3848627Node 4 accepted AppendEntries RPC from 0.
+1711887623.9795153 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887633.3848627 , 1711887633.0640278 , 0   
+1711887624.980565 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887633.3848627 , 1711887633.0640278 , 0   
+1711887625.9811947 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887633.3848627 , 1711887633.0640278 , 0   
+1711887626.9757605  : Recieved heartbeat from 0
+1711887626.97576054 : Leader 0 renewed lease 
+1711887626.9757605Node 4 accepted AppendEntries RPC from 0.
+1711887626.9787588  : Recieved heartbeat from 0
+1711887626.9787588Node 4 accepted AppendEntries RPC from 0.
+1711887626.9822736 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887636.9757605 , 1711887634.9208138 , 0   
+1711887627.0091362  : Recieved heartbeat from 0
+1711887627.01013474 : Leader 0 renewed lease 
+1711887627.0101347Node 4 accepted AppendEntries RPC from 0.
+1711887627.9827883 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887637.0101347 , 1711887635.8297293 , 0   
+1711887628.2675753  : Recieved heartbeat from 0
+1711887628.26757534 : Leader 0 renewed lease 
+1711887628.2675753Node 4 accepted AppendEntries RPC from 0.
+1711887628.27109  : Recieved heartbeat from 0
+1711887628.2724926Node 4 accepted AppendEntries RPC from 0.
+1711887628.3082294  : Recieved heartbeat from 0
+1711887628.30923064 : Leader 0 renewed lease 
+1711887628.3092306Node 4 accepted AppendEntries RPC from 0.
+1711887628.9839063 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887638.3092306 , 1711887635.0080965 , 0   
+1711887629.9846277 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887638.3092306 , 1711887635.0080965 , 0   
+1711887630.985701 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887638.3092306 , 1711887635.0080965 , 0   
+1711887631.904282  : Recieved heartbeat from 0
+1711887631.9042824 : Leader 0 renewed lease 
+1711887631.904282Node 4 accepted AppendEntries RPC from 0.
+1711887631.9082882  : Recieved heartbeat from 0
+1711887631.9082882Node 4 accepted AppendEntries RPC from 0.
+1711887631.9443147  : Recieved heartbeat from 0
+1711887631.94531514 : Leader 0 renewed lease 
+1711887631.9453151Node 4 accepted AppendEntries RPC from 0.
+1711887631.986326 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887641.9453151 , 1711887640.9914227 , 0   
+1711887632.9873664 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887641.9453151 , 1711887640.9914227 , 0   
+1711887633.212645  : Recieved heartbeat from 0
+1711887633.2126454 : Leader 0 renewed lease 
+1711887633.212645Node 4 accepted AppendEntries RPC from 0.
+1711887633.2156534  : Recieved heartbeat from 0
+1711887633.2166514Node 4 accepted AppendEntries RPC from 0.
+1711887633.2537384  : Recieved heartbeat from 0
+1711887633.25473554 : Leader 0 renewed lease 
+1711887633.2547355Node 4 accepted AppendEntries RPC from 0.
+1711887633.9880302 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887643.2547355 , 1711887640.4974663 , 0   
+1711887634.5307543  : Recieved heartbeat from 0
+1711887634.53175574 : Leader 0 renewed lease 
+1711887634.5317557Node 4 accepted AppendEntries RPC from 0.
+1711887634.5348694  : Recieved heartbeat from 0
+1711887634.5358703Node 4 accepted AppendEntries RPC from 0.
+1711887634.5671616  : Recieved heartbeat from 0
+1711887634.56716164 : Leader 0 renewed lease 
+1711887634.5681608Node 4 accepted AppendEntries RPC from 0.
+1711887634.98869 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887644.5671616 , 1711887642.2564075 , 0   
+1711887635.9897554 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887644.5671616 , 1711887642.2564075 , 0   
+1711887636.9907026 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887644.5671616 , 1711887642.2564075 , 0   
+1711887637.8840299  : Recieved heartbeat from 0
+1711887637.88402994 : Leader 0 renewed lease 
+1711887637.8840299Node 4 accepted AppendEntries RPC from 0.
+1711887637.8870277  : Recieved heartbeat from 0
+1711887637.8880284Node 4 accepted AppendEntries RPC from 0.
+1711887637.9916022 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887647.8840299 , 1711887644.8466768 , 0   
+1711887638.9922688 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887647.8840299 , 1711887644.8466768 , 0   
+1711887639.9367478  : Recieved heartbeat from 0
+1711887639.93774844 : Leader 0 renewed lease 
+1711887639.9377484Node 4 accepted AppendEntries RPC from 0.
+1711887639.9929955 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887649.9377484 , 1711887645.3256788 , 0   
+1711887640.9937797 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887649.9377484 , 1711887645.3256788 , 0   
+1711887641.1977646  : Recieved heartbeat from 0
+1711887641.19776464 : Leader 0 renewed lease 
+1711887641.1977646Node 4 accepted AppendEntries RPC from 0.
+1711887641.200764  : Recieved heartbeat from 0
+1711887641.200764Node 4 accepted AppendEntries RPC from 0.
+1711887641.2361948  : Recieved heartbeat from 0
+1711887641.23619484 : Leader 0 renewed lease 
+1711887641.2361948Node 4 accepted AppendEntries RPC from 0.
+1711887641.9944112 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887651.2361948 , 1711887647.9509377 , 0   
+1711887642.488559  : Recieved heartbeat from 0
+1711887642.4895554 : Leader 0 renewed lease 
+1711887642.489555Node 4 accepted AppendEntries RPC from 0.
+1711887642.4920626  : Recieved heartbeat from 0
+1711887642.4930718Node 4 accepted AppendEntries RPC from 0.
+1711887642.5286412  : Recieved heartbeat from 0
+1711887642.52964024 : Leader 0 renewed lease 
+1711887642.5296402Node 4 accepted AppendEntries RPC from 0.
+1711887642.9951007 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887652.5296402 , 1711887652.2818973 , 0   
+1711887643.804673  : Recieved heartbeat from 0
+1711887643.8046734 : Leader 0 renewed lease 
+1711887643.805674Node 4 accepted AppendEntries RPC from 0.
+1711887643.8086743  : Recieved heartbeat from 0
+1711887643.8106742Node 4 accepted AppendEntries RPC from 0.
+1711887643.8438668  : Recieved heartbeat from 0
+1711887643.84386684 : Leader 0 renewed lease 
+1711887643.8448634Node 4 accepted AppendEntries RPC from 0.
+1711887643.9958866 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887653.8438668 , 1711887653.3574247 , 0   
+1711887644.9968362 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887653.8438668 , 1711887653.3574247 , 0   
+1711887645.9978778 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887653.8438668 , 1711887653.3574247 , 0   
+1711887646.9986417 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887653.8438668 , 1711887653.3574247 , 0   
+1711887647.185607  : Recieved heartbeat from 0
+1711887647.1856074 : Leader 0 renewed lease 
+1711887647.185607Node 4 accepted AppendEntries RPC from 0.
+1711887647.1972115  : Recieved heartbeat from 0
+1711887647.1972115Node 4 accepted AppendEntries RPC from 0.
+1711887647.230193  : Recieved heartbeat from 0
+1711887647.2301934 : Leader 0 renewed lease 
+1711887647.230193Node 4 accepted AppendEntries RPC from 0.
+1711887647.9992301 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887657.230193 , 1711887654.914516 , 0   
+1711887648.5151455  : Recieved heartbeat from 0
+1711887648.51514554 : Leader 0 renewed lease 
+1711887648.5151455Node 4 accepted AppendEntries RPC from 0.
+1711887648.5450788  : Recieved heartbeat from 0
+1711887648.5506308Node 4 accepted AppendEntries RPC from 0.
+1711887648.5855875  : Recieved heartbeat from 0
+1711887648.58558754 : Leader 0 renewed lease 
+1711887648.5865881Node 4 accepted AppendEntries RPC from 0.
+1711887649.000039 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887658.5855875 , 1711887657.1748505 , 0   
+1711887650.0011175 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887658.5855875 , 1711887657.1748505 , 0   
+1711887651.0019894 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887658.5855875 , 1711887657.1748505 , 0   
+1711887651.9225147  : Recieved heartbeat from 0
+1711887651.9235784 : Leader 0 renewed lease 
+1711887651.923578Node 4 accepted AppendEntries RPC from 0.
+1711887651.9265797  : Recieved heartbeat from 0
+1711887651.9275804Node 4 accepted AppendEntries RPC from 0.
+1711887651.962642  : Recieved heartbeat from 0
+1711887651.9626424 : Leader 0 renewed lease 
+1711887651.962642Node 4 accepted AppendEntries RPC from 0.
+1711887652.0028718 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887661.962642 , 1711887659.972676 , 0   
+1711887653.0036411 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887661.962642 , 1711887659.972676 , 0   
+1711887653.2376423  : Recieved heartbeat from 0
+1711887653.23764234 : Leader 0 renewed lease 
+1711887653.2376423Node 4 accepted AppendEntries RPC from 0.
+1711887653.2416465  : Recieved heartbeat from 0
+1711887653.2416465Node 4 accepted AppendEntries RPC from 0.
+1711887653.2749736  : Recieved heartbeat from 0
+1711887653.27497364 : Leader 0 renewed lease 
+1711887653.2749736Node 4 accepted AppendEntries RPC from 0.
+1711887654.0043423 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887663.2749736 , 1711887660.2373316 , 0   
+1711887654.5504444  : Recieved heartbeat from 0
+1711887654.55044444 : Leader 0 renewed lease 
+1711887654.5504444Node 4 accepted AppendEntries RPC from 0.
+1711887654.5529516  : Recieved heartbeat from 0
+1711887654.5539577Node 4 accepted AppendEntries RPC from 0.
+1711887654.5899186  : Recieved heartbeat from 0
+1711887654.59035094 : Leader 0 renewed lease 
+1711887654.5903509Node 4 accepted AppendEntries RPC from 0.
+1711887655.0050058 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887664.5903509 , 1711887663.0156236 , 0   
+1711887655.845818  : Recieved heartbeat from 0
+1711887655.8458184 : Leader 0 renewed lease 
+1711887655.8468182Node 4 accepted AppendEntries RPC from 0.
+1711887655.850329  : Recieved heartbeat from 0
+1711887655.850329Node 4 accepted AppendEntries RPC from 0.
+1711887655.885429  : Recieved heartbeat from 0
+1711887655.8854294 : Leader 0 renewed lease 
+1711887655.886429Node 4 accepted AppendEntries RPC from 0.
+1711887656.0056148 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887665.885429 , 1711887663.587257 , 0   
+1711887657.0064273 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887665.885429 , 1711887663.587257 , 0   
+1711887657.1444144  : Recieved heartbeat from 0
+1711887657.14441444 : Leader 0 renewed lease 
+1711887657.1444144Node 4 accepted AppendEntries RPC from 0.
+1711887657.1474142  : Recieved heartbeat from 0
+1711887657.1484141Node 4 accepted AppendEntries RPC from 0.
+1711887657.184204  : Recieved heartbeat from 0
+1711887657.1842044 : Leader 0 renewed lease 
+1711887657.185205Node 4 accepted AppendEntries RPC from 0.
+1711887658.007132 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887667.184204 , 1711887666.247878 , 0   
+1711887658.446004  : Recieved heartbeat from 0
+1711887658.44700554 : Leader 0 renewed lease 
+1711887658.4470055Node 4 accepted AppendEntries RPC from 0.
+1711887658.4761863  : Recieved heartbeat from 0
+1711887658.4761863Node 4 accepted AppendEntries RPC from 0.
+1711887658.510208  : Recieved heartbeat from 0
+1711887658.5102084 : Leader 0 renewed lease 
+1711887658.5112076Node 4 accepted AppendEntries RPC from 0.
+1711887659.008157 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887668.510208 , 1711887664.403334 , 0   
+1711887659.7614732  : Recieved heartbeat from 0
+1711887659.76298074 : Leader 0 renewed lease 
+1711887659.7629807Node 4 accepted AppendEntries RPC from 0.
+1711887659.7672164  : Recieved heartbeat from 0
+1711887659.7672164Node 4 accepted AppendEntries RPC from 0.
+1711887659.8066602  : Recieved heartbeat from 0
+1711887659.80666024 : Leader 0 renewed lease 
+1711887659.8066602Node 4 accepted AppendEntries RPC from 0.
+1711887660.0093548 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887669.8066602 , 1711887669.0402682 , 0   
+1711887661.0102406 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887669.8066602 , 1711887669.0402682 , 0   
+1711887661.0547166  : Recieved heartbeat from 0
+1711887661.0557144 : Leader 0 renewed lease 
+1711887661.055714Node 4 accepted AppendEntries RPC from 0.
+1711887661.0587163  : Recieved heartbeat from 0
+1711887661.0597143Node 4 accepted AppendEntries RPC from 0.
+1711887661.0918097  : Recieved heartbeat from 0
+1711887661.09180974 : Leader 0 renewed lease 
+1711887661.0918097Node 4 accepted AppendEntries RPC from 0.
+1711887662.0115929 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887671.0918097 , 1711887668.2117689 , 0   
+1711887662.3647044  : Recieved heartbeat from 0
+1711887662.36470444 : Leader 0 renewed lease 
+1711887662.3647044Node 4 accepted AppendEntries RPC from 0.
+1711887662.3677058  : Recieved heartbeat from 0
+1711887662.3687057Node 4 accepted AppendEntries RPC from 0.
+1711887662.4034824  : Recieved heartbeat from 0
+1711887662.40348244 : Leader 0 renewed lease 
+1711887662.4048524Node 4 accepted AppendEntries RPC from 0.
+1711887663.0125844 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887672.4034824 , 1711887671.3827233 , 0   
+1711887663.6786747  : Recieved heartbeat from 0
+1711887663.67867474 : Leader 0 renewed lease 
+1711887663.6796727Node 4 accepted AppendEntries RPC from 0.
+1711887663.6831856  : Recieved heartbeat from 0
+1711887663.6841946Node 4 accepted AppendEntries RPC from 0.
+1711887663.720289  : Recieved heartbeat from 0
+1711887663.72128994 : Leader 0 renewed lease 
+1711887663.7212899Node 4 accepted AppendEntries RPC from 0.
+1711887664.0133383 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887673.7212899 , 1711887673.213656 , 0   
+1711887665.0140839 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887673.7212899 , 1711887673.213656 , 0   
+1711887666.0147727 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887673.7212899 , 1711887673.213656 , 0   
+1711887667.0157666 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887673.7212899 , 1711887673.213656 , 0   
+1711887667.0317962  : Recieved heartbeat from 0
+1711887667.0329344 : Leader 0 renewed lease 
+1711887667.0334392Node 4 accepted AppendEntries RPC from 0.
+1711887667.055001  : Recieved heartbeat from 0
+1711887667.055001Node 4 accepted AppendEntries RPC from 0.
+1711887667.0895703  : Recieved heartbeat from 0
+1711887667.08957034 : Leader 0 renewed lease 
+1711887667.0895703Node 4 accepted AppendEntries RPC from 0.
+1711887668.0167933 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887677.0895703 , 1711887674.5339503 , 0   
+1711887668.3672185  : Recieved heartbeat from 0
+1711887668.36721854 : Leader 0 renewed lease 
+1711887668.3672185Node 4 accepted AppendEntries RPC from 0.
+1711887668.3702173  : Recieved heartbeat from 0
+1711887668.3712175Node 4 accepted AppendEntries RPC from 0.
+1711887668.4051754  : Recieved heartbeat from 0
+1711887668.40517544 : Leader 0 renewed lease 
+1711887668.4051754Node 4 accepted AppendEntries RPC from 0.
+1711887669.0178285 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887678.4051754 , 1711887675.0392625 , 0   
+1711887669.6610498  : Recieved heartbeat from 0
+1711887669.6620494 : Leader 0 renewed lease 
+1711887669.662049Node 4 accepted AppendEntries RPC from 0.
+1711887669.6645672  : Recieved heartbeat from 0
+1711887669.6655684Node 4 accepted AppendEntries RPC from 0.
+1711887670.0184686 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887679.662049 , 1711887675.3712842 , 0   
+1711887671.019103 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887679.662049 , 1711887675.3712842 , 0   
+1711887671.7338202  : Recieved heartbeat from 0
+1711887671.73482824 : Leader 0 renewed lease 
+1711887671.7348282Node 4 accepted AppendEntries RPC from 0.
+1711887672.0201445 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887681.7348282 , 1711887679.6584363 , 0   
+1711887673.015017  : Recieved heartbeat from 0
+1711887673.01602394 : Leader 0 renewed lease 
+1711887673.0160239Node 4 accepted AppendEntries RPC from 0.
+1711887673.0195289  : Recieved heartbeat from 0
+1711887673.0195289Node 4 accepted AppendEntries RPC from 0.
+1711887673.0210507 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887683.0160239 , 1711887682.316048 , 0   
+1711887673.0506063  : Recieved heartbeat from 0
+1711887673.05160864 : Leader 0 renewed lease 
+1711887673.0516086Node 4 accepted AppendEntries RPC from 0.
+1711887674.0218015 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887683.0516086 , 1711887680.2239032 , 0   
+1711887674.3118029  : Recieved heartbeat from 0
+1711887674.3128034 : Leader 0 renewed lease 
+1711887674.312803Node 4 accepted AppendEntries RPC from 0.
+1711887674.3150094  : Recieved heartbeat from 0
+1711887674.3160088Node 4 accepted AppendEntries RPC from 0.
+1711887674.3484635  : Recieved heartbeat from 0
+1711887674.34946014 : Leader 0 renewed lease 
+1711887674.3494601Node 4 accepted AppendEntries RPC from 0.
+1711887675.0227375 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887684.3494601 , 1711887684.0979714 , 0   
+1711887675.6179354  : Recieved heartbeat from 0
+1711887675.61893424 : Leader 0 renewed lease 
+1711887675.6189342Node 4 accepted AppendEntries RPC from 0.
+1711887675.622445  : Recieved heartbeat from 0
+1711887675.622445Node 4 accepted AppendEntries RPC from 0.
+1711887675.6570432  : Recieved heartbeat from 0
+1711887675.65704324 : Leader 0 renewed lease 
+1711887675.6570432Node 4 accepted AppendEntries RPC from 0.
+1711887676.0236685 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887685.6570432 , 1711887682.2430713 , 0   
+1711887676.9364352  : Recieved heartbeat from 0
+1711887676.93643524 : Leader 0 renewed lease 
+1711887676.9364352Node 4 accepted AppendEntries RPC from 0.
+1711887676.939435  : Recieved heartbeat from 0
+1711887676.9404356Node 4 accepted AppendEntries RPC from 0.
+1711887676.975242  : Recieved heartbeat from 0
+1711887676.9762474 : Leader 0 renewed lease 
+1711887676.976247Node 4 accepted AppendEntries RPC from 0.
+1711887677.024263 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887686.976247 , 1711887684.924716 , 0   
+1711887678.0252275 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887686.976247 , 1711887684.924716 , 0   
+1711887678.2618845  : Recieved heartbeat from 0
+1711887678.26288274 : Leader 0 renewed lease 
+1711887678.2628827Node 4 accepted AppendEntries RPC from 0.
+1711887678.267413  : Recieved heartbeat from 0
+1711887678.267413Node 4 accepted AppendEntries RPC from 0.
+1711887678.302976  : Recieved heartbeat from 0
+1711887678.3029764 : Leader 0 renewed lease 
+1711887678.302976Node 4 accepted AppendEntries RPC from 0.
+1711887679.0261014 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887688.302976 , 1711887684.7247229 , 0   
+1711887679.5632787  : Recieved heartbeat from 0
+1711887679.56327874 : Leader 0 renewed lease 
+1711887679.5632787Node 4 accepted AppendEntries RPC from 0.
+1711887679.566372  : Recieved heartbeat from 0
+1711887679.566372Node 4 accepted AppendEntries RPC from 0.
+1711887679.600773  : Recieved heartbeat from 0
+1711887679.6007734 : Leader 0 renewed lease 
+1711887679.6017728Node 4 accepted AppendEntries RPC from 0.
+1711887680.0268297 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887689.600773 , 1711887685.344155 , 0   
+1711887680.8717706  : Recieved heartbeat from 0
+1711887680.87277274 : Leader 0 renewed lease 
+1711887680.8727727Node 4 accepted AppendEntries RPC from 0.
+1711887680.8752904  : Recieved heartbeat from 0
+1711887680.8762932Node 4 accepted AppendEntries RPC from 0.
+1711887680.9088635  : Recieved heartbeat from 0
+1711887680.90886354 : Leader 0 renewed lease 
+1711887680.9088635Node 4 accepted AppendEntries RPC from 0.
+1711887681.0277078 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887690.9088635 , 1711887687.3879194 , 0   
+1711887682.0287035 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887690.9088635 , 1711887687.3879194 , 0   
+1711887682.1611507  : Recieved heartbeat from 0
+1711887682.16115074 : Leader 0 renewed lease 
+1711887682.1621497Node 4 accepted AppendEntries RPC from 0.
+1711887682.1646564  : Recieved heartbeat from 0
+1711887682.1646564Node 4 accepted AppendEntries RPC from 0.
+1711887682.2003138  : Recieved heartbeat from 0
+1711887682.20031384 : Leader 0 renewed lease 
+1711887682.2003138Node 4 accepted AppendEntries RPC from 0.
+1711887683.0294125 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887692.2003138 , 1711887690.3788297 , 0   
+1711887683.4545019  : Recieved heartbeat from 0
+1711887683.45450194 : Leader 0 renewed lease 
+1711887683.4545019Node 4 accepted AppendEntries RPC from 0.
+1711887683.4575124  : Recieved heartbeat from 0
+1711887683.4575124Node 4 accepted AppendEntries RPC from 0.
+1711887683.4933863  : Recieved heartbeat from 0
+1711887683.49338634 : Leader 0 renewed lease 
+1711887683.4943862Node 4 accepted AppendEntries RPC from 0.
+1711887684.0302572 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887693.4933863 , 1711887689.5380552 , 0   
+1711887684.7595026  : Recieved heartbeat from 0
+1711887684.76049954 : Leader 0 renewed lease 
+1711887684.7604995Node 4 accepted AppendEntries RPC from 0.
+1711887684.7634988  : Recieved heartbeat from 0
+1711887684.7634988Node 4 accepted AppendEntries RPC from 0.
+1711887684.802151  : Recieved heartbeat from 0
+1711887684.80315234 : Leader 0 renewed lease 
+1711887684.8031523Node 4 accepted AppendEntries RPC from 0.
+1711887685.0309532 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887694.8031523 , 1711887694.650749 , 0   
+1711887686.0317545 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887694.8031523 , 1711887694.650749 , 0   
+1711887686.060231  : Recieved heartbeat from 0
+1711887686.06123114 : Leader 0 renewed lease 
+1711887686.0612311Node 4 accepted AppendEntries RPC from 0.
+1711887686.0792763  : Recieved heartbeat from 0
+1711887686.0792763Node 4 accepted AppendEntries RPC from 0.
+1711887686.1148515  : Recieved heartbeat from 0
+1711887686.1153594 : Leader 0 renewed lease 
+1711887686.115359Node 4 accepted AppendEntries RPC from 0.
+1711887687.032634 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887696.115359 , 1711887692.1028874 , 0   
+1711887688.033371 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887696.115359 , 1711887692.1028874 , 0   
+1711887689.0345843 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887696.115359 , 1711887692.1028874 , 0   
+1711887689.4222417  : Recieved heartbeat from 0
+1711887689.42224174 : Leader 0 renewed lease 
+1711887689.4232423Node 4 accepted AppendEntries RPC from 0.
+1711887689.4257576  : Recieved heartbeat from 0
+1711887689.4267554Node 4 accepted AppendEntries RPC from 0.
+1711887689.4638433  : Recieved heartbeat from 0
+1711887689.46384334 : Leader 0 renewed lease 
+1711887689.4638433Node 4 accepted AppendEntries RPC from 0.
+1711887690.0352497 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887699.4638433 , 1711887695.2965894 , 0   
+1711887690.7300494  : Recieved heartbeat from 0
+1711887690.73004944 : Leader 0 renewed lease 
+1711887690.7300494Node 4 accepted AppendEntries RPC from 0.
+1711887690.7568152  : Recieved heartbeat from 0
+1711887690.7578158Node 4 accepted AppendEntries RPC from 0.
+1711887690.7953117  : Recieved heartbeat from 0
+1711887690.79531174 : Leader 0 renewed lease 
+1711887690.7953117Node 4 accepted AppendEntries RPC from 0.
+1711887691.0360413 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887700.7953117 , 1711887696.6583917 , 0   
+1711887691.933737  : Recieved heartbeat from 0
+1711887691.9337374 : Leader 0 renewed lease 
+1711887691.933737Node 4 accepted AppendEntries RPC from 0.
+1711887691.9362674  : Recieved heartbeat from 0
+1711887691.9373367Node 4 accepted AppendEntries RPC from 0.
+1711887691.9739144  : Recieved heartbeat from 0
+1711887691.97391444 : Leader 0 renewed lease 
+1711887691.9749155Node 4 accepted AppendEntries RPC from 0.
+1711887692.0365567 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887701.9739144 , 1711887697.9833424 , 0   
+1711887693.0374582 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887701.9739144 , 1711887697.9833424 , 0   
+1711887693.089187  : Recieved heartbeat from 0
+1711887693.09018544 : Leader 0 renewed lease 
+1711887693.0901854Node 4 accepted AppendEntries RPC from 0.
+1711887693.0931842  : Recieved heartbeat from 0
+1711887693.0931842Node 4 accepted AppendEntries RPC from 0.
+1711887693.1350694  : Recieved heartbeat from 0
+1711887693.13615754 : Leader 0 renewed lease 
+1711887693.137662Node 4 accepted AppendEntries RPC from 0.
+1711887694.0381799 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887703.1361575 , 1711887698.7040415 , 0   
+1711887694.256826  : Recieved heartbeat from 0
+1711887694.25782544 : Leader 0 renewed lease 
+1711887694.2578254Node 4 accepted AppendEntries RPC from 0.
+1711887694.28286  : Recieved heartbeat from 0
+1711887694.2838588Node 4 accepted AppendEntries RPC from 0.
+1711887694.3208215  : Recieved heartbeat from 0
+1711887694.32182174 : Leader 0 renewed lease 
+1711887694.3218217Node 4 accepted AppendEntries RPC from 0.
+1711887695.0388339 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887704.3218217 , 1711887703.1930175 , 0   
+1711887695.4340353  : Recieved heartbeat from 0
+1711887695.43403534 : Leader 0 renewed lease 
+1711887695.4356055Node 4 accepted AppendEntries RPC from 0.
+1711887695.440061  : Recieved heartbeat from 0
+1711887695.440061Node 4 accepted AppendEntries RPC from 0.
+1711887695.4771485  : Recieved heartbeat from 0
+1711887695.47714854 : Leader 0 renewed lease 
+1711887695.4781475Node 4 accepted AppendEntries RPC from 0.
+1711887696.039375 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887705.4771485 , 1711887701.9322095 , 0   
+1711887696.5865204  : Recieved heartbeat from 0
+1711887696.58652044 : Leader 0 renewed lease 
+1711887696.5865204Node 4 accepted AppendEntries RPC from 0.
+1711887696.590933  : Recieved heartbeat from 0
+1711887696.590933Node 4 accepted AppendEntries RPC from 0.
+1711887696.6287122  : Recieved heartbeat from 0
+1711887696.62971854 : Leader 0 renewed lease 
+1711887696.6297185Node 4 accepted AppendEntries RPC from 0.
+1711887697.039967 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887706.6297185 , 1711887703.6940253 , 0   
+1711887697.7699623  : Recieved heartbeat from 0
+1711887697.77096464 : Leader 0 renewed lease 
+1711887697.7709646Node 4 accepted AppendEntries RPC from 0.
+1711887697.7975492  : Recieved heartbeat from 0
+1711887697.7975492Node 4 accepted AppendEntries RPC from 0.
+1711887697.8323376  : Recieved heartbeat from 0
+1711887697.83233764 : Leader 0 renewed lease 
+1711887697.833335Node 4 accepted AppendEntries RPC from 0.
+1711887698.0407498 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887707.8323376 , 1711887707.6639497 , 0   
+1711887698.9184434  : Recieved heartbeat from 0
+1711887698.91844344 : Leader 0 renewed lease 
+1711887698.9194455Node 4 accepted AppendEntries RPC from 0.
+1711887698.9457462  : Recieved heartbeat from 0
+1711887698.9462762Node 4 accepted AppendEntries RPC from 0.
+1711887698.984112  : Recieved heartbeat from 0
+1711887698.9841124 : Leader 0 renewed lease 
+1711887698.984112Node 4 accepted AppendEntries RPC from 0.
+1711887699.0416923 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887708.984112 , 1711887708.8239734 , 0   
+1711887700.0422595 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887708.984112 , 1711887708.8239734 , 0   
+1711887700.0778975  : Recieved heartbeat from 0
+1711887700.07789754 : Leader 0 renewed lease 
+1711887700.0778975Node 4 accepted AppendEntries RPC from 0.
+1711887700.0808947  : Recieved heartbeat from 0
+1711887700.0808947Node 4 accepted AppendEntries RPC from 0.
+1711887700.1139538  : Recieved heartbeat from 0
+1711887700.11395384 : Leader 0 renewed lease 
+1711887700.1139538Node 4 accepted AppendEntries RPC from 0.
+1711887701.0430107 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887710.1139538 , 1711887709.7017448 , 0   
+1711887701.1038737Vote request recieved from 1
+1711887701.1048753Vote rejected for Node 1 in term 2.
+1711887701.2177088  : Recieved heartbeat from 0
+1711887701.21770884 : Leader 0 renewed lease 
+1711887701.2187083Node 4 accepted AppendEntries RPC from 0.
+1711887701.2387378  : Recieved heartbeat from 0
+1711887701.2387378Node 4 accepted AppendEntries RPC from 0.
+1711887701.2757897  : Recieved heartbeat from 0
+1711887701.27578974 : Leader 0 renewed lease 
+1711887701.2757897Node 4 accepted AppendEntries RPC from 0.
+1711887702.0438135 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887711.2757897 , 1711887706.8382318 , 0   
+1711887702.298453  : Recieved heartbeat from 0
+1711887702.2984534 : Leader 0 renewed lease 
+1711887702.298453Node 4 accepted AppendEntries RPC from 0.
+1711887702.3035152  : Recieved heartbeat from 0
+1711887702.30452254 : Leader 0 renewed lease 
+1711887702.3045225Node 4 accepted AppendEntries RPC from 0.
+1711887702.3149142  : Recieved heartbeat from 0
+1711887702.31591994 : Leader 0 renewed lease 
+1711887702.3159199Node 4 accepted AppendEntries RPC from 0.
+1711887702.3189359  : Recieved heartbeat from 0
+1711887702.3189359Node 4 accepted AppendEntries RPC from 0.
+1711887702.3239346  : Recieved heartbeat from 0
+1711887702.32393464 : Leader 0 renewed lease 
+1711887702.3239346Node 4 accepted AppendEntries RPC from 0.
+1711887702.3264408  : Recieved heartbeat from 0
+1711887702.3264408  : Recieved heartbeat from 0
+1711887702.3264408Node 4 accepted AppendEntries RPC from 0.
+1711887702.32644084 : Leader 0 renewed lease 
+1711887702.32745Node 4 accepted AppendEntries RPC from 0.
+1711887702.3359647  : Recieved heartbeat from 0
+1711887702.3369754 : Leader 0 renewed lease 
+1711887702.336975Node 4 accepted AppendEntries RPC from 0.
+1711887703.0444038 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887712.336975 , 1711887711.2079537 , 0   
+1711887703.370261  : Recieved heartbeat from 0
+1711887703.3702614 : Leader 0 renewed lease 
+1711887703.371261Node 4 accepted AppendEntries RPC from 0.
+1711887703.3818858  : Recieved heartbeat from 0
+1711887703.38188584 : Leader 0 renewed lease 
+1711887703.3828864Node 4 accepted AppendEntries RPC from 0.
+1711887703.3848863  : Recieved heartbeat from 0
+1711887703.3858845Node 4 accepted AppendEntries RPC from 0.
+1711887703.393409  : Recieved heartbeat from 0
+1711887703.3934094 : Leader 0 renewed lease 
+1711887703.393409Node 4 accepted AppendEntries RPC from 0.
+1711887704.0453207 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887713.393409 , 1711887711.374364 , 0   
+1711887704.4300127  : Recieved heartbeat from 0
+1711887704.4310134 : Leader 0 renewed lease 
+1711887704.431013Node 4 accepted AppendEntries RPC from 0.
+1711887704.459706  : Recieved heartbeat from 0
+1711887704.4597064 : Leader 0 renewed lease 
+1711887704.4607062Node 4 accepted AppendEntries RPC from 0.
+1711887704.4637046  : Recieved heartbeat from 0
+1711887704.4637046Node 4 accepted AppendEntries RPC from 0.
+1711887704.4724  : Recieved heartbeat from 0
+1711887704.47244 : Leader 0 renewed lease 
+1711887704.4724Node 4 accepted AppendEntries RPC from 0.
+1711887705.0464745 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887714.4724 , 1711887710.1862059 , 0   
+1711887705.5237663  : Recieved heartbeat from 0
+1711887705.52376634 : Leader 0 renewed lease 
+1711887705.5237663Node 4 accepted AppendEntries RPC from 0.
+1711887705.5390146  : Recieved heartbeat from 0
+1711887705.54001284 : Leader 0 renewed lease 
+1711887705.5400128Node 4 accepted AppendEntries RPC from 0.
+1711887705.5430155  : Recieved heartbeat from 0
+1711887705.5430155Node 4 accepted AppendEntries RPC from 0.
+1711887705.5513563  : Recieved heartbeat from 0
+1711887705.55135634 : Leader 0 renewed lease 
+1711887705.5513563Node 4 accepted AppendEntries RPC from 0.
+1711887706.0472867 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887715.5513563 , 1711887711.8329244 , 0   
+1711887706.587254  : Recieved heartbeat from 0
+1711887706.5872544 : Leader 0 renewed lease 
+1711887706.588256Node 4 accepted AppendEntries RPC from 0.
+1711887706.6149535  : Recieved heartbeat from 0
+1711887706.61495354 : Leader 0 renewed lease 
+1711887706.6149535Node 4 accepted AppendEntries RPC from 0.
+1711887706.6364987  : Recieved heartbeat from 0
+1711887706.6375053Node 4 accepted AppendEntries RPC from 0.
+1711887706.6460154  : Recieved heartbeat from 0
+1711887706.64601544 : Leader 0 renewed lease 
+1711887706.6460154Node 4 accepted AppendEntries RPC from 0.
+1711887707.0479662 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887716.6460154 , 1711887715.3611045 , 0   
+1711887707.6651242  : Recieved heartbeat from 0
+1711887707.66512424 : Leader 0 renewed lease 
+1711887707.6651242Node 4 accepted AppendEntries RPC from 0.
+1711887707.6871922  : Recieved heartbeat from 0
+1711887707.68820074 : Leader 0 renewed lease 
+1711887707.6882007Node 4 accepted AppendEntries RPC from 0.
+1711887707.6912005  : Recieved heartbeat from 0
+1711887707.6912005Node 4 accepted AppendEntries RPC from 0.
+1711887707.7012413  : Recieved heartbeat from 0
+1711887707.70124134 : Leader 0 renewed lease 
+1711887707.7012413Node 4 accepted AppendEntries RPC from 0.
+1711887708.0489233 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887717.7012413 , 1711887712.9564993 , 0   
+1711887708.7483516  : Recieved heartbeat from 0
+1711887708.74835164 : Leader 0 renewed lease 
+1711887708.7483516Node 4 accepted AppendEntries RPC from 0.
+1711887708.7614002  : Recieved heartbeat from 0
+1711887708.76239824 : Leader 0 renewed lease 
+1711887708.7623982Node 4 accepted AppendEntries RPC from 0.
+1711887708.7859426  : Recieved heartbeat from 0
+1711887708.7869506Node 4 accepted AppendEntries RPC from 0.
+1711887708.7959607  : Recieved heartbeat from 0
+1711887708.79596074 : Leader 0 renewed lease 
+1711887708.796469Node 4 accepted AppendEntries RPC from 0.
+1711887709.049793 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887718.7959607 , 1711887717.7134547 , 0   
+1711887709.8161373  : Recieved heartbeat from 0
+1711887709.81613734 : Leader 0 renewed lease 
+1711887709.8161373Node 4 accepted AppendEntries RPC from 0.
+1711887709.8277352  : Recieved heartbeat from 0
+1711887709.82773524 : Leader 0 renewed lease 
+1711887709.8287437Node 4 accepted AppendEntries RPC from 0.
+1711887709.8307447  : Recieved heartbeat from 0
+1711887709.8317432Node 4 accepted AppendEntries RPC from 0.
+1711887709.841064  : Recieved heartbeat from 0
+1711887709.8410644 : Leader 0 renewed lease 
+1711887709.841064Node 4 accepted AppendEntries RPC from 0.
+1711887710.051108 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887719.841064 , 1711887715.300845 , 0   
+1711887710.863691  : Recieved heartbeat from 0
+1711887710.8636914 : Leader 0 renewed lease 
+1711887710.8646927Node 4 accepted AppendEntries RPC from 0.
+1711887710.877595  : Recieved heartbeat from 0
+1711887710.8775954 : Leader 0 renewed lease 
+1711887710.8786151Node 4 accepted AppendEntries RPC from 0.
+1711887710.8816168  : Recieved heartbeat from 0
+1711887710.8816168Node 4 accepted AppendEntries RPC from 0.
+1711887710.890138  : Recieved heartbeat from 0
+1711887710.89113884 : Leader 0 renewed lease 
+1711887710.8911388Node 4 accepted AppendEntries RPC from 0.
+1711887711.0519016 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887720.8911388 , 1711887718.452376 , 0   
+1711887711.921448  : Recieved heartbeat from 0
+1711887711.9214484 : Leader 0 renewed lease 
+1711887711.921448Node 4 accepted AppendEntries RPC from 0.
+1711887711.9489157  : Recieved heartbeat from 0
+1711887711.94891574 : Leader 0 renewed lease 
+1711887711.9499142Node 4 accepted AppendEntries RPC from 0.
+1711887711.9529173  : Recieved heartbeat from 0
+1711887711.9529173Node 4 accepted AppendEntries RPC from 0.
+1711887711.9612541  : Recieved heartbeat from 0
+1711887711.96225074 : Leader 0 renewed lease 
+1711887711.9622507Node 4 accepted AppendEntries RPC from 0.
+1711887712.052871 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887721.9622507 , 1711887717.701992 , 0   
+1711887713.0085642  : Recieved heartbeat from 0
+1711887713.00856424 : Leader 0 renewed lease 
+1711887713.009564Node 4 accepted AppendEntries RPC from 0.
+1711887713.0387137  : Recieved heartbeat from 0
+1711887713.0397224 : Leader 0 renewed lease 
+1711887713.039722Node 4 accepted AppendEntries RPC from 0.
+1711887713.0427225  : Recieved heartbeat from 0
+1711887713.0427225Node 4 accepted AppendEntries RPC from 0.
+1711887713.0513632  : Recieved heartbeat from 0
+1711887713.05236434 : Leader 0 renewed lease 
+1711887713.0523643Node 4 accepted AppendEntries RPC from 0.
+1711887713.0538692 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887723.0523643 , 1711887719.8072762 , 0   
+1711887714.054285 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887723.0523643 , 1711887719.8072762 , 0   
+1711887714.0862646  : Recieved heartbeat from 0
+1711887714.08750034 : Leader 0 renewed lease 
+1711887714.0875003Node 4 accepted AppendEntries RPC from 0.
+1711887714.1117027  : Recieved heartbeat from 0
+1711887714.11170274 : Leader 0 renewed lease 
+1711887714.1127026Node 4 accepted AppendEntries RPC from 0.
+1711887714.116284  : Recieved heartbeat from 0
+1711887714.116284Node 4 accepted AppendEntries RPC from 0.
+1711887714.1241407  : Recieved heartbeat from 0
+1711887714.12414074 : Leader 0 renewed lease 
+1711887714.1241407Node 4 accepted AppendEntries RPC from 0.
+1711887715.054845 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887724.1241407 , 1711887719.1567137 , 0   
+1711887715.1618664  : Recieved heartbeat from 0
+1711887715.16186644 : Leader 0 renewed lease 
+1711887715.1618664Node 4 accepted AppendEntries RPC from 0.
+1711887715.1729054  : Recieved heartbeat from 0
+1711887715.17390184 : Leader 0 renewed lease 
+1711887715.1739018Node 4 accepted AppendEntries RPC from 0.
+1711887715.1765687  : Recieved heartbeat from 0
+1711887715.1765687Node 4 accepted AppendEntries RPC from 0.
+1711887715.1848001  : Recieved heartbeat from 0
+1711887715.18480014 : Leader 0 renewed lease 
+1711887715.1848001Node 4 accepted AppendEntries RPC from 0.
+1711887716.0554545 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887725.1848001 , 1711887721.386198 , 0   
+1711887716.2216449  : Recieved heartbeat from 0
+1711887716.2226554 : Leader 0 renewed lease 
+1711887716.222655Node 4 accepted AppendEntries RPC from 0.
+1711887716.2587764  : Recieved heartbeat from 0
+1711887716.25977664 : Leader 0 renewed lease 
+1711887716.2597766Node 4 accepted AppendEntries RPC from 0.
+1711887716.2627783  : Recieved heartbeat from 0
+1711887716.2627783Node 4 accepted AppendEntries RPC from 0.
+1711887716.2715065  : Recieved heartbeat from 0
+1711887716.27150654 : Leader 0 renewed lease 
+1711887716.2715065Node 4 accepted AppendEntries RPC from 0.
+1711887717.0564022 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887726.2715065 , 1711887721.5028956 , 0   
+1711887717.320918  : Recieved heartbeat from 0
+1711887717.3209184 : Leader 0 renewed lease 
+1711887717.320918Node 4 accepted AppendEntries RPC from 0.
+1711887717.3330092  : Recieved heartbeat from 0
+1711887717.33300924 : Leader 0 renewed lease 
+1711887717.3330092Node 4 accepted AppendEntries RPC from 0.
+1711887717.3585343  : Recieved heartbeat from 0
+1711887717.3595424Node 4 accepted AppendEntries RPC from 0.
+1711887717.3684635  : Recieved heartbeat from 0
+1711887717.36846354 : Leader 0 renewed lease 
+1711887717.3684635Node 4 accepted AppendEntries RPC from 0.
+1711887718.057375 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887727.3684635 , 1711887725.7021835 , 0   
+1711887718.409632  : Recieved heartbeat from 0
+1711887718.4096324 : Leader 0 renewed lease 
+1711887718.409632Node 4 accepted AppendEntries RPC from 0.
+1711887718.421155  : Recieved heartbeat from 0
+1711887718.4211554 : Leader 0 renewed lease 
+1711887718.4221547Node 4 accepted AppendEntries RPC from 0.
+1711887718.424153  : Recieved heartbeat from 0
+1711887718.4251533Node 4 accepted AppendEntries RPC from 0.
+1711887718.432726  : Recieved heartbeat from 0
+1711887718.4327264 : Leader 0 renewed lease 
+1711887718.4337242Node 4 accepted AppendEntries RPC from 0.
+1711887719.0581217 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887728.432726 , 1711887726.143373 , 0   
+1711887719.4514163  : Recieved heartbeat from 0
+1711887719.45141634 : Leader 0 renewed lease 
+1711887719.4524171Node 4 accepted AppendEntries RPC from 0.
+1711887719.4836464  : Recieved heartbeat from 0
+1711887719.48364644 : Leader 0 renewed lease 
+1711887719.4846466Node 4 accepted AppendEntries RPC from 0.
+1711887719.4866464  : Recieved heartbeat from 0
+1711887719.4866464Node 4 accepted AppendEntries RPC from 0.
+1711887719.495435  : Recieved heartbeat from 0
+1711887719.4954354 : Leader 0 renewed lease 
+1711887719.495435Node 4 accepted AppendEntries RPC from 0.
+1711887720.0589232 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887729.495435 , 1711887727.052543 , 0   
+1711887720.528376  : Recieved heartbeat from 0
+1711887720.5283764 : Leader 0 renewed lease 
+1711887720.5293853Node 4 accepted AppendEntries RPC from 0.
+1711887720.5409012  : Recieved heartbeat from 0
+1711887720.54090124 : Leader 0 renewed lease 
+1711887720.5409012Node 4 accepted AppendEntries RPC from 0.
+1711887720.5439007  : Recieved heartbeat from 0
+1711887720.5439007Node 4 accepted AppendEntries RPC from 0.
+1711887720.552493  : Recieved heartbeat from 0
+1711887720.5524934 : Leader 0 renewed lease 
+1711887720.5535004Node 4 accepted AppendEntries RPC from 0.
+1711887721.0597746 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887730.552493 , 1711887729.013402 , 0   
+1711887721.5758743  : Recieved heartbeat from 0
+1711887721.57688074 : Leader 0 renewed lease 
+1711887721.5768807Node 4 accepted AppendEntries RPC from 0.
+1711887721.5886989  : Recieved heartbeat from 0
+1711887721.58869894 : Leader 0 renewed lease 
+1711887721.5886989Node 4 accepted AppendEntries RPC from 0.
+1711887721.5917084  : Recieved heartbeat from 0
+1711887721.5927062Node 4 accepted AppendEntries RPC from 0.
+1711887721.6007392  : Recieved heartbeat from 0
+1711887721.60073924 : Leader 0 renewed lease 
+1711887721.6007392Node 4 accepted AppendEntries RPC from 0.
+1711887722.0607693 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887731.6007392 , 1711887726.7934632 , 0   
+1711887722.6188836  : Recieved heartbeat from 0
+1711887722.6198854 : Leader 0 renewed lease 
+1711887722.619885Node 4 accepted AppendEntries RPC from 0.
+1711887722.6310742  : Recieved heartbeat from 0
+1711887722.63107424 : Leader 0 renewed lease 
+1711887722.6320739Node 4 accepted AppendEntries RPC from 0.
+1711887722.6340742  : Recieved heartbeat from 0
+1711887722.6350749Node 4 accepted AppendEntries RPC from 0.
+1711887722.6436675  : Recieved heartbeat from 0
+1711887722.64470274 : Leader 0 renewed lease 
+1711887722.6447027Node 4 accepted AppendEntries RPC from 0.
+1711887723.0616944 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887732.6447027 , 1711887728.3998544 , 0   
+1711887723.66424  : Recieved heartbeat from 0
+1711887723.664244 : Leader 0 renewed lease 
+1711887723.66424Node 4 accepted AppendEntries RPC from 0.
+1711887723.6756122  : Recieved heartbeat from 0
+1711887723.67561224 : Leader 0 renewed lease 
+1711887723.677121Node 4 accepted AppendEntries RPC from 0.
+1711887723.6801426  : Recieved heartbeat from 0
+1711887723.6801426Node 4 accepted AppendEntries RPC from 0.
+1711887723.6893609  : Recieved heartbeat from 0
+1711887723.68936094 : Leader 0 renewed lease 
+1711887723.6893609Node 4 accepted AppendEntries RPC from 0.
+1711887724.062655 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887733.6893609 , 1711887730.5042758 , 0   
+1711887724.7082353  : Recieved heartbeat from 0
+1711887724.70823534 : Leader 0 renewed lease 
+1711887724.7082353Node 4 accepted AppendEntries RPC from 0.
+1711887724.7207222  : Recieved heartbeat from 0
+1711887724.72072224 : Leader 0 renewed lease 
+1711887724.7207222Node 4 accepted AppendEntries RPC from 0.
+1711887724.7237244  : Recieved heartbeat from 0
+1711887724.7237244Node 4 accepted AppendEntries RPC from 0.
+1711887724.7332394  : Recieved heartbeat from 0
+1711887724.73424034 : Leader 0 renewed lease 
+1711887724.7342403Node 4 accepted AppendEntries RPC from 0.
+1711887725.0635355 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887734.7342403 , 1711887733.5786994 , 0   
+1711887725.7969925  : Recieved heartbeat from 0
+1711887725.79799964 : Leader 0 renewed lease 
+1711887725.7979996Node 4 accepted AppendEntries RPC from 0.
+1711887725.829783  : Recieved heartbeat from 0
+1711887725.8297834 : Leader 0 renewed lease 
+1711887725.829783Node 4 accepted AppendEntries RPC from 0.
+1711887725.8337834  : Recieved heartbeat from 0
+1711887725.8337834Node 4 accepted AppendEntries RPC from 0.
+1711887725.8421335  : Recieved heartbeat from 0
+1711887725.84213354 : Leader 0 renewed lease 
+1711887725.8431308Node 4 accepted AppendEntries RPC from 0.
+1711887726.0640914 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887735.8421335 , 1711887731.1560855 , 0   
+1711887726.8726997  : Recieved heartbeat from 0
+1711887726.8736964 : Leader 0 renewed lease 
+1711887726.873696Node 4 accepted AppendEntries RPC from 0.
+1711887726.8856788  : Recieved heartbeat from 0
+1711887726.88567884 : Leader 0 renewed lease 
+1711887726.8856788Node 4 accepted AppendEntries RPC from 0.
+1711887726.8921926  : Recieved heartbeat from 0
+1711887726.8921926Node 4 accepted AppendEntries RPC from 0.
+1711887726.9012096  : Recieved heartbeat from 0
+1711887726.90120964 : Leader 0 renewed lease 
+1711887726.9022083Node 4 accepted AppendEntries RPC from 0.
+1711887727.0652618 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887736.9012096 , 1711887733.2911196 , 0   
+1711887727.9193094  : Recieved heartbeat from 0
+1711887727.92030454 : Leader 0 renewed lease 
+1711887727.9203045Node 4 accepted AppendEntries RPC from 0.
+1711887727.9315312  : Recieved heartbeat from 0
+1711887727.93153124 : Leader 0 renewed lease 
+1711887727.9315312Node 4 accepted AppendEntries RPC from 0.
+1711887727.9349978  : Recieved heartbeat from 0
+1711887727.9349978Node 4 accepted AppendEntries RPC from 0.
+1711887727.9435139  : Recieved heartbeat from 0
+1711887727.94351394 : Leader 0 renewed lease 
+1711887727.9435139Node 4 accepted AppendEntries RPC from 0.
+1711887728.0662646 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887737.9435139 , 1711887736.882017 , 0   
+1711887728.9823346  : Recieved heartbeat from 0
+1711887728.98233464 : Leader 0 renewed lease 
+1711887728.9833333Node 4 accepted AppendEntries RPC from 0.
+1711887728.9945593  : Recieved heartbeat from 0
+1711887728.99555874 : Leader 0 renewed lease 
+1711887728.9955587Node 4 accepted AppendEntries RPC from 0.
+1711887728.999073  : Recieved heartbeat from 0
+1711887728.999073Node 4 accepted AppendEntries RPC from 0.
+1711887729.007577  : Recieved heartbeat from 0
+1711887729.0075774 : Leader 0 renewed lease 
+1711887729.0085847Node 4 accepted AppendEntries RPC from 0.
+1711887729.067165 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887739.007577 , 1711887738.4457889 , 0   
+1711887730.0255902  : Recieved heartbeat from 0
+1711887730.02559024 : Leader 0 renewed lease 
+1711887730.0255902Node 4 accepted AppendEntries RPC from 0.
+1711887730.0536625  : Recieved heartbeat from 0
+1711887730.0546574 : Leader 0 renewed lease 
+1711887730.054657Node 4 accepted AppendEntries RPC from 0.
+1711887730.0576587  : Recieved heartbeat from 0
+1711887730.0576587Node 4 accepted AppendEntries RPC from 0.
+1711887730.0661824  : Recieved heartbeat from 0
+1711887730.0681915 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887740.054657 , 1711887737.9279335 , 0   
+1711887730.07502824 : Leader 0 renewed lease 
+1711887730.0759196Node 4 accepted AppendEntries RPC from 0.
+1711887731.0757587 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887740.0750282 , 1711887737.9279335 , 0   
+1711887731.095334  : Recieved heartbeat from 0
+1711887731.0963384 : Leader 0 renewed lease 
+1711887731.096338Node 4 accepted AppendEntries RPC from 0.
+1711887731.109836  : Recieved heartbeat from 0
+1711887731.1098364 : Leader 0 renewed lease 
+1711887731.1108365Node 4 accepted AppendEntries RPC from 0.
+1711887731.112836  : Recieved heartbeat from 0
+1711887731.1138363Node 4 accepted AppendEntries RPC from 0.
+1711887731.121721  : Recieved heartbeat from 0
+1711887731.12272054 : Leader 0 renewed lease 
+1711887731.1227205Node 4 accepted AppendEntries RPC from 0.
+1711887732.0768018 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887741.1227205 , 1711887738.679843 , 0   
+1711887732.1613624  : Recieved heartbeat from 0
+1711887732.16136244 : Leader 0 renewed lease 
+1711887732.1613624Node 4 accepted AppendEntries RPC from 0.
+1711887732.1728728  : Recieved heartbeat from 0
+1711887732.17287284 : Leader 0 renewed lease 
+1711887732.1728728Node 4 accepted AppendEntries RPC from 0.
+1711887732.1758714  : Recieved heartbeat from 0
+1711887732.1758714Node 4 accepted AppendEntries RPC from 0.
+1711887732.1849077  : Recieved heartbeat from 0
+1711887732.18490774 : Leader 0 renewed lease 
+1711887732.185904Node 4 accepted AppendEntries RPC from 0.
+1711887733.0773916 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887742.1849077 , 1711887738.5925946 , 0   
+1711887733.2273717  : Recieved heartbeat from 0
+1711887733.228384 : Leader 0 renewed lease 
+1711887733.22838Node 4 accepted AppendEntries RPC from 0.
+1711887733.2377343  : Recieved heartbeat from 0
+1711887733.23773434 : Leader 0 renewed lease 
+1711887733.2391021Node 4 accepted AppendEntries RPC from 0.
+1711887733.2421494  : Recieved heartbeat from 0
+1711887733.2421494Node 4 accepted AppendEntries RPC from 0.
+1711887733.2496686  : Recieved heartbeat from 0
+1711887733.24966864 : Leader 0 renewed lease 
+1711887733.2496686Node 4 accepted AppendEntries RPC from 0.
+1711887734.0787354 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887743.2496686 , 1711887741.0041535 , 0   
+1711887734.293191  : Recieved heartbeat from 0
+1711887734.2931914 : Leader 0 renewed lease 
+1711887734.2941883Node 4 accepted AppendEntries RPC from 0.
+1711887734.3261662  : Recieved heartbeat from 0
+1711887734.32616624 : Leader 0 renewed lease 
+1711887734.3261662Node 4 accepted AppendEntries RPC from 0.
+1711887734.3296845  : Recieved heartbeat from 0
+1711887734.3296845Node 4 accepted AppendEntries RPC from 0.
+1711887734.3401456  : Recieved heartbeat from 0
+1711887734.34014564 : Leader 0 renewed lease 
+1711887734.3401456Node 4 accepted AppendEntries RPC from 0.
+1711887735.0799959 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887744.3401456 , 1711887743.9075155 , 0   
+1711887735.3835683  : Recieved heartbeat from 0
+1711887735.3845674 : Leader 0 renewed lease 
+1711887735.384567Node 4 accepted AppendEntries RPC from 0.
+1711887735.4159458  : Recieved heartbeat from 0
+1711887735.41594584 : Leader 0 renewed lease 
+1711887735.4159458Node 4 accepted AppendEntries RPC from 0.
+1711887735.4189854  : Recieved heartbeat from 0
+1711887735.4189854Node 4 accepted AppendEntries RPC from 0.
+1711887735.4268565  : Recieved heartbeat from 0
+1711887735.4278654 : Leader 0 renewed lease 
+1711887735.427865Node 4 accepted AppendEntries RPC from 0.
+1711887736.0810254 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887745.427865 , 1711887744.6209464 , 0   
+1711887736.445479  : Recieved heartbeat from 0
+1711887736.4454794 : Leader 0 renewed lease 
+1711887736.445479Node 4 accepted AppendEntries RPC from 0.
+1711887736.4746804  : Recieved heartbeat from 0
+1711887736.47468044 : Leader 0 renewed lease 
+1711887736.4746804Node 4 accepted AppendEntries RPC from 0.
+1711887736.4789667  : Recieved heartbeat from 0
+1711887736.4789667Node 4 accepted AppendEntries RPC from 0.
+1711887736.486459  : Recieved heartbeat from 0
+1711887736.4864594 : Leader 0 renewed lease 
+1711887736.486459Node 4 accepted AppendEntries RPC from 0.
+1711887737.081668 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887746.486459 , 1711887745.649194 , 0   
+1711887737.520108  : Recieved heartbeat from 0
+1711887737.5201084 : Leader 0 renewed lease 
+1711887737.520108Node 4 accepted AppendEntries RPC from 0.
+1711887737.5317333  : Recieved heartbeat from 0
+1711887737.53173334 : Leader 0 renewed lease 
+1711887737.5317333Node 4 accepted AppendEntries RPC from 0.
+1711887737.534966  : Recieved heartbeat from 0
+1711887737.534966Node 4 accepted AppendEntries RPC from 0.
+1711887737.5433238  : Recieved heartbeat from 0
+1711887737.54332384 : Leader 0 renewed lease 
+1711887737.5443223Node 4 accepted AppendEntries RPC from 0.
+1711887738.0825334 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887747.5433238 , 1711887746.1806347 , 0   
+1711887738.5608373  : Recieved heartbeat from 0
+1711887738.56083734 : Leader 0 renewed lease 
+1711887738.5618327Node 4 accepted AppendEntries RPC from 0.
+1711887738.5723555  : Recieved heartbeat from 0
+1711887738.57235554 : Leader 0 renewed lease 
+1711887738.5733547Node 4 accepted AppendEntries RPC from 0.
+1711887738.5763552  : Recieved heartbeat from 0
+1711887738.5763552Node 4 accepted AppendEntries RPC from 0.
+1711887738.5840998  : Recieved heartbeat from 0
+1711887738.58409984 : Leader 0 renewed lease 
+1711887738.5850883Node 4 accepted AppendEntries RPC from 0.
+1711887739.0834885 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887748.5840998 , 1711887746.5004957 , 0   
+1711887739.6280816  : Recieved heartbeat from 0
+1711887739.62808164 : Leader 0 renewed lease 
+1711887739.6280816Node 4 accepted AppendEntries RPC from 0.
+1711887739.6398294  : Recieved heartbeat from 0
+1711887739.63982944 : Leader 0 renewed lease 
+1711887739.6398294Node 4 accepted AppendEntries RPC from 0.
+1711887739.6428387  : Recieved heartbeat from 0
+1711887739.6428387Node 4 accepted AppendEntries RPC from 0.
+1711887739.6508636  : Recieved heartbeat from 0
+1711887739.6518644 : Leader 0 renewed lease 
+1711887739.651864Node 4 accepted AppendEntries RPC from 0.
+1711887740.0844324 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887749.651864 , 1711887745.8405187 , 0   
+1711887740.6700444  : Recieved heartbeat from 0
+1711887740.67004444 : Leader 0 renewed lease 
+1711887740.6710422Node 4 accepted AppendEntries RPC from 0.
+1711887740.6815696  : Recieved heartbeat from 0
+1711887740.68156964 : Leader 0 renewed lease 
+1711887740.6825702Node 4 accepted AppendEntries RPC from 0.
+1711887740.6855702  : Recieved heartbeat from 0
+1711887740.6855702Node 4 accepted AppendEntries RPC from 0.
+1711887740.693595  : Recieved heartbeat from 0
+1711887740.6935954 : Leader 0 renewed lease 
+1711887740.6945949Node 4 accepted AppendEntries RPC from 0.
+1711887741.0855594 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887750.693595 , 1711887747.507416 , 0   
+1711887741.715143  : Recieved heartbeat from 0
+1711887741.7151434 : Leader 0 renewed lease 
+1711887741.715143Node 4 accepted AppendEntries RPC from 0.
+1711887741.7362309  : Recieved heartbeat from 0
+1711887741.73735484 : Leader 0 renewed lease 
+1711887741.738385Node 4 accepted AppendEntries RPC from 0.
+1711887741.7471695  : Recieved heartbeat from 0
+1711887741.74817Node 4 accepted AppendEntries RPC from 0.
+1711887741.7592103  : Recieved heartbeat from 0
+1711887741.76021844 : Leader 0 renewed lease 
+1711887741.7602184Node 4 accepted AppendEntries RPC from 0.
+1711887742.0861032 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887751.7602184 , 1711887746.8994124 , 0   
+1711887742.7783022  : Recieved heartbeat from 0
+1711887742.77830224 : Leader 0 renewed lease 
+1711887742.7783022Node 4 accepted AppendEntries RPC from 0.
+1711887742.7922368  : Recieved heartbeat from 0
+1711887742.7932344 : Leader 0 renewed lease 
+1711887742.793234Node 4 accepted AppendEntries RPC from 0.
+1711887742.7972927  : Recieved heartbeat from 0
+1711887742.7972927Node 4 accepted AppendEntries RPC from 0.
+1711887742.8067594  : Recieved heartbeat from 0
+1711887742.80675944 : Leader 0 renewed lease 
+1711887742.8067594Node 4 accepted AppendEntries RPC from 0.
+1711887743.088042 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887752.8067594 , 1711887748.5021694 , 0   
+1711887743.834712  : Recieved heartbeat from 0
+1711887743.83585144 : Leader 0 renewed lease 
+1711887743.8358514Node 4 accepted AppendEntries RPC from 0.
+1711887743.8544993  : Recieved heartbeat from 0
+1711887743.85449934 : Leader 0 renewed lease 
+1711887743.855505Node 4 accepted AppendEntries RPC from 0.
+1711887743.8585038  : Recieved heartbeat from 0
+1711887743.8597074Node 4 accepted AppendEntries RPC from 0.
+1711887743.8714213  : Recieved heartbeat from 0
+1711887743.87142134 : Leader 0 renewed lease 
+1711887743.8724213Node 4 accepted AppendEntries RPC from 0.
+1711887744.088833 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887753.8714213 , 1711887749.6615674 , 0   
+1711887744.8971448  : Recieved heartbeat from 0
+1711887744.89814544 : Leader 0 renewed lease 
+1711887744.8981454Node 4 accepted AppendEntries RPC from 0.
+1711887744.9138916  : Recieved heartbeat from 0
+1711887744.91389164 : Leader 0 renewed lease 
+1711887744.9138916Node 4 accepted AppendEntries RPC from 0.
+1711887744.9168937  : Recieved heartbeat from 0
+1711887744.9168937Node 4 accepted AppendEntries RPC from 0.
+1711887744.9300592  : Recieved heartbeat from 0
+1711887744.93005924 : Leader 0 renewed lease 
+1711887744.9300592Node 4 accepted AppendEntries RPC from 0.
+1711887745.0896537 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887754.9300592 , 1711887754.3428242 , 0   
+1711887745.9489982  : Recieved heartbeat from 0
+1711887745.9500124 : Leader 0 renewed lease 
+1711887745.950012Node 4 accepted AppendEntries RPC from 0.
+1711887745.963395  : Recieved heartbeat from 0
+1711887745.9643964 : Leader 0 renewed lease 
+1711887745.964396Node 4 accepted AppendEntries RPC from 0.
+1711887745.967392  : Recieved heartbeat from 0
+1711887745.9683914Node 4 accepted AppendEntries RPC from 0.
+1711887745.9783146  : Recieved heartbeat from 0
+1711887745.97831464 : Leader 0 renewed lease 
+1711887745.9793253Node 4 accepted AppendEntries RPC from 0.
+1711887746.0906181 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887755.9783146 , 1711887751.6118817 , 0   
+1711887747.009554  : Recieved heartbeat from 0
+1711887747.01055484 : Leader 0 renewed lease 
+1711887747.0105548Node 4 accepted AppendEntries RPC from 0.
+1711887747.0230916  : Recieved heartbeat from 0
+1711887747.02408964 : Leader 0 renewed lease 
+1711887747.0240896Node 4 accepted AppendEntries RPC from 0.
+1711887747.0270896  : Recieved heartbeat from 0
+1711887747.0270896Node 4 accepted AppendEntries RPC from 0.
+1711887747.0370479  : Recieved heartbeat from 0
+1711887747.03704794 : Leader 0 renewed lease 
+1711887747.0370479Node 4 accepted AppendEntries RPC from 0.
+1711887747.09166 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887757.0370479 , 1711887755.5881848 , 0   
+1711887748.0701792  : Recieved heartbeat from 0
+1711887748.07017924 : Leader 0 renewed lease 
+1711887748.0701792Node 4 accepted AppendEntries RPC from 0.
+1711887748.0922298 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887758.0701792 , 1711887757.5693443 , 0   
+1711887748.1015646  : Recieved heartbeat from 0
+1711887748.10156464 : Leader 0 renewed lease 
+1711887748.1015646Node 4 accepted AppendEntries RPC from 0.
+1711887748.1055655  : Recieved heartbeat from 0
+1711887748.1055655Node 4 accepted AppendEntries RPC from 0.
+1711887748.1135883  : Recieved heartbeat from 0
+1711887748.11458874 : Leader 0 renewed lease 
+1711887748.1145887Node 4 accepted AppendEntries RPC from 0.
+1711887749.0928981 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887758.1145887 , 1711887757.9864533 , 0   
+1711887749.1518056  : Recieved heartbeat from 0
+1711887749.15180564 : Leader 0 renewed lease 
+1711887749.1528082Node 4 accepted AppendEntries RPC from 0.
+1711887749.1789455  : Recieved heartbeat from 0
+1711887749.17894554 : Leader 0 renewed lease 
+1711887749.1789455Node 4 accepted AppendEntries RPC from 0.
+1711887749.182962  : Recieved heartbeat from 0
+1711887749.182962Node 4 accepted AppendEntries RPC from 0.
+1711887749.1917653  : Recieved heartbeat from 0
+1711887749.19176534 : Leader 0 renewed lease 
+1711887749.1927655Node 4 accepted AppendEntries RPC from 0.
+1711887750.0936906 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887759.1917653 , 1711887758.5367863 , 0   
+1711887750.2256408  : Recieved heartbeat from 0
+1711887750.22564084 : Leader 0 renewed lease 
+1711887750.2266395Node 4 accepted AppendEntries RPC from 0.
+1711887750.2536905  : Recieved heartbeat from 0
+1711887750.25369054 : Leader 0 renewed lease 
+1711887750.2536905Node 4 accepted AppendEntries RPC from 0.
+1711887750.257689  : Recieved heartbeat from 0
+1711887750.257689Node 4 accepted AppendEntries RPC from 0.
+1711887750.265848  : Recieved heartbeat from 0
+1711887750.2668474 : Leader 0 renewed lease 
+1711887750.266847Node 4 accepted AppendEntries RPC from 0.
+1711887751.094691 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887760.266847 , 1711887758.6004379 , 0   
+1711887751.3109705  : Recieved heartbeat from 0
+1711887751.31097054 : Leader 0 renewed lease 
+1711887751.3109705Node 4 accepted AppendEntries RPC from 0.
+1711887751.3236709  : Recieved heartbeat from 0
+1711887751.32367094 : Leader 0 renewed lease 
+1711887751.3246691Node 4 accepted AppendEntries RPC from 0.
+1711887751.3276677  : Recieved heartbeat from 0
+1711887751.3276677Node 4 accepted AppendEntries RPC from 0.
+1711887751.3351882  : Recieved heartbeat from 0
+1711887751.33618784 : Leader 0 renewed lease 
+1711887751.3361878Node 4 accepted AppendEntries RPC from 0.
+1711887752.0954232 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887761.3361878 , 1711887758.6489272 , 0   
+1711887752.3715575  : Recieved heartbeat from 0
+1711887752.37155754 : Leader 0 renewed lease 
+1711887752.3715575Node 4 accepted AppendEntries RPC from 0.
+1711887752.4016  : Recieved heartbeat from 0
+1711887752.40266754 : Leader 0 renewed lease 
+1711887752.4026675Node 4 accepted AppendEntries RPC from 0.
+1711887752.4066746  : Recieved heartbeat from 0
+1711887752.4066746Node 4 accepted AppendEntries RPC from 0.
+1711887752.4158723  : Recieved heartbeat from 0
+1711887752.41587234 : Leader 0 renewed lease 
+1711887752.4158723Node 4 accepted AppendEntries RPC from 0.
+1711887753.0962434 <====> 0 False 4  
+: follower : 9 , 9 , 3 
+ 1711887762.4158723 , 1711887761.2935402 , 0   
+1711887753.4599044  : Recieved heartbeat from 0
+1711887753.4609034 : Leader 0 renewed lease 
+1711887753.460903Node 4 accepted AppendEntries RPC from 0.
+1711887753.4724247  : Recieved heartbeat from 0
+1711887753.47242474 : Leader 0 renewed lease 
+1711887753.4724247Node 4 accepted AppendEntries RPC from 0.
+1711887753.475425  : Recieved heartbeat from 0
+1711887753.475425Node 4 accepted AppendEntries RPC from 0.
+1711887753.4839475  : Recieved heartbeat from 0
+1711887753.48394754 : Leader 0 renewed lease 
+1711887753.484947Node 4 accepted AppendEntries RPC from 0.
+1711887753.5347843  : Recieved heartbeat from 0
+1711887753.53478434 : Leader 0 renewed lease 
+1711887753.5347843Node 4 accepted AppendEntries RPC from 0.
+1711887753.568939  : Recieved heartbeat from 0
+1711887753.5689394 : Leader 0 renewed lease 
+1711887753.5699465Node 4 accepted AppendEntries RPC from 0.
+1711887753.5836823  : Recieved heartbeat from 0
+1711887753.58368234 : Leader 0 renewed lease 
+1711887753.5836823 trying commiting (9, 10, 9, [])
+1711887753.5836823Exception append 3 : list index out of range : 0 : 10 : 9
+1711887753.5836823Node 4 accepted AppendEntries RPC from 0.
+1711887753.5866838  : Recieved heartbeat from 0
+
+ Append entry ---> 9 : 10 
+['SET 8 8 3']  
+1711887753.5876856Node 4 (follower) Appended the entry SET 8 8 3 to the state machine.
+1711887753.5876856 trying commiting (9, 10, 10, ['SET 8 8 3'])
+1711887753.5876856Node 4 (follower) committed the entry ('SET', '8', '8', 3) to the state machine.
+1711887753.5886836 : commited : 10
+1711887753.5886836Node 4 accepted AppendEntries RPC from 0.
+1711887753.596203  : Recieved heartbeat from 0
+1711887753.59720374 : Leader 0 renewed lease 
+1711887753.5972037Node 4 accepted AppendEntries RPC from 0.
+1711887754.0971754 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887763.5972037 , 1711887758.989139 , 0   
+1711887754.520703  : Recieved heartbeat from 0
+1711887754.52171064 : Leader 0 renewed lease 
+1711887754.5217106Node 4 accepted AppendEntries RPC from 0.
+1711887754.5518327  : Recieved heartbeat from 0
+1711887754.55183274 : Leader 0 renewed lease 
+1711887754.5528328Node 4 accepted AppendEntries RPC from 0.
+1711887754.5558336  : Recieved heartbeat from 0
+1711887754.5558336Node 4 accepted AppendEntries RPC from 0.
+1711887754.5653558  : Recieved heartbeat from 0
+1711887754.56535584 : Leader 0 renewed lease 
+1711887754.5653558Node 4 accepted AppendEntries RPC from 0.
+1711887755.098047 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887764.5653558 , 1711887764.5641568 , 0   
+1711887755.6040428  : Recieved heartbeat from 0
+1711887755.60404284 : Leader 0 renewed lease 
+1711887755.6050432Node 4 accepted AppendEntries RPC from 0.
+1711887755.6204534  : Recieved heartbeat from 0
+1711887755.62145614 : Leader 0 renewed lease 
+1711887755.6214561Node 4 accepted AppendEntries RPC from 0.
+1711887755.6254523  : Recieved heartbeat from 0
+1711887755.6254523Node 4 accepted AppendEntries RPC from 0.
+1711887755.6369863  : Recieved heartbeat from 0
+1711887755.63798364 : Leader 0 renewed lease 
+1711887755.6379836Node 4 accepted AppendEntries RPC from 0.
+1711887756.0989187 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887765.6379836 , 1711887761.6085322 , 0   
+1711887756.6679626  : Recieved heartbeat from 0
+1711887756.66896184 : Leader 0 renewed lease 
+1711887756.6689618Node 4 accepted AppendEntries RPC from 0.
+1711887756.6827996  : Recieved heartbeat from 0
+1711887756.6837974 : Leader 0 renewed lease 
+1711887756.683797Node 4 accepted AppendEntries RPC from 0.
+1711887756.6877973  : Recieved heartbeat from 0
+1711887756.688799Node 4 accepted AppendEntries RPC from 0.
+1711887756.697228  : Recieved heartbeat from 0
+1711887756.6972284 : Leader 0 renewed lease 
+1711887756.698738Node 4 accepted AppendEntries RPC from 0.
+1711887757.099753 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887766.697228 , 1711887766.330706 , 0   
+1711887757.7180333  : Recieved heartbeat from 0
+1711887757.71803334 : Leader 0 renewed lease 
+1711887757.7180333Node 4 accepted AppendEntries RPC from 0.
+1711887757.7325299  : Recieved heartbeat from 0
+1711887757.73252994 : Leader 0 renewed lease 
+1711887757.733528Node 4 accepted AppendEntries RPC from 0.
+1711887757.7365277  : Recieved heartbeat from 0
+1711887757.7365277Node 4 accepted AppendEntries RPC from 0.
+1711887757.7480443  : Recieved heartbeat from 0
+1711887757.74804434 : Leader 0 renewed lease 
+1711887757.749043Node 4 accepted AppendEntries RPC from 0.
+1711887758.100828 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887767.7480443 , 1711887766.3187923 , 0   
+1711887758.7652843  : Recieved heartbeat from 0
+1711887758.76628544 : Leader 0 renewed lease 
+1711887758.7662854Node 4 accepted AppendEntries RPC from 0.
+1711887758.7790673  : Recieved heartbeat from 0
+1711887758.77906734 : Leader 0 renewed lease 
+1711887758.7790673Node 4 accepted AppendEntries RPC from 0.
+1711887758.783078  : Recieved heartbeat from 0
+1711887758.7840765Node 4 accepted AppendEntries RPC from 0.
+1711887758.7932274  : Recieved heartbeat from 0
+1711887758.79322744 : Leader 0 renewed lease 
+1711887758.7932274Node 4 accepted AppendEntries RPC from 0.
+1711887759.1019683 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887768.7932274 , 1711887764.6116915 , 0   
+1711887759.8131008  : Recieved heartbeat from 0
+1711887759.81409984 : Leader 0 renewed lease 
+1711887759.8140998Node 4 accepted AppendEntries RPC from 0.
+1711887759.8281462  : Recieved heartbeat from 0
+1711887759.82814624 : Leader 0 renewed lease 
+1711887759.829148Node 4 accepted AppendEntries RPC from 0.
+1711887759.8321886  : Recieved heartbeat from 0
+1711887759.8331885Node 4 accepted AppendEntries RPC from 0.
+1711887759.8427248  : Recieved heartbeat from 0
+1711887759.84272484 : Leader 0 renewed lease 
+1711887759.8437247Node 4 accepted AppendEntries RPC from 0.
+1711887760.103134 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887769.8427248 , 1711887766.7881298 , 0   
+1711887760.8682642  : Recieved heartbeat from 0
+1711887760.86926484 : Leader 0 renewed lease 
+1711887760.8692648Node 4 accepted AppendEntries RPC from 0.
+1711887760.8868368  : Recieved heartbeat from 0
+1711887760.88683684 : Leader 0 renewed lease 
+1711887760.8868368Node 4 accepted AppendEntries RPC from 0.
+1711887760.8903587  : Recieved heartbeat from 0
+1711887760.891359Node 4 accepted AppendEntries RPC from 0.
+1711887760.9025202  : Recieved heartbeat from 0
+1711887760.90351824 : Leader 0 renewed lease 
+1711887760.9035182Node 4 accepted AppendEntries RPC from 0.
+1711887761.1041791 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887770.9035182 , 1711887767.9638972 , 0   
+1711887761.9564426  : Recieved heartbeat from 0
+1711887761.95644264 : Leader 0 renewed lease 
+1711887761.9564426Node 4 accepted AppendEntries RPC from 0.
+1711887761.9744427  : Recieved heartbeat from 0
+1711887761.9754434 : Leader 0 renewed lease 
+1711887761.975443Node 4 accepted AppendEntries RPC from 0.
+1711887761.9804425  : Recieved heartbeat from 0
+1711887761.981444Node 4 accepted AppendEntries RPC from 0.
+1711887761.9924436  : Recieved heartbeat from 0
+1711887761.99244364 : Leader 0 renewed lease 
+1711887761.9924436Node 4 accepted AppendEntries RPC from 0.
+1711887762.1052375 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887771.9924436 , 1711887770.6302505 , 0   
+1711887763.0130186  : Recieved heartbeat from 0
+1711887763.01301864 : Leader 0 renewed lease 
+1711887763.0140202Node 4 accepted AppendEntries RPC from 0.
+1711887763.0279765  : Recieved heartbeat from 0
+1711887763.02797654 : Leader 0 renewed lease 
+1711887763.0279765Node 4 accepted AppendEntries RPC from 0.
+1711887763.0309756  : Recieved heartbeat from 0
+1711887763.032103Node 4 accepted AppendEntries RPC from 0.
+1711887763.0432405  : Recieved heartbeat from 0
+1711887763.04324054 : Leader 0 renewed lease 
+1711887763.0432405Node 4 accepted AppendEntries RPC from 0.
+1711887763.1083846 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887773.0432405 , 1711887772.3245616 , 0   
+1711887764.0651515  : Recieved heartbeat from 0
+1711887764.06515154 : Leader 0 renewed lease 
+1711887764.066151Node 4 accepted AppendEntries RPC from 0.
+1711887764.0792239  : Recieved heartbeat from 0
+1711887764.08033564 : Leader 0 renewed lease 
+1711887764.0803356Node 4 accepted AppendEntries RPC from 0.
+1711887764.0843346  : Recieved heartbeat from 0
+1711887764.0843346Node 4 accepted AppendEntries RPC from 0.
+1711887764.0950174  : Recieved heartbeat from 0
+1711887764.09501744 : Leader 0 renewed lease 
+1711887764.0960145Node 4 accepted AppendEntries RPC from 0.
+1711887764.109558 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887774.0950174 , 1711887773.9994414 , 0   
+1711887765.1104772 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887774.0950174 , 1711887773.9994414 , 0   
+1711887765.1145103  : Recieved heartbeat from 0
+1711887765.11451034 : Leader 0 renewed lease 
+1711887765.1155138Node 4 accepted AppendEntries RPC from 0.
+1711887765.1286924  : Recieved heartbeat from 0
+1711887765.12869244 : Leader 0 renewed lease 
+1711887765.1286924Node 4 accepted AppendEntries RPC from 0.
+1711887765.133224  : Recieved heartbeat from 0
+1711887765.133224Node 4 accepted AppendEntries RPC from 0.
+1711887765.1432843  : Recieved heartbeat from 0
+1711887765.14328434 : Leader 0 renewed lease 
+1711887765.1432843Node 4 accepted AppendEntries RPC from 0.
+1711887766.1113422 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887775.1432843 , 1711887773.0345132 , 0   
+1711887766.1638088  : Recieved heartbeat from 0
+1711887766.16380884 : Leader 0 renewed lease 
+1711887766.1638088Node 4 accepted AppendEntries RPC from 0.
+1711887766.1885986  : Recieved heartbeat from 0
+1711887766.18859864 : Leader 0 renewed lease 
+1711887766.1885986Node 4 accepted AppendEntries RPC from 0.
+1711887766.1927881  : Recieved heartbeat from 0
+1711887766.1927881Node 4 accepted AppendEntries RPC from 0.
+1711887766.2007666  : Recieved heartbeat from 0
+1711887766.2017774 : Leader 0 renewed lease 
+1711887766.201777Node 4 accepted AppendEntries RPC from 0.
+1711887767.1121948 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887776.201777 , 1711887774.6928446 , 0   
+1711887767.2394834  : Recieved heartbeat from 0
+1711887767.24049264 : Leader 0 renewed lease 
+1711887767.2404926Node 4 accepted AppendEntries RPC from 0.
+1711887767.2530165  : Recieved heartbeat from 0
+1711887767.2540174 : Leader 0 renewed lease 
+1711887767.254017Node 4 accepted AppendEntries RPC from 0.
+1711887767.2771435  : Recieved heartbeat from 0
+1711887767.2771435Node 4 accepted AppendEntries RPC from 0.
+1711887767.2907686  : Recieved heartbeat from 0
+1711887767.29076864 : Leader 0 renewed lease 
+1711887767.2917655Node 4 accepted AppendEntries RPC from 0.
+1711887768.1131144 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887777.2907686 , 1711887772.9158516 , 0   
+1711887768.3265417  : Recieved heartbeat from 0
+1711887768.32654174 : Leader 0 renewed lease 
+1711887768.3265417Node 4 accepted AppendEntries RPC from 0.
+1711887768.3398156  : Recieved heartbeat from 0
+1711887768.34096744 : Leader 0 renewed lease 
+1711887768.3409674Node 4 accepted AppendEntries RPC from 0.
+1711887768.3449674  : Recieved heartbeat from 0
+1711887768.3449674Node 4 accepted AppendEntries RPC from 0.
+1711887768.3544912  : Recieved heartbeat from 0
+1711887768.35549144 : Leader 0 renewed lease 
+1711887768.3554914Node 4 accepted AppendEntries RPC from 0.
+1711887769.1141746 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887778.3554914 , 1711887775.1409333 , 0   
+1711887769.3758557  : Recieved heartbeat from 0
+1711887769.37585574 : Leader 0 renewed lease 
+1711887769.3758557Node 4 accepted AppendEntries RPC from 0.
+1711887769.3898947  : Recieved heartbeat from 0
+1711887769.38989474 : Leader 0 renewed lease 
+1711887769.3898947Node 4 accepted AppendEntries RPC from 0.
+1711887769.3939567  : Recieved heartbeat from 0
+1711887769.3939567Node 4 accepted AppendEntries RPC from 0.
+1711887769.4041197  : Recieved heartbeat from 0
+1711887769.40411974 : Leader 0 renewed lease 
+1711887769.4041197Node 4 accepted AppendEntries RPC from 0.
+1711887770.1150217 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887779.4041197 , 1711887777.6619697 , 0   
+1711887770.4290326  : Recieved heartbeat from 0
+1711887770.42903264 : Leader 0 renewed lease 
+1711887770.4300313Node 4 accepted AppendEntries RPC from 0.
+1711887770.4453683  : Recieved heartbeat from 0
+1711887770.446374 : Leader 0 renewed lease 
+1711887770.44637Node 4 accepted AppendEntries RPC from 0.
+1711887770.452088  : Recieved heartbeat from 0
+1711887770.452088Node 4 accepted AppendEntries RPC from 0.
+1711887770.462765  : Recieved heartbeat from 0
+1711887770.4627654 : Leader 0 renewed lease 
+1711887770.462765Node 4 accepted AppendEntries RPC from 0.
+1711887771.1157858 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887780.462765 , 1711887775.954586 , 0   
+1711887771.4838748  : Recieved heartbeat from 0
+1711887771.48387484 : Leader 0 renewed lease 
+1711887771.4838748Node 4 accepted AppendEntries RPC from 0.
+1711887771.5166762  : Recieved heartbeat from 0
+1711887771.51667624 : Leader 0 renewed lease 
+1711887771.5166762Node 4 accepted AppendEntries RPC from 0.
+1711887771.5207112  : Recieved heartbeat from 0
+1711887771.5227118Node 4 accepted AppendEntries RPC from 0.
+1711887771.5313497  : Recieved heartbeat from 0
+1711887771.53134974 : Leader 0 renewed lease 
+1711887771.5313497Node 4 accepted AppendEntries RPC from 0.
+1711887772.1171315 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887781.5313497 , 1711887779.7940917 , 0   
+1711887772.5517418  : Recieved heartbeat from 0
+1711887772.55174184 : Leader 0 renewed lease 
+1711887772.5517418Node 4 accepted AppendEntries RPC from 0.
+1711887772.563647  : Recieved heartbeat from 0
+1711887772.5646474 : Leader 0 renewed lease 
+1711887772.564647Node 4 accepted AppendEntries RPC from 0.
+1711887772.5676475  : Recieved heartbeat from 0
+1711887772.5676475Node 4 accepted AppendEntries RPC from 0.
+1711887772.5771654  : Recieved heartbeat from 0
+1711887772.57716544 : Leader 0 renewed lease 
+1711887772.5781648Node 4 accepted AppendEntries RPC from 0.
+1711887773.118021 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887782.5771654 , 1711887780.3821445 , 0   
+1711887773.5987103  : Recieved heartbeat from 0
+1711887773.60021924 : Leader 0 renewed lease 
+1711887773.6002192Node 4 accepted AppendEntries RPC from 0.
+1711887773.612251  : Recieved heartbeat from 0
+1711887773.6122514 : Leader 0 renewed lease 
+1711887773.6132486Node 4 accepted AppendEntries RPC from 0.
+1711887773.616249  : Recieved heartbeat from 0
+1711887773.616249Node 4 accepted AppendEntries RPC from 0.
+1711887773.6262696  : Recieved heartbeat from 0
+1711887773.62626964 : Leader 0 renewed lease 
+1711887773.6262696Node 4 accepted AppendEntries RPC from 0.
+1711887774.1188636 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887783.6262696 , 1711887781.7204137 , 0   
+1711887774.6428747  : Recieved heartbeat from 0
+1711887774.64287474 : Leader 0 renewed lease 
+1711887774.6428747Node 4 accepted AppendEntries RPC from 0.
+1711887774.6557317  : Recieved heartbeat from 0
+1711887774.65573174 : Leader 0 renewed lease 
+1711887774.6567316Node 4 accepted AppendEntries RPC from 0.
+1711887774.660237  : Recieved heartbeat from 0
+1711887774.660237Node 4 accepted AppendEntries RPC from 0.
+1711887774.6685421  : Recieved heartbeat from 0
+1711887774.66854214 : Leader 0 renewed lease 
+1711887774.6685421Node 4 accepted AppendEntries RPC from 0.
+1711887775.1201532 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887784.6685421 , 1711887783.5724862 , 0   
+1711887775.6868622  : Recieved heartbeat from 0
+1711887775.68686224 : Leader 0 renewed lease 
+1711887775.6868622Node 4 accepted AppendEntries RPC from 0.
+1711887775.7001157  : Recieved heartbeat from 0
+1711887775.70122554 : Leader 0 renewed lease 
+1711887775.7012255Node 4 accepted AppendEntries RPC from 0.
+1711887775.704603  : Recieved heartbeat from 0
+1711887775.704603Node 4 accepted AppendEntries RPC from 0.
+1711887775.7140062  : Recieved heartbeat from 0
+1711887775.71400624 : Leader 0 renewed lease 
+1711887775.7150052Node 4 accepted AppendEntries RPC from 0.
+1711887776.1219244 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887785.7140062 , 1711887784.3990653 , 0   
+1711887776.749242  : Recieved heartbeat from 0
+1711887776.7492424 : Leader 0 renewed lease 
+1711887776.7502425Node 4 accepted AppendEntries RPC from 0.
+1711887776.7657619  : Recieved heartbeat from 0
+1711887776.76676444 : Leader 0 renewed lease 
+1711887776.7667644Node 4 accepted AppendEntries RPC from 0.
+1711887776.7712777  : Recieved heartbeat from 0
+1711887776.7735646Node 4 accepted AppendEntries RPC from 0.
+1711887776.7846491  : Recieved heartbeat from 0
+1711887776.78464914 : Leader 0 renewed lease 
+1711887776.7858565Node 4 accepted AppendEntries RPC from 0.
+1711887777.1226087 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887786.7846491 , 1711887782.952995 , 0   
+1711887777.8042448  : Recieved heartbeat from 0
+1711887777.80524524 : Leader 0 renewed lease 
+1711887777.8052452Node 4 accepted AppendEntries RPC from 0.
+1711887777.8182075  : Recieved heartbeat from 0
+1711887777.81921434 : Leader 0 renewed lease 
+1711887777.8192143Node 4 accepted AppendEntries RPC from 0.
+1711887777.8218424  : Recieved heartbeat from 0
+1711887777.8218424Node 4 accepted AppendEntries RPC from 0.
+1711887777.832897  : Recieved heartbeat from 0
+1711887777.83389664 : Leader 0 renewed lease 
+1711887777.8338966Node 4 accepted AppendEntries RPC from 0.
+1711887778.1235056 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887787.8338966 , 1711887784.833399 , 0   
+1711887779.1247413 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887787.8338966 , 1711887784.833399 , 0   
+1711887780.1256046 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887787.8338966 , 1711887784.833399 , 0   
+1711887781.1263194 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887787.8338966 , 1711887784.833399 , 0   
+1711887781.3888009  : Recieved heartbeat from 0
+1711887781.38880094 : Leader 0 renewed lease 
+1711887781.3888009Node 4 accepted AppendEntries RPC from 0.
+1711887781.4059665  : Recieved heartbeat from 0
+1711887781.4059665Node 4 accepted AppendEntries RPC from 0.
+1711887782.1270638 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887791.3888009 , 1711887791.1883554 , 0   
+1711887783.1279306 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887791.3888009 , 1711887791.1883554 , 0   
+1711887784.1289065 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887791.3888009 , 1711887791.1883554 , 0   
+1711887785.1298532 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887791.3888009 , 1711887791.1883554 , 0   
+1711887786.070841  : Recieved heartbeat from 0
+1711887786.0718474 : Leader 0 renewed lease 
+1711887786.071847Node 4 accepted AppendEntries RPC from 0.
+1711887786.1307373 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887787.1314988 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887788.13257 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887789.1333888 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887790.133904 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887791.1345048 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887792.1355224 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887793.1361964 <====> 0 False 4  
+: follower : 10 , 10 , 3 
+ 1711887796.071847 , 1711887792.151521 , 0   
+1711887793.1361964Node 4 election timer timed out, becoming cadidate 
+time()  :   Starting election 1711887793.1361964 , 1711887792.151521
+1711887795.472563 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887797.8072388 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887800.1583145 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887800.1618211 vote recieved from 3,4,False 1711887796.0698369
+1711887801.1632986 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887802.1642876 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887802.4404516Vote request recieved from 3
+1711887802.4404516Vote rejected for Node 3 in term 4.
+1711887803.1650522 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887804.1658845 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887805.1667166 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887806.1677277 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887807.1682892 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887808.1696026 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+1711887809.1704843 <====> 0 False 4  
+: candidate : 10 , 10 , 4 
+ 1711887796.071847 , 1711887808.6285172 , 0   
+time()  :   Starting election 1711887809.1704843 , 1711887808.6285172
+1711887811.5134535 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887813.8496587 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887815.4594407Vote request recieved from 3
+1711887815.4604394Vote rejected for Node 3 in term 5.
+1711887816.2098851 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887816.21239 vote recieved from 3,5,False 1711887796.0698369
+1711887817.2141767 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+1711887818.215109 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+1711887819.2158642 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+1711887820.216549 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+1711887821.2171388 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+1711887822.217927 <====> 0 False 4  
+: candidate : 10 , 10 , 5 
+ 1711887796.071847 , 1711887821.708224 , 0   
+time()  :   Starting election 1711887822.217927 , 1711887821.708224
+1711887824.5402033 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887826.88178 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887829.2272632 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887829.2302644 vote recieved from 3,6,False 1711887796.0698369
+1711887830.2313025 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887830.4583008Vote request recieved from 3
+1711887830.4593015Vote rejected for Node 3 in term 6.
+1711887831.2323523 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887832.2334151 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887833.2339642 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887834.2349534 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887835.2355816 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887836.236232 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887837.237224 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+1711887838.238005 <====> 0 False 4  
+: candidate : 10 , 10 , 6 
+ 1711887796.071847 , 1711887837.6225994 , 0   
+time()  :   Starting election 1711887838.238005 , 1711887837.6225994
+1711887840.554324 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887842.8933558 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887845.2202344 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887845.2222407 vote recieved from 3,7,False 1711887796.0698369
+1711887845.4713783Vote request recieved from 3
+1711887845.4713783Vote rejected for Node 3 in term 7.
+1711887846.2231762 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+1711887847.224038 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+1711887848.2249274 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+1711887849.2260282 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+1711887850.22691 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+1711887851.2277105 <====> 0 False 4  
+: candidate : 10 , 10 , 7 
+ 1711887796.071847 , 1711887851.1400528 , 0   
+time()  :   Starting election 1711887851.2277105 , 1711887851.1400528
+1711887853.54197 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887855.8886423 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887858.2254527 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887858.22846 vote recieved from 3,8,False 1711887796.0698369
+1711887859.2293327 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887859.5121007Vote request recieved from 3
+1711887859.5121007Vote rejected for Node 3 in term 8.
+1711887860.2304502 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887861.2315426 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887862.2322817 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887863.2331429 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887864.2338264 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887865.2349346 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887866.2359016 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+1711887867.236729 <====> 0 False 4  
+: candidate : 10 , 10 , 8 
+ 1711887796.071847 , 1711887867.205619 , 0   
+time()  :   Starting election 1711887867.236729 , 1711887867.205619
+1711887869.564086 COLLECTVOTE: Error occurred while sending RPC to Node 0
+1711887871.8960786 COLLECTVOTE: Error occurred while sending RPC to Node 1
+1711887872.5517662Vote request recieved from 3
+1711887872.5517662Vote rejected for Node 3 in term 9.
+1711887874.2465792 COLLECTVOTE: Error occurred while sending RPC to Node 2
+1711887874.2495947 vote recieved from 3,9,False 1711887796.0698369
+1711887875.250717 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887876.2516391 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887877.2524583 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887878.2532265 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887879.253951 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887880.2544267 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887881.2552307 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   
+1711887882.2564237 <====> 0 False 4  
+: candidate : 10 , 10 , 9 
+ 1711887796.071847 , 1711887882.8979766 , 0   

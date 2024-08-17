@@ -1,0 +1,29 @@
+----------------------------------------0---------------------------------
+
+DATA RECIEVED FROM MASTER : 1 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 1
+
+ Reducer Failed 
+ Reducer Failed 
+----------------------------------------1---------------------------------
+
+DATA RECIEVED FROM MASTER : 1 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 1
+
+----------------------------------------2---------------------------------
+
+DATA RECIEVED FROM MASTER : 1 [50052, 50053] 2
+
+
+GETTING DATA FROM MAPPERS
+GOT DATA FROM MAPPERS AND ALSO SORTED,SHUFFLED
+CENTROID ID : 1
+

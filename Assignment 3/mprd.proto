@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+service Mapper {
+    rpc Mapper (DataRequest) returns (DataResponse) {}
+    rpc get_data(data) returns (alldata) {}
+}
+
+service Reducer{
+    rpc Reducer (red_req) returns (DataResponse) {}
+}
+
+message red_req{
+    int64 id=1;
+    repeated int64 mapper_ports= 2;
+    int64 C=3;
+    string iterno=4;
+}
+
+
+ 
+message data{
+    string cid=1;
+    repeated float point = 2;
+}
+
+message alldata{
+    repeated data d=1;
+}
+
+
+message DataRequest {
+    string data = 1;
+    int64 si=2;
+    int64 ei=3;
+    int64 nl=4;
+    int64 nr=5;
+    repeated points centroid=6;
+    string iterno=7;
+}
+
+message points{
+    repeated float points=1;
+}
+
+message cent_p{
+    string cid=1;
+    float x=2;
+    float y=3;
+}
+
+message DataResponse {
+    string result = 1;
+    repeated cent_p d=2;
+}
